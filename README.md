@@ -7,7 +7,7 @@ Kişisel Sitem - https://mustafabukulmez.com/
 C# Eğitim Seti Sayfam - https://mustafabukulmez.com/c-sharp-egitim-seti-erp-programlama/
 SQL Eğitim Seti Sayfam - https://mustafabukulmez.com/microsoft-sql-server-t-sql-egitim-seti/
 
-Dersler hakkında mail adresimden bana ulaşabilirsiniz. Mail adresimi de sitemde bulabilirsiniz. 
+Dersler hakkında, mail adresimden bana ulaşabilirsiniz. Mail adresimi de sitemde bulabilirsiniz. 
 
 Ek olarak yazmamı istediğiniz konular olursa çekinmeden yine mail atarak bana ulaştırabilirsiniz.
 
