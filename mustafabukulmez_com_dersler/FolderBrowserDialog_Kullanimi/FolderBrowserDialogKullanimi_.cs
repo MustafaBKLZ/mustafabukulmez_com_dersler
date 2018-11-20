@@ -25,7 +25,7 @@ namespace mustafabukulmez_com_dersler.FolderBrowserDialog_Kullanimi
         private void btn_goster_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog Klasor = new FolderBrowserDialog();
-            //Klasor.RootFolder = Environment.SpecialFolder.CommonProgramFiles;
+            //Klasor.RootFolder = Environment.SpecialFolder.CommonProgramFiles;  
             Klasor.ShowNewFolderButton = false;
             Klasor.Description = "Lütfen Bir Dosya Seçin";
             if (Klasor.ShowDialog() == DialogResult.OK)
