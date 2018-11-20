@@ -70,6 +70,7 @@
             this.Name = "FolderBrowserDialogKullanimi_";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FolderBrowserDialogKullanimi_";
+            this.Load += new System.EventHandler(this.FolderBrowserDialogKullanimi__Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

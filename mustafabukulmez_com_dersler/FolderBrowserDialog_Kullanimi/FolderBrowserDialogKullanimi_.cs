@@ -20,7 +20,7 @@ namespace mustafabukulmez_com_dersler.FolderBrowserDialog_Kullanimi
         }
         string Secili_Klsaor_Yolu = "";
 
-        //https://mustafabukulmez.com/2018/11/20/c-folderbrowserdialog-kullanimi-ornekli-anlatim/  s
+        //https://mustafabukulmez.com/2018/11/20/c-folderbrowserdialog-kullanimi-ornekli-anlatim/ 
 
         private void btn_goster_Click(object sender, EventArgs e)
         {
@@ -45,6 +45,11 @@ namespace mustafabukulmez_com_dersler.FolderBrowserDialog_Kullanimi
             {
                 MessageBox.Show("Hiçbir Klasör Seçilmedi");
             }
+        }
+
+        private void FolderBrowserDialogKullanimi__Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

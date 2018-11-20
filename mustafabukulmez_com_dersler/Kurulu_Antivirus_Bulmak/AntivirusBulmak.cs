@@ -17,6 +17,8 @@ namespace mustafabukulmez_com_dersler.Kurulu_Antivirus_Bulmak
             InitializeComponent();
         }
 
+        //https://mustafabukulmez.com/2018/11/20/c-folderbrowserdialog-kullanimi-ornekli-anlatim/ 
+
         private void AntivirusBulmak_Load(object sender, EventArgs e)
         {
             ManagementObjectSearcher s = new ManagementObjectSearcher("root\\SecurityCenter2", "Select * from AntivirusProduct",
