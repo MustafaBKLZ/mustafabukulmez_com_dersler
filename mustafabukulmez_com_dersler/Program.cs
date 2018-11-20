@@ -22,7 +22,7 @@ namespace mustafabukulmez_com_dersler
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
             UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
-            Application.Run(new Kurulu_Antivirusu_Bulmak.AntivirusBulmak());
+            Application.Run(new AnaForm());
         }
     }
 }

@@ -61,6 +61,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaForm.Designer.cs">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.Designer.cs">
+      <DependentUpon>FolderBrowserDialogKullanimi_.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kurulu_Antivirus_Bulmak\AntivirusBulmak.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +81,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AnaForm.resx">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.resx">
+      <DependentUpon>FolderBrowserDialogKullanimi_.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kurulu_Antivirus_Bulmak\AntivirusBulmak.resx">
       <DependentUpon>AntivirusBulmak.cs</DependentUpon>
     </EmbeddedResource>
