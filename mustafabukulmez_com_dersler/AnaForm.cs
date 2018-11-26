@@ -29,5 +29,11 @@ namespace mustafabukulmez_com_dersler
             FolderBrowserDialog_Kullanimi.FolderBrowserDialogKullanimi_ fr = new FolderBrowserDialog_Kullanimi.FolderBrowserDialogKullanimi_();
             fr.ShowDialog();
         }
+
+        private void btn_dt_bu_satir_baska_tabloya_ait_Click(object sender, EventArgs e)
+        {
+            _3_DataTable__Bu_Satir_Baska_Tabloya_Ait_Hatasi.form1 fr = new _3_DataTable__Bu_Satir_Baska_Tabloya_Ait_Hatasi.form1();
+            fr.ShowDialog();
+        }
     }
 }

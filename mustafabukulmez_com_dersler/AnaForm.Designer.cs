@@ -30,13 +30,14 @@
         {
             this.btn_Kurulu_Antivirus_Bulmak = new DevExpress.XtraEditors.SimpleButton();
             this.btn_FolderBrowserDialog_Kullanimi = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_dt_bu_satir_baska_tabloya_ait = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
             // 
             this.btn_Kurulu_Antivirus_Bulmak.Location = new System.Drawing.Point(12, 12);
             this.btn_Kurulu_Antivirus_Bulmak.Name = "btn_Kurulu_Antivirus_Bulmak";
-            this.btn_Kurulu_Antivirus_Bulmak.Size = new System.Drawing.Size(264, 38);
+            this.btn_Kurulu_Antivirus_Bulmak.Size = new System.Drawing.Size(386, 38);
             this.btn_Kurulu_Antivirus_Bulmak.TabIndex = 0;
             this.btn_Kurulu_Antivirus_Bulmak.Text = "Kurulu Anti Virüs Programını Bulmak";
             this.btn_Kurulu_Antivirus_Bulmak.Click += new System.EventHandler(this.btn_Kurulu_Antivirus_Bulmak_Click);
@@ -45,16 +46,26 @@
             // 
             this.btn_FolderBrowserDialog_Kullanimi.Location = new System.Drawing.Point(12, 56);
             this.btn_FolderBrowserDialog_Kullanimi.Name = "btn_FolderBrowserDialog_Kullanimi";
-            this.btn_FolderBrowserDialog_Kullanimi.Size = new System.Drawing.Size(264, 38);
+            this.btn_FolderBrowserDialog_Kullanimi.Size = new System.Drawing.Size(386, 38);
             this.btn_FolderBrowserDialog_Kullanimi.TabIndex = 1;
             this.btn_FolderBrowserDialog_Kullanimi.Text = "FolderBrowserDialog Kullanimi";
             this.btn_FolderBrowserDialog_Kullanimi.Click += new System.EventHandler(this.btn_FolderBrowserDialog_Kullanimi_Click);
+            // 
+            // btn_dt_bu_satir_baska_tabloya_ait
+            // 
+            this.btn_dt_bu_satir_baska_tabloya_ait.Location = new System.Drawing.Point(12, 100);
+            this.btn_dt_bu_satir_baska_tabloya_ait.Name = "btn_dt_bu_satir_baska_tabloya_ait";
+            this.btn_dt_bu_satir_baska_tabloya_ait.Size = new System.Drawing.Size(386, 38);
+            this.btn_dt_bu_satir_baska_tabloya_ait.TabIndex = 2;
+            this.btn_dt_bu_satir_baska_tabloya_ait.Text = "C# DataTable \"Bu satır başka bir tabloya ait\" Hatası Çözümü";
+            this.btn_dt_bu_satir_baska_tabloya_ait.Click += new System.EventHandler(this.btn_dt_bu_satir_baska_tabloya_ait_Click);
             // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(298, 621);
+            this.ClientSize = new System.Drawing.Size(418, 621);
+            this.Controls.Add(this.btn_dt_bu_satir_baska_tabloya_ait);
             this.Controls.Add(this.btn_FolderBrowserDialog_Kullanimi);
             this.Controls.Add(this.btn_Kurulu_Antivirus_Bulmak);
             this.Name = "AnaForm";
@@ -68,5 +79,6 @@
 
         private DevExpress.XtraEditors.SimpleButton btn_Kurulu_Antivirus_Bulmak;
         private DevExpress.XtraEditors.SimpleButton btn_FolderBrowserDialog_Kullanimi;
+        private DevExpress.XtraEditors.SimpleButton btn_dt_bu_satir_baska_tabloya_ait;
     }
 }
