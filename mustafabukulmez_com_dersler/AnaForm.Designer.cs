@@ -31,6 +31,7 @@
             this.btn_Kurulu_Antivirus_Bulmak = new DevExpress.XtraEditors.SimpleButton();
             this.btn_FolderBrowserDialog_Kullanimi = new DevExpress.XtraEditors.SimpleButton();
             this.btn_dt_bu_satir_baska_tabloya_ait = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_thread_Sleep = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -60,11 +61,21 @@
             this.btn_dt_bu_satir_baska_tabloya_ait.Text = "C# DataTable \"Bu satır başka bir tabloya ait\" Hatası Çözümü";
             this.btn_dt_bu_satir_baska_tabloya_ait.Click += new System.EventHandler(this.btn_dt_bu_satir_baska_tabloya_ait_Click);
             // 
+            // btn_thread_Sleep
+            // 
+            this.btn_thread_Sleep.Location = new System.Drawing.Point(12, 144);
+            this.btn_thread_Sleep.Name = "btn_thread_Sleep";
+            this.btn_thread_Sleep.Size = new System.Drawing.Size(386, 38);
+            this.btn_thread_Sleep.TabIndex = 3;
+            this.btn_thread_Sleep.Text = "C# Thread Sleep ile İşlem Süresini Uzatmak";
+            this.btn_thread_Sleep.Click += new System.EventHandler(this.btn_thread_Sleep_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(418, 621);
+            this.Controls.Add(this.btn_thread_Sleep);
             this.Controls.Add(this.btn_dt_bu_satir_baska_tabloya_ait);
             this.Controls.Add(this.btn_FolderBrowserDialog_Kullanimi);
             this.Controls.Add(this.btn_Kurulu_Antivirus_Bulmak);
@@ -80,5 +91,6 @@
         private DevExpress.XtraEditors.SimpleButton btn_Kurulu_Antivirus_Bulmak;
         private DevExpress.XtraEditors.SimpleButton btn_FolderBrowserDialog_Kullanimi;
         private DevExpress.XtraEditors.SimpleButton btn_dt_bu_satir_baska_tabloya_ait;
+        private DevExpress.XtraEditors.SimpleButton btn_thread_Sleep;
     }
 }

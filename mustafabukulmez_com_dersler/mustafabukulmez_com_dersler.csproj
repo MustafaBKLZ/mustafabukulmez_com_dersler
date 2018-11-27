@@ -61,10 +61,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="3_DataTable _Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.cs">
+    <Compile Include="_3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="3_DataTable _Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.Designer.cs">
+    <Compile Include="_3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.Designer.cs">
       <DependentUpon>form1.cs</DependentUpon>
     </Compile>
     <Compile Include="AnaForm.cs">
@@ -73,30 +73,36 @@
     <Compile Include="AnaForm.Designer.cs">
       <DependentUpon>AnaForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="2_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.cs">
+    <Compile Include="_2_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="2_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.Designer.cs">
+    <Compile Include="_2_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.Designer.cs">
       <DependentUpon>FolderBrowserDialogKullanimi_.cs</DependentUpon>
     </Compile>
-    <Compile Include="1_Kurulu_Antivirus_Bulmak\AntivirusBulmak.cs">
+    <Compile Include="_1_Kurulu_Antivirus_Bulmak\AntivirusBulmak.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="1_Kurulu_Antivirus_Bulmak\AntivirusBulmak.designer.cs">
+    <Compile Include="_1_Kurulu_Antivirus_Bulmak\AntivirusBulmak.designer.cs">
       <DependentUpon>AntivirusBulmak.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="3_DataTable _Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.resx">
+    <Compile Include="_4_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_4_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.Designer.cs">
+      <DependentUpon>thread_sleep.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="_3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AnaForm.resx">
       <DependentUpon>AnaForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="2_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.resx">
+    <EmbeddedResource Include="_2_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.resx">
       <DependentUpon>FolderBrowserDialogKullanimi_.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="1_Kurulu_Antivirus_Bulmak\AntivirusBulmak.resx">
+    <EmbeddedResource Include="_1_Kurulu_Antivirus_Bulmak\AntivirusBulmak.resx">
       <DependentUpon>AntivirusBulmak.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -109,6 +115,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="_4_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.resx">
+      <DependentUpon>thread_sleep.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

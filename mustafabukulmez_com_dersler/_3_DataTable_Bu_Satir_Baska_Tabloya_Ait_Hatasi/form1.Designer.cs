@@ -1,4 +1,4 @@
-﻿namespace mustafabukulmez_com_dersler._3_DataTable__Bu_Satir_Baska_Tabloya_Ait_Hatasi
+﻿namespace mustafabukulmez_com_dersler._3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi
 {
     partial class form1
     {

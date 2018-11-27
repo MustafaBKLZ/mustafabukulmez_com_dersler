@@ -11,7 +11,7 @@ using DevExpress.XtraEditors;
 
 //https://mustafabukulmez.com/2018/11/27/c-datatable-bu-satir-baska-bir-tabloya-ait-hatasi-cozumu/
 
-namespace mustafabukulmez_com_dersler._3_DataTable__Bu_Satir_Baska_Tabloya_Ait_Hatasi
+namespace mustafabukulmez_com_dersler._3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi
 {
     public partial class form1 : DevExpress.XtraEditors.XtraForm
     {

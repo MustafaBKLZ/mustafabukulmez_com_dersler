@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using System.IO;
 
-namespace mustafabukulmez_com_dersler.FolderBrowserDialog_Kullanimi
+namespace mustafabukulmez_com_dersler._2_FolderBrowserDialog_Kullanimi
 {
     public partial class FolderBrowserDialogKullanimi_ : DevExpress.XtraEditors.XtraForm
     {
