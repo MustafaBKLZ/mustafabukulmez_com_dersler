@@ -47,5 +47,11 @@ namespace mustafabukulmez_com_dersler
             _5_TextBox_sadece_sayi_harf_girisi.Form1 fr = new _5_TextBox_sadece_sayi_harf_girisi.Form1();
             fr.ShowDialog();
         }
+
+        private void btn_6_String_Sayisal_Deger_Kontrolu_Click(object sender, EventArgs e)
+        {
+            _6_String_Sayisal_Deger_Kontrolu.Form1 fr = new _6_String_Sayisal_Deger_Kontrolu.Form1();
+            fr.ShowDialog();
+        }
     }
 }
