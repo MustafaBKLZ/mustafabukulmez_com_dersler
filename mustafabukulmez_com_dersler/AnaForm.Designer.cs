@@ -32,6 +32,7 @@
             this.btn_FolderBrowserDialog_Kullanimi = new DevExpress.XtraEditors.SimpleButton();
             this.btn_dt_bu_satir_baska_tabloya_ait = new DevExpress.XtraEditors.SimpleButton();
             this.btn_thread_Sleep = new DevExpress.XtraEditors.SimpleButton();
+            this.btn__5_TextBox_sadece_sayi_harf_girisi = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -70,11 +71,21 @@
             this.btn_thread_Sleep.Text = "C# Thread Sleep ile İşlem Süresini Uzatmak";
             this.btn_thread_Sleep.Click += new System.EventHandler(this.btn_thread_Sleep_Click);
             // 
+            // btn__5_TextBox_sadece_sayi_harf_girisi
+            // 
+            this.btn__5_TextBox_sadece_sayi_harf_girisi.Location = new System.Drawing.Point(12, 188);
+            this.btn__5_TextBox_sadece_sayi_harf_girisi.Name = "btn__5_TextBox_sadece_sayi_harf_girisi";
+            this.btn__5_TextBox_sadece_sayi_harf_girisi.Size = new System.Drawing.Size(386, 38);
+            this.btn__5_TextBox_sadece_sayi_harf_girisi.TabIndex = 4;
+            this.btn__5_TextBox_sadece_sayi_harf_girisi.Text = "C# Textbox Sadece Sayı Girişi Yaptırmak";
+            this.btn__5_TextBox_sadece_sayi_harf_girisi.Click += new System.EventHandler(this.btn__5_TextBox_sadece_sayi_harf_girisi_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(418, 621);
+            this.Controls.Add(this.btn__5_TextBox_sadece_sayi_harf_girisi);
             this.Controls.Add(this.btn_thread_Sleep);
             this.Controls.Add(this.btn_dt_bu_satir_baska_tabloya_ait);
             this.Controls.Add(this.btn_FolderBrowserDialog_Kullanimi);
@@ -92,5 +103,6 @@
         private DevExpress.XtraEditors.SimpleButton btn_FolderBrowserDialog_Kullanimi;
         private DevExpress.XtraEditors.SimpleButton btn_dt_bu_satir_baska_tabloya_ait;
         private DevExpress.XtraEditors.SimpleButton btn_thread_Sleep;
+        private DevExpress.XtraEditors.SimpleButton btn__5_TextBox_sadece_sayi_harf_girisi;
     }
 }

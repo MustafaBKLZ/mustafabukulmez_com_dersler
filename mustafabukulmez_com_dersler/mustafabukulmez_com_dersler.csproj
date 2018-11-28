@@ -93,6 +93,12 @@
     <Compile Include="_4_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.Designer.cs">
       <DependentUpon>thread_sleep.cs</DependentUpon>
     </Compile>
+    <Compile Include="_5_TextBox_sadece_sayi_harf_girisi\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_5_TextBox_sadece_sayi_harf_girisi\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="_3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +123,9 @@
     </Compile>
     <EmbeddedResource Include="_4_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.resx">
       <DependentUpon>thread_sleep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_5_TextBox_sadece_sayi_harf_girisi\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -41,5 +41,11 @@ namespace mustafabukulmez_com_dersler
             _4_Thread_Sleep_ile_Islem_Suresini_Uzatmak.thread_sleep fr = new _4_Thread_Sleep_ile_Islem_Suresini_Uzatmak.thread_sleep();
             fr.ShowDialog();
         }
+
+        private void btn__5_TextBox_sadece_sayi_harf_girisi_Click(object sender, EventArgs e)
+        {
+            _5_TextBox_sadece_sayi_harf_girisi.Form1 fr = new _5_TextBox_sadece_sayi_harf_girisi.Form1();
+            fr.ShowDialog();
+        }
     }
 }
