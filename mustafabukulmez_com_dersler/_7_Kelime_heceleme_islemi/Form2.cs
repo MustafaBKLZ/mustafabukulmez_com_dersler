@@ -25,7 +25,6 @@ namespace mustafabukulmez_com_dersler._7_Kelime_heceleme_islemi
         }
         string CumleHeceleme(string Metin)
         {
-            lst_heceler.Items.Clear();
             const string Sesli_Harfler = "aeıioöuüAEIİOÖUÜ";
             const string Sessiz_Harfler = "bçdfgğhjklmnprsştvyzBÇDFGĞHJKLMNPRSŞTVYZ";
             const string OzelKarakterler = "., ;\'!?\"";
@@ -76,7 +75,6 @@ namespace mustafabukulmez_com_dersler._7_Kelime_heceleme_islemi
                                     Index += 3;
                                     goto IslemeBasla;
                                 }
-                                lst_heceler.Items.Add(AlinanHece);
                                 if (((Sessiz_Harfler.IndexOf(Metin.Substring((i + 3), 1), 0) + 1) > 0))
                                 {
                                     // 5.harf sessiz ise ilk 4 harf hecedir. 
@@ -85,7 +83,6 @@ namespace mustafabukulmez_com_dersler._7_Kelime_heceleme_islemi
                                     Index += 4;
                                     goto IslemeBasla;
                                 }
-                                lst_heceler.Items.Add(AlinanHece);
                             }
                         }
                         if (((Sesli_Harfler.IndexOf(Metin.Substring((i + 1), 1), 0) + 1) > 0))
@@ -145,10 +142,11 @@ namespace mustafabukulmez_com_dersler._7_Kelime_heceleme_islemi
                         }
                     }
                 }
-                lst_heceler.Items.Add(AlinanHece);
             }
             return Hece;
         }
+
+
     }
 }
 
