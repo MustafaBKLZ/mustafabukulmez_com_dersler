@@ -53,5 +53,11 @@ namespace mustafabukulmez_com_dersler
             _6_String_Sayisal_Deger_Kontrolu.Form1 fr = new _6_String_Sayisal_Deger_Kontrolu.Form1();
             fr.ShowDialog();
         }
+
+        private void btn_7_Kelime_heceleme_islemi_Click(object sender, EventArgs e)
+        {
+            _7_Kelime_heceleme_islemi.Form2 fr = new _7_Kelime_heceleme_islemi.Form2();
+            fr.ShowDialog();
+        }
     }
 }

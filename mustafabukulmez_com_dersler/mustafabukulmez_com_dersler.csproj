@@ -105,6 +105,12 @@
     <Compile Include="_6_String_Sayisal_Deger_Kontrolu\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="_7_Kelime_heceleme_islemi\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_7_Kelime_heceleme_islemi\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="_3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_6_String_Sayisal_Deger_Kontrolu\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_7_Kelime_heceleme_islemi\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

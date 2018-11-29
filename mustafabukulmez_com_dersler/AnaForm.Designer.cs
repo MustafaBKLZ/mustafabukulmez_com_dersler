@@ -34,6 +34,7 @@
             this.btn_thread_Sleep = new DevExpress.XtraEditors.SimpleButton();
             this.btn__5_TextBox_sadece_sayi_harf_girisi = new DevExpress.XtraEditors.SimpleButton();
             this.btn_6_String_Sayisal_Deger_Kontrolu = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_7_Kelime_heceleme_islemi = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -102,11 +103,23 @@
             this.btn_6_String_Sayisal_Deger_Kontrolu.Text = "C# Textbox Sadece Sayı Harf Girişi Yaptırmak";
             this.btn_6_String_Sayisal_Deger_Kontrolu.Click += new System.EventHandler(this.btn_6_String_Sayisal_Deger_Kontrolu_Click);
             // 
+            // btn_7_Kelime_heceleme_islemi
+            // 
+            this.btn_7_Kelime_heceleme_islemi.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_7_Kelime_heceleme_islemi.Appearance.Options.UseFont = true;
+            this.btn_7_Kelime_heceleme_islemi.Location = new System.Drawing.Point(12, 276);
+            this.btn_7_Kelime_heceleme_islemi.Name = "btn_7_Kelime_heceleme_islemi";
+            this.btn_7_Kelime_heceleme_islemi.Size = new System.Drawing.Size(467, 38);
+            this.btn_7_Kelime_heceleme_islemi.TabIndex = 6;
+            this.btn_7_Kelime_heceleme_islemi.Text = "C# Kelime Heceleme İşlemi";
+            this.btn_7_Kelime_heceleme_islemi.Click += new System.EventHandler(this.btn_7_Kelime_heceleme_islemi_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(491, 621);
+            this.Controls.Add(this.btn_7_Kelime_heceleme_islemi);
             this.Controls.Add(this.btn_6_String_Sayisal_Deger_Kontrolu);
             this.Controls.Add(this.btn__5_TextBox_sadece_sayi_harf_girisi);
             this.Controls.Add(this.btn_thread_Sleep);
@@ -128,5 +141,6 @@
         private DevExpress.XtraEditors.SimpleButton btn_thread_Sleep;
         private DevExpress.XtraEditors.SimpleButton btn__5_TextBox_sadece_sayi_harf_girisi;
         private DevExpress.XtraEditors.SimpleButton btn_6_String_Sayisal_Deger_Kontrolu;
+        private DevExpress.XtraEditors.SimpleButton btn_7_Kelime_heceleme_islemi;
     }
 }
