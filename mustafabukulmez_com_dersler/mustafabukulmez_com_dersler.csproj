@@ -111,6 +111,18 @@
     <Compile Include="_7_Kelime_heceleme_islemi\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="_8_Gridview_den_textbox_a_Veri_cekme\ListeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_8_Gridview_den_textbox_a_Veri_cekme\ListeForm.Designer.cs">
+      <DependentUpon>ListeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_8_Gridview_den_textbox_a_Veri_cekme\TextBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_8_Gridview_den_textbox_a_Veri_cekme\TextBoxForm.Designer.cs">
+      <DependentUpon>TextBoxForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="_3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +156,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_7_Kelime_heceleme_islemi\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_8_Gridview_den_textbox_a_Veri_cekme\ListeForm.resx">
+      <DependentUpon>ListeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_8_Gridview_den_textbox_a_Veri_cekme\TextBoxForm.resx">
+      <DependentUpon>TextBoxForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

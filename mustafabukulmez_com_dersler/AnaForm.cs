@@ -59,5 +59,11 @@ namespace mustafabukulmez_com_dersler
             _7_Kelime_heceleme_islemi.Form2 fr = new _7_Kelime_heceleme_islemi.Form2();
             fr.ShowDialog();
         }
+
+        private void btn__8_Gridview_den_textbox_a_Veri_cekme_Click(object sender, EventArgs e)
+        {
+            _8_Gridview_den_textbox_a_Veri_cekme.ListeForm fr = new _8_Gridview_den_textbox_a_Veri_cekme.ListeForm();
+            fr.ShowDialog();
+        }
     }
 }
