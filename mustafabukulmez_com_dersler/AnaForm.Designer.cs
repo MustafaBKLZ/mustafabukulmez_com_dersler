@@ -36,6 +36,7 @@
             this.btn_6_String_Sayisal_Deger_Kontrolu = new DevExpress.XtraEditors.SimpleButton();
             this.btn_7_Kelime_heceleme_islemi = new DevExpress.XtraEditors.SimpleButton();
             this.btn__8_Gridview_den_textbox_a_Veri_cekme = new DevExpress.XtraEditors.SimpleButton();
+            this.btn__9_NotiftyIcon_Kullanimi = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -126,11 +127,23 @@
             this.btn__8_Gridview_den_textbox_a_Veri_cekme.Text = "C# DataGridView\'den Veri Çekme";
             this.btn__8_Gridview_den_textbox_a_Veri_cekme.Click += new System.EventHandler(this.btn__8_Gridview_den_textbox_a_Veri_cekme_Click);
             // 
+            // btn__9_NotiftyIcon_Kullanimi
+            // 
+            this.btn__9_NotiftyIcon_Kullanimi.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn__9_NotiftyIcon_Kullanimi.Appearance.Options.UseFont = true;
+            this.btn__9_NotiftyIcon_Kullanimi.Location = new System.Drawing.Point(12, 364);
+            this.btn__9_NotiftyIcon_Kullanimi.Name = "btn__9_NotiftyIcon_Kullanimi";
+            this.btn__9_NotiftyIcon_Kullanimi.Size = new System.Drawing.Size(467, 38);
+            this.btn__9_NotiftyIcon_Kullanimi.TabIndex = 7;
+            this.btn__9_NotiftyIcon_Kullanimi.Text = "C# NotifyIcon Kullanımı ve NotifyIcon Bildirimleri";
+            this.btn__9_NotiftyIcon_Kullanimi.Click += new System.EventHandler(this.btn__9_NotiftyIcon_Kullanimi_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(491, 621);
+            this.Controls.Add(this.btn__9_NotiftyIcon_Kullanimi);
             this.Controls.Add(this.btn__8_Gridview_den_textbox_a_Veri_cekme);
             this.Controls.Add(this.btn_7_Kelime_heceleme_islemi);
             this.Controls.Add(this.btn_6_String_Sayisal_Deger_Kontrolu);
@@ -156,5 +169,6 @@
         private DevExpress.XtraEditors.SimpleButton btn_6_String_Sayisal_Deger_Kontrolu;
         private DevExpress.XtraEditors.SimpleButton btn_7_Kelime_heceleme_islemi;
         private DevExpress.XtraEditors.SimpleButton btn__8_Gridview_den_textbox_a_Veri_cekme;
+        private DevExpress.XtraEditors.SimpleButton btn__9_NotiftyIcon_Kullanimi;
     }
 }

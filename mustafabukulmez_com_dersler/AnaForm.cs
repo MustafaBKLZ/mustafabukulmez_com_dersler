@@ -65,5 +65,11 @@ namespace mustafabukulmez_com_dersler
             _8_Gridview_den_textbox_a_Veri_cekme.ListeForm fr = new _8_Gridview_den_textbox_a_Veri_cekme.ListeForm();
             fr.ShowDialog();
         }
+
+        private void btn__9_NotiftyIcon_Kullanimi_Click(object sender, EventArgs e)
+        {
+            _9_NotiftyIcon_Kullanimi.AnaMenu fr = new _9_NotiftyIcon_Kullanimi.AnaMenu();
+            fr.ShowDialog();
+        }
     }
 }
