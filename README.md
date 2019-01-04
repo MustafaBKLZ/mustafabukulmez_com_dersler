@@ -11,8 +11,8 @@ Dersler hakkında, mail adresimden bana ulaşabilirsiniz. Mail adresimi de sitem
 
 Ek olarak yazmamı istediğiniz konular olursa çekinmeden yine mail atarak bana ulaştırabilirsiniz.
 
-Proje İçerisinde Yer Alan Dersler \r
-1 - C# Bilgisayarda Kurulu Olan Antivirüsü Bulmak \r
+Proje İçerisinde Yer Alan Dersler \r\n
+1 - C# Bilgisayarda Kurulu Olan Antivirüsü Bulmak \r\n
 2 - C# Folder Browser Dialog Kullanımı \r
 3 - C# DataTable "Bu satır başka bir tabloya ait" Hatası Çözümü
 4 - C# Thread Sleep ile İşlem Süresini Uzatmak
