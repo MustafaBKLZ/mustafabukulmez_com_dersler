@@ -22,4 +22,4 @@ Proje İçerisinde Yer Alan Dersler
 8 - C# DataGridView'den Veri Çekme
 9 - C# NotifyIcon Kullanımı ve C# NotifyIcon Bildirimleri
 
-İyi kodlamalar.
+İyi kodlamalar. 
