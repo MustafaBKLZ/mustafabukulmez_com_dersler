@@ -7,14 +7,14 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraEditors;
+
 using System.Threading;
 
 //https://mustafabukulmez.com/c-sharp-egitim-seti-erp-programlama/
 
 namespace mustafabukulmez_com_dersler._4_Thread_Sleep_ile_Islem_Suresini_Uzatmak
 {
-    public partial class thread_sleep : DevExpress.XtraEditors.XtraForm
+    public partial class thread_sleep : Form
     {
         public thread_sleep()
         {

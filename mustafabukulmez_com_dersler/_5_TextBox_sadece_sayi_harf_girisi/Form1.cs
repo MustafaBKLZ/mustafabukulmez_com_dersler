@@ -66,6 +66,11 @@ namespace mustafabukulmez_com_dersler._5_TextBox_sadece_sayi_harf_girisi
                 e.Handled = true;
             }            
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

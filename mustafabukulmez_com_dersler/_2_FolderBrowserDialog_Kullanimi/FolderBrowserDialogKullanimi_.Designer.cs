@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_goster = new DevExpress.XtraEditors.SimpleButton();
-            this.lbl_klasor_yolu = new DevExpress.XtraEditors.LabelControl();
+            this.btn_goster = new System.Windows.Forms.Button();
+            this.lbl_klasor_yolu = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
@@ -78,8 +78,8 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.SimpleButton btn_goster;
-        private DevExpress.XtraEditors.LabelControl lbl_klasor_yolu;
+        private System.Windows.Forms.Button btn_goster;
+        private System.Windows.Forms.Label lbl_klasor_yolu;
         private System.Windows.Forms.ListBox listBox1;
     }
 }

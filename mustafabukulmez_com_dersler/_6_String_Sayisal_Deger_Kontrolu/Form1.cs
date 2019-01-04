@@ -127,6 +127,11 @@ namespace mustafabukulmez_com_dersler._6_String_Sayisal_Deger_Kontrolu
         }
 
         #endregion
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     #region YÖNTEM 2 --
     public static class ExtensionManager

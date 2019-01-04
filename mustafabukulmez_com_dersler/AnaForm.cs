@@ -7,11 +7,11 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraEditors;
+
 
 namespace mustafabukulmez_com_dersler
 {
-    public partial class AnaForm : DevExpress.XtraEditors.XtraForm
+    public partial class AnaForm : Form
     {
         public AnaForm()
         {
@@ -70,6 +70,11 @@ namespace mustafabukulmez_com_dersler
         {
             _9_NotiftyIcon_Kullanimi.AnaMenu fr = new _9_NotiftyIcon_Kullanimi.AnaMenu();
             fr.ShowDialog();
+        }
+
+        private void AnaForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

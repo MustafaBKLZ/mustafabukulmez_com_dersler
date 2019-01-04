@@ -10,7 +10,7 @@ using System.Management;
 
 namespace mustafabukulmez_com_dersler._1_Kurulu_Antivirus_Bulmak
 {
-    public partial class AntivirusBulmak : DevExpress.XtraEditors.XtraForm
+    public partial class AntivirusBulmak : Form
     {
         public AntivirusBulmak()
         {

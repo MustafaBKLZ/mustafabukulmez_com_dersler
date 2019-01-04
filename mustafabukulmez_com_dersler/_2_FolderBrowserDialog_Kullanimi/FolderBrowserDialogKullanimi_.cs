@@ -7,12 +7,12 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraEditors;
+
 using System.IO;
 
 namespace mustafabukulmez_com_dersler._2_FolderBrowserDialog_Kullanimi
 {
-    public partial class FolderBrowserDialogKullanimi_ : DevExpress.XtraEditors.XtraForm
+    public partial class FolderBrowserDialogKullanimi_ : Form
     {
         public FolderBrowserDialogKullanimi_()
         {

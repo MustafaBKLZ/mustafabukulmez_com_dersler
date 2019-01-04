@@ -7,13 +7,13 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraEditors;
+
 
 //https://mustafabukulmez.com/2018/11/27/c-datatable-bu-satir-baska-bir-tabloya-ait-hatasi-cozumu/
 
 namespace mustafabukulmez_com_dersler._3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi
 {
-    public partial class form1 : DevExpress.XtraEditors.XtraForm
+    public partial class form1 : Form
     {
         public form1()
         {
@@ -34,7 +34,7 @@ namespace mustafabukulmez_com_dersler._3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Ha
             DataTable dt2 = new DataTable();
             dt2.TableName = "Tablo2";
             dr = dt2.Rows[dt2.Rows.Count - 1]; // eğer kolon sayısı 0 ise hata verecektir.
-             //dt_son.Rows.Add(dr);
+                                               //dt_son.Rows.Add(dr);
             dt_son.ImportRow(dr);
 
             DataTable dt3 = new DataTable();

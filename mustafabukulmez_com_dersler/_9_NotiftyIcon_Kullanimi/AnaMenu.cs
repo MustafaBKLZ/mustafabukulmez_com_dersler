@@ -7,12 +7,12 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraEditors;
+
 using System.Reflection;
 //https://mustafabukulmez.com/2019/01/04/c-notifyicon-kullanimi-ve-c-notifyicon-bildirimleri/
 namespace mustafabukulmez_com_dersler._9_NotiftyIcon_Kullanimi
 {
-    public partial class AnaMenu : DevExpress.XtraEditors.XtraForm
+    public partial class AnaMenu : Form
     {
         public AnaMenu()
         {
