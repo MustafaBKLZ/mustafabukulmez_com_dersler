@@ -30,6 +30,9 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 012 - C# Kombinasyon Hesaplama
 * 013 - C# Permütasyon Hesaplama
 * 014 - C# ToolTip Kullanımı - Nesneler İçin Açıklama
+* 015 - C# Extension Methods – Genişletme Metodları #1
+* 015 - C# Extension Methods – Genişletme Metodları #2
+* 015 - C# Extension Methods – Genişletme Metodları #3
 
 
 ## Lisans
