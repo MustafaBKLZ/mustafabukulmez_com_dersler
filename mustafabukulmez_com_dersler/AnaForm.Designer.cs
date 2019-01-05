@@ -39,6 +39,7 @@
             this.btn__9_NotiftyIcon_Kullanimi = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btn__011_Sayilari_Roma_Rakamina_Cevir = new System.Windows.Forms.Button();
+            this.btn__012_kombinasyon_hesaplama = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -151,11 +152,22 @@
             this.btn__011_Sayilari_Roma_Rakamina_Cevir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn__011_Sayilari_Roma_Rakamina_Cevir.Click += new System.EventHandler(this.btn__011_Sayilari_Roma_Rakamina_Cevir_Click);
             // 
+            // btn__012_kombinasyon_hesaplama
+            // 
+            this.btn__012_kombinasyon_hesaplama.Location = new System.Drawing.Point(12, 496);
+            this.btn__012_kombinasyon_hesaplama.Name = "btn__012_kombinasyon_hesaplama";
+            this.btn__012_kombinasyon_hesaplama.Size = new System.Drawing.Size(475, 38);
+            this.btn__012_kombinasyon_hesaplama.TabIndex = 10;
+            this.btn__012_kombinasyon_hesaplama.Text = "Ders 012 - C# Kombinasyon Hesaplama ";
+            this.btn__012_kombinasyon_hesaplama.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn__012_kombinasyon_hesaplama.Click += new System.EventHandler(this.btn__012_kombinasyon_hesaplama_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 520);
+            this.ClientSize = new System.Drawing.Size(505, 579);
+            this.Controls.Add(this.btn__012_kombinasyon_hesaplama);
             this.Controls.Add(this.btn__011_Sayilari_Roma_Rakamina_Cevir);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn__9_NotiftyIcon_Kullanimi);
@@ -188,5 +200,6 @@
         private System.Windows.Forms.Button btn__9_NotiftyIcon_Kullanimi;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn__011_Sayilari_Roma_Rakamina_Cevir;
+        private System.Windows.Forms.Button btn__012_kombinasyon_hesaplama;
     }
 }

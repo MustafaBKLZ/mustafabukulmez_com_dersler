@@ -87,5 +87,11 @@ namespace mustafabukulmez_com_dersler
             _011_Sayilari_Roma_Rakamina_Cevir.Form1 fr = new _011_Sayilari_Roma_Rakamina_Cevir.Form1();
             fr.ShowDialog();
         }
+
+        private void btn__012_kombinasyon_hesaplama_Click(object sender, EventArgs e)
+        {
+            _012_kombinasyon_hesaplama.Form1 fr = new _012_kombinasyon_hesaplama.Form1();
+            fr.ShowDialog();
+        }
     }
 }
