@@ -191,7 +191,7 @@
             this.btn__015_Extension_Methods.Name = "btn__015_Extension_Methods";
             this.btn__015_Extension_Methods.Size = new System.Drawing.Size(475, 38);
             this.btn__015_Extension_Methods.TabIndex = 13;
-            this.btn__015_Extension_Methods.Text = "Ders 014 - C# Extension Methods - Genişletme Metodları";
+            this.btn__015_Extension_Methods.Text = "Ders 014 - C# Extension Methods - Genişletme Metodları 1, 2, 3";
             this.btn__015_Extension_Methods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn__015_Extension_Methods.Click += new System.EventHandler(this.btn__015_Extension_Methods_Click);
             // 
