@@ -1,4 +1,4 @@
-# mustafabukulmez.com Üzerindeki Dersleri İçeren Proje
+# Kişisel Sitemde Yer Alan C# Eğitim Setindeki Dersleri İçeren Proje
 Kişisel web sitemde yayınladığım C# derslerini içeren bir projedir. 
 Tüm dersleri içermemekle birlikte 12.11.2018 tarihinden sonra eklediğim dersleri bu proje içerisine almaya çalışacağım. 
 Her ders için bir klasör ekleyeceğim
