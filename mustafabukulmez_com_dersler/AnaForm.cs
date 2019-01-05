@@ -93,5 +93,11 @@ namespace mustafabukulmez_com_dersler
             _012_kombinasyon_hesaplama.Form1 fr = new _012_kombinasyon_hesaplama.Form1();
             fr.ShowDialog();
         }
+
+        private void btn__013_permutasyon_hesaplama_Click(object sender, EventArgs e)
+        {
+            _013_permutasyon_hesaplama.Form1 fr = new _013_permutasyon_hesaplama.Form1();
+            fr.ShowDialog();
+        }
     }
 }

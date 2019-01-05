@@ -40,11 +40,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btn__011_Sayilari_Roma_Rakamina_Cevir = new System.Windows.Forms.Button();
             this.btn__012_kombinasyon_hesaplama = new System.Windows.Forms.Button();
+            this.btn__013_permutasyon_hesaplama = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
             // 
-            this.btn_Kurulu_Antivirus_Bulmak.Location = new System.Drawing.Point(14, 12);
+            this.btn_Kurulu_Antivirus_Bulmak.Location = new System.Drawing.Point(16, 12);
             this.btn_Kurulu_Antivirus_Bulmak.Name = "btn_Kurulu_Antivirus_Bulmak";
             this.btn_Kurulu_Antivirus_Bulmak.Size = new System.Drawing.Size(475, 38);
             this.btn_Kurulu_Antivirus_Bulmak.TabIndex = 0;
@@ -54,7 +55,7 @@
             // 
             // btn_FolderBrowserDialog_Kullanimi
             // 
-            this.btn_FolderBrowserDialog_Kullanimi.Location = new System.Drawing.Point(14, 56);
+            this.btn_FolderBrowserDialog_Kullanimi.Location = new System.Drawing.Point(16, 56);
             this.btn_FolderBrowserDialog_Kullanimi.Name = "btn_FolderBrowserDialog_Kullanimi";
             this.btn_FolderBrowserDialog_Kullanimi.Size = new System.Drawing.Size(475, 38);
             this.btn_FolderBrowserDialog_Kullanimi.TabIndex = 1;
@@ -64,7 +65,7 @@
             // 
             // btn_dt_bu_satir_baska_tabloya_ait
             // 
-            this.btn_dt_bu_satir_baska_tabloya_ait.Location = new System.Drawing.Point(14, 100);
+            this.btn_dt_bu_satir_baska_tabloya_ait.Location = new System.Drawing.Point(16, 100);
             this.btn_dt_bu_satir_baska_tabloya_ait.Name = "btn_dt_bu_satir_baska_tabloya_ait";
             this.btn_dt_bu_satir_baska_tabloya_ait.Size = new System.Drawing.Size(475, 38);
             this.btn_dt_bu_satir_baska_tabloya_ait.TabIndex = 2;
@@ -74,7 +75,7 @@
             // 
             // btn_thread_Sleep
             // 
-            this.btn_thread_Sleep.Location = new System.Drawing.Point(14, 144);
+            this.btn_thread_Sleep.Location = new System.Drawing.Point(16, 144);
             this.btn_thread_Sleep.Name = "btn_thread_Sleep";
             this.btn_thread_Sleep.Size = new System.Drawing.Size(475, 38);
             this.btn_thread_Sleep.TabIndex = 3;
@@ -84,7 +85,7 @@
             // 
             // btn__5_TextBox_sadece_sayi_harf_girisi
             // 
-            this.btn__5_TextBox_sadece_sayi_harf_girisi.Location = new System.Drawing.Point(14, 188);
+            this.btn__5_TextBox_sadece_sayi_harf_girisi.Location = new System.Drawing.Point(16, 188);
             this.btn__5_TextBox_sadece_sayi_harf_girisi.Name = "btn__5_TextBox_sadece_sayi_harf_girisi";
             this.btn__5_TextBox_sadece_sayi_harf_girisi.Size = new System.Drawing.Size(475, 38);
             this.btn__5_TextBox_sadece_sayi_harf_girisi.TabIndex = 4;
@@ -94,7 +95,7 @@
             // 
             // btn_6_String_Sayisal_Deger_Kontrolu
             // 
-            this.btn_6_String_Sayisal_Deger_Kontrolu.Location = new System.Drawing.Point(14, 232);
+            this.btn_6_String_Sayisal_Deger_Kontrolu.Location = new System.Drawing.Point(16, 232);
             this.btn_6_String_Sayisal_Deger_Kontrolu.Name = "btn_6_String_Sayisal_Deger_Kontrolu";
             this.btn_6_String_Sayisal_Deger_Kontrolu.Size = new System.Drawing.Size(475, 38);
             this.btn_6_String_Sayisal_Deger_Kontrolu.TabIndex = 5;
@@ -104,7 +105,7 @@
             // 
             // btn_7_Kelime_heceleme_islemi
             // 
-            this.btn_7_Kelime_heceleme_islemi.Location = new System.Drawing.Point(14, 276);
+            this.btn_7_Kelime_heceleme_islemi.Location = new System.Drawing.Point(16, 276);
             this.btn_7_Kelime_heceleme_islemi.Name = "btn_7_Kelime_heceleme_islemi";
             this.btn_7_Kelime_heceleme_islemi.Size = new System.Drawing.Size(475, 38);
             this.btn_7_Kelime_heceleme_islemi.TabIndex = 6;
@@ -114,7 +115,7 @@
             // 
             // btn__8_Gridview_den_textbox_a_Veri_cekme
             // 
-            this.btn__8_Gridview_den_textbox_a_Veri_cekme.Location = new System.Drawing.Point(14, 320);
+            this.btn__8_Gridview_den_textbox_a_Veri_cekme.Location = new System.Drawing.Point(16, 320);
             this.btn__8_Gridview_den_textbox_a_Veri_cekme.Name = "btn__8_Gridview_den_textbox_a_Veri_cekme";
             this.btn__8_Gridview_den_textbox_a_Veri_cekme.Size = new System.Drawing.Size(475, 38);
             this.btn__8_Gridview_den_textbox_a_Veri_cekme.TabIndex = 7;
@@ -124,7 +125,7 @@
             // 
             // btn__9_NotiftyIcon_Kullanimi
             // 
-            this.btn__9_NotiftyIcon_Kullanimi.Location = new System.Drawing.Point(14, 364);
+            this.btn__9_NotiftyIcon_Kullanimi.Location = new System.Drawing.Point(16, 364);
             this.btn__9_NotiftyIcon_Kullanimi.Name = "btn__9_NotiftyIcon_Kullanimi";
             this.btn__9_NotiftyIcon_Kullanimi.Size = new System.Drawing.Size(475, 38);
             this.btn__9_NotiftyIcon_Kullanimi.TabIndex = 7;
@@ -134,7 +135,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(14, 408);
+            this.button1.Location = new System.Drawing.Point(16, 408);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(475, 38);
             this.button1.TabIndex = 8;
@@ -144,7 +145,7 @@
             // 
             // btn__011_Sayilari_Roma_Rakamina_Cevir
             // 
-            this.btn__011_Sayilari_Roma_Rakamina_Cevir.Location = new System.Drawing.Point(14, 452);
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir.Location = new System.Drawing.Point(16, 452);
             this.btn__011_Sayilari_Roma_Rakamina_Cevir.Name = "btn__011_Sayilari_Roma_Rakamina_Cevir";
             this.btn__011_Sayilari_Roma_Rakamina_Cevir.Size = new System.Drawing.Size(475, 38);
             this.btn__011_Sayilari_Roma_Rakamina_Cevir.TabIndex = 9;
@@ -154,7 +155,7 @@
             // 
             // btn__012_kombinasyon_hesaplama
             // 
-            this.btn__012_kombinasyon_hesaplama.Location = new System.Drawing.Point(12, 496);
+            this.btn__012_kombinasyon_hesaplama.Location = new System.Drawing.Point(14, 496);
             this.btn__012_kombinasyon_hesaplama.Name = "btn__012_kombinasyon_hesaplama";
             this.btn__012_kombinasyon_hesaplama.Size = new System.Drawing.Size(475, 38);
             this.btn__012_kombinasyon_hesaplama.TabIndex = 10;
@@ -162,11 +163,22 @@
             this.btn__012_kombinasyon_hesaplama.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn__012_kombinasyon_hesaplama.Click += new System.EventHandler(this.btn__012_kombinasyon_hesaplama_Click);
             // 
+            // btn__013_permutasyon_hesaplama
+            // 
+            this.btn__013_permutasyon_hesaplama.Location = new System.Drawing.Point(14, 540);
+            this.btn__013_permutasyon_hesaplama.Name = "btn__013_permutasyon_hesaplama";
+            this.btn__013_permutasyon_hesaplama.Size = new System.Drawing.Size(475, 38);
+            this.btn__013_permutasyon_hesaplama.TabIndex = 11;
+            this.btn__013_permutasyon_hesaplama.Text = "Ders 013 - C# Permütasyon Hesaplama ";
+            this.btn__013_permutasyon_hesaplama.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn__013_permutasyon_hesaplama.Click += new System.EventHandler(this.btn__013_permutasyon_hesaplama_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 579);
+            this.ClientSize = new System.Drawing.Size(505, 593);
+            this.Controls.Add(this.btn__013_permutasyon_hesaplama);
             this.Controls.Add(this.btn__012_kombinasyon_hesaplama);
             this.Controls.Add(this.btn__011_Sayilari_Roma_Rakamina_Cevir);
             this.Controls.Add(this.button1);
@@ -201,5 +213,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn__011_Sayilari_Roma_Rakamina_Cevir;
         private System.Windows.Forms.Button btn__012_kombinasyon_hesaplama;
+        private System.Windows.Forms.Button btn__013_permutasyon_hesaplama;
     }
 }
