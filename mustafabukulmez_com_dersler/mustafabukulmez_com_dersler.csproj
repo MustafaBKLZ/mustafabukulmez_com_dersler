@@ -135,6 +135,12 @@
     <Compile Include="_010_LINQ_to_XML\LINQ_to_XML.Designer.cs">
       <DependentUpon>LINQ_to_XML.cs</DependentUpon>
     </Compile>
+    <Compile Include="_011_Sayilari_Roma_Rakamina_Cevir\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_011_Sayilari_Roma_Rakamina_Cevir\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="_003_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_010_LINQ_to_XML\LINQ_to_XML.resx">
       <DependentUpon>LINQ_to_XML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_011_Sayilari_Roma_Rakamina_Cevir\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -81,5 +81,11 @@ namespace mustafabukulmez_com_dersler
             _010_LINQ_to_XML.LINQ_to_XML fr = new _010_LINQ_to_XML.LINQ_to_XML();
             fr.ShowDialog();
         }
+
+        private void btn__011_Sayilari_Roma_Rakamina_Cevir_Click(object sender, EventArgs e)
+        {
+            _011_Sayilari_Roma_Rakamina_Cevir.Form1 fr = new _011_Sayilari_Roma_Rakamina_Cevir.Form1();
+            fr.ShowDialog();
+        }
     }
 }

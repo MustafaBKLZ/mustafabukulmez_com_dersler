@@ -38,6 +38,7 @@
             this.btn__8_Gridview_den_textbox_a_Veri_cekme = new System.Windows.Forms.Button();
             this.btn__9_NotiftyIcon_Kullanimi = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -140,11 +141,22 @@
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btn__011_Sayilari_Roma_Rakamina_Cevir
+            // 
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir.Location = new System.Drawing.Point(14, 452);
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir.Name = "btn__011_Sayilari_Roma_Rakamina_Cevir";
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir.Size = new System.Drawing.Size(475, 38);
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir.TabIndex = 9;
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir.Text = "Ders 011 - C# Sayıyı Roma Rakamlarına Çevirme";
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir.Click += new System.EventHandler(this.btn__011_Sayilari_Roma_Rakamina_Cevir_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 462);
+            this.ClientSize = new System.Drawing.Size(505, 520);
+            this.Controls.Add(this.btn__011_Sayilari_Roma_Rakamina_Cevir);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn__9_NotiftyIcon_Kullanimi);
             this.Controls.Add(this.btn__8_Gridview_den_textbox_a_Veri_cekme);
@@ -175,5 +187,6 @@
         private System.Windows.Forms.Button btn__8_Gridview_den_textbox_a_Veri_cekme;
         private System.Windows.Forms.Button btn__9_NotiftyIcon_Kullanimi;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn__011_Sayilari_Roma_Rakamina_Cevir;
     }
 }
