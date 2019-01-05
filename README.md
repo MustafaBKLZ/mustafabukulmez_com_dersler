@@ -12,10 +12,10 @@ Dersler hakkında, mail adresimden bana ulaşabilirsiniz. Mail adresimi de sitem
 Ek olarak yazmamı istediğiniz konular olursa çekinmeden yine mail atarak bana ulaştırabilirsiniz.
 
 Proje İçerisinde Yer Alan Dersler
-001 - C# Bilgisayarda Kurulu Olan Antivirüsü Bulmak
-002 - C# Folder Browser Dialog Kullanımı 
-003 - C# DataTable "Bu satır başka bir tabloya ait" Hatası Çözümü
-004 - C# Thread Sleep ile İşlem Süresini Uzatmak
+*001 - C# Bilgisayarda Kurulu Olan Antivirüsü Bulmak
+*002 - C# Folder Browser Dialog Kullanımı 
+*003 - C# DataTable "Bu satır başka bir tabloya ait" Hatası Çözümü
+*004 - C# Thread Sleep ile İşlem Süresini Uzatmak
 005 - C# Textbox Sadece Sayı Harf Girişi Yaptırmak
 006 - C# String Sayısal Değer Kontrolü
 007 - C# Kelime Heceleme İşlemi
