@@ -42,6 +42,7 @@
             this.btn__012_kombinasyon_hesaplama = new System.Windows.Forms.Button();
             this.btn__013_permutasyon_hesaplama = new System.Windows.Forms.Button();
             this.btn__014_Tooltip_Kullanimi = new System.Windows.Forms.Button();
+            this.btn__015_Extension_Methods = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -184,11 +185,22 @@
             this.btn__014_Tooltip_Kullanimi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn__014_Tooltip_Kullanimi.Click += new System.EventHandler(this.btn__014_Tooltip_Kullanimi_Click);
             // 
+            // btn__015_Extension_Methods
+            // 
+            this.btn__015_Extension_Methods.Location = new System.Drawing.Point(18, 628);
+            this.btn__015_Extension_Methods.Name = "btn__015_Extension_Methods";
+            this.btn__015_Extension_Methods.Size = new System.Drawing.Size(475, 38);
+            this.btn__015_Extension_Methods.TabIndex = 13;
+            this.btn__015_Extension_Methods.Text = "Ders 014 - C# Extension Methods - Genişletme Metodları";
+            this.btn__015_Extension_Methods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn__015_Extension_Methods.Click += new System.EventHandler(this.btn__015_Extension_Methods_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(505, 683);
+            this.Controls.Add(this.btn__015_Extension_Methods);
             this.Controls.Add(this.btn__014_Tooltip_Kullanimi);
             this.Controls.Add(this.btn__013_permutasyon_hesaplama);
             this.Controls.Add(this.btn__012_kombinasyon_hesaplama);
@@ -227,5 +239,6 @@
         private System.Windows.Forms.Button btn__012_kombinasyon_hesaplama;
         private System.Windows.Forms.Button btn__013_permutasyon_hesaplama;
         private System.Windows.Forms.Button btn__014_Tooltip_Kullanimi;
+        private System.Windows.Forms.Button btn__015_Extension_Methods;
     }
 }

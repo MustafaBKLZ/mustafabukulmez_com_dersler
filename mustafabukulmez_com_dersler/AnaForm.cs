@@ -105,5 +105,11 @@ namespace mustafabukulmez_com_dersler
             _014_Tooltip_Kullanimi.Form1 fr = new _014_Tooltip_Kullanimi.Form1();
             fr.ShowDialog();
         }
+
+        private void btn__015_Extension_Methods_Click(object sender, EventArgs e)
+        {
+            _015_Extension_Methods.Form1 fr = new _015_Extension_Methods.Form1();
+            fr.ShowDialog();
+        }
     }
 }
