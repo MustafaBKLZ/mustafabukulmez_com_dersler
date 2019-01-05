@@ -41,6 +41,7 @@
             this.btn__011_Sayilari_Roma_Rakamina_Cevir = new System.Windows.Forms.Button();
             this.btn__012_kombinasyon_hesaplama = new System.Windows.Forms.Button();
             this.btn__013_permutasyon_hesaplama = new System.Windows.Forms.Button();
+            this.btn__014_Tooltip_Kullanimi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -155,7 +156,7 @@
             // 
             // btn__012_kombinasyon_hesaplama
             // 
-            this.btn__012_kombinasyon_hesaplama.Location = new System.Drawing.Point(14, 496);
+            this.btn__012_kombinasyon_hesaplama.Location = new System.Drawing.Point(16, 496);
             this.btn__012_kombinasyon_hesaplama.Name = "btn__012_kombinasyon_hesaplama";
             this.btn__012_kombinasyon_hesaplama.Size = new System.Drawing.Size(475, 38);
             this.btn__012_kombinasyon_hesaplama.TabIndex = 10;
@@ -165,7 +166,7 @@
             // 
             // btn__013_permutasyon_hesaplama
             // 
-            this.btn__013_permutasyon_hesaplama.Location = new System.Drawing.Point(14, 540);
+            this.btn__013_permutasyon_hesaplama.Location = new System.Drawing.Point(16, 540);
             this.btn__013_permutasyon_hesaplama.Name = "btn__013_permutasyon_hesaplama";
             this.btn__013_permutasyon_hesaplama.Size = new System.Drawing.Size(475, 38);
             this.btn__013_permutasyon_hesaplama.TabIndex = 11;
@@ -173,11 +174,22 @@
             this.btn__013_permutasyon_hesaplama.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn__013_permutasyon_hesaplama.Click += new System.EventHandler(this.btn__013_permutasyon_hesaplama_Click);
             // 
+            // btn__014_Tooltip_Kullanimi
+            // 
+            this.btn__014_Tooltip_Kullanimi.Location = new System.Drawing.Point(16, 584);
+            this.btn__014_Tooltip_Kullanimi.Name = "btn__014_Tooltip_Kullanimi";
+            this.btn__014_Tooltip_Kullanimi.Size = new System.Drawing.Size(475, 38);
+            this.btn__014_Tooltip_Kullanimi.TabIndex = 12;
+            this.btn__014_Tooltip_Kullanimi.Text = "Ders 013 - C# ToolTip Kullanımı - Nesneler İçin Açıklama";
+            this.btn__014_Tooltip_Kullanimi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn__014_Tooltip_Kullanimi.Click += new System.EventHandler(this.btn__014_Tooltip_Kullanimi_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 593);
+            this.ClientSize = new System.Drawing.Size(505, 683);
+            this.Controls.Add(this.btn__014_Tooltip_Kullanimi);
             this.Controls.Add(this.btn__013_permutasyon_hesaplama);
             this.Controls.Add(this.btn__012_kombinasyon_hesaplama);
             this.Controls.Add(this.btn__011_Sayilari_Roma_Rakamina_Cevir);
@@ -214,5 +226,6 @@
         private System.Windows.Forms.Button btn__011_Sayilari_Roma_Rakamina_Cevir;
         private System.Windows.Forms.Button btn__012_kombinasyon_hesaplama;
         private System.Windows.Forms.Button btn__013_permutasyon_hesaplama;
+        private System.Windows.Forms.Button btn__014_Tooltip_Kullanimi;
     }
 }
