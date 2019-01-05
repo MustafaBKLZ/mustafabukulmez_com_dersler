@@ -34,13 +34,13 @@
     <ID>5</ID>
     <Ad>Personel 5</Ad>
     <Maas>9000</Maas>
-    <Departman>Satın Alma</Departman>
+    <Departman>Satın Alma</Departman> 
   </Personel>
   <Personel Aktif ="True">
     <ID>6</ID>
     <Ad>Personel 6</Ad>
     <Maas>5500</Maas>
-    <Departman>Muhasebe</Departman>
+    <Departman>Muhasebe</Departman> 
   </Personel>
 
   <Personel Aktif ="True">
