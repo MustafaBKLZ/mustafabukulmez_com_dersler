@@ -10,9 +10,10 @@ https://mustafabukulmez.com/c-sharp-egitim-seti-erp-programlama/
 ## SQL Eğitim Seti Sayfam 
 https://mustafabukulmez.com/microsoft-sql-server-t-sql-egitim-seti/
 
-Dersler hakkında, mail adresimden bana ulaşabilirsiniz. Mail adresimi de sitemde bulabilirsiniz. 
+Dersler hakkında, mail adresimden bana ulaşabilirsiniz. 
+Mail: mustafabukulez3446@gmail.com
 
-Ek olarak yazmamı istediğiniz konular olursa çekinmeden yine mail atarak bana ulaştırabilirsiniz.
+Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa çekinmeden mail atarak bana ulaştırabilirsiniz.
 
 ## Proje İçerisinde Yer Alan Dersler
 * 001 - C# Bilgisayarda Kurulu Olan Antivirüsü Bulmak
