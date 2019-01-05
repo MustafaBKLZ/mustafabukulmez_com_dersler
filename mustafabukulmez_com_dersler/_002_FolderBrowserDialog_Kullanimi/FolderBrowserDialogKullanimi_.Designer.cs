@@ -1,4 +1,4 @@
-﻿namespace mustafabukulmez_com_dersler._2_FolderBrowserDialog_Kullanimi
+﻿namespace mustafabukulmez_com_dersler._002_FolderBrowserDialog_Kullanimi
 {
     partial class FolderBrowserDialogKullanimi_
     {

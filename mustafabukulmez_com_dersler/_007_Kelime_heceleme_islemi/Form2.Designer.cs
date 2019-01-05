@@ -1,4 +1,4 @@
-﻿namespace mustafabukulmez_com_dersler._7_Kelime_heceleme_islemi
+﻿namespace mustafabukulmez_com_dersler._007_Kelime_heceleme_islemi
 {
     partial class Form2
     {

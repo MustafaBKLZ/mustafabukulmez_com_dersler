@@ -1,4 +1,4 @@
-﻿namespace mustafabukulmez_com_dersler._6_String_Sayisal_Deger_Kontrolu
+﻿namespace mustafabukulmez_com_dersler._006_String_Sayisal_Deger_Kontrolu
 {
     partial class Form1
     {

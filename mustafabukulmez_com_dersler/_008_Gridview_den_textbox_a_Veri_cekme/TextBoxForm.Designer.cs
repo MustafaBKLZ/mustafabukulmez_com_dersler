@@ -1,4 +1,4 @@
-﻿namespace mustafabukulmez_com_dersler._8_Gridview_den_textbox_a_Veri_cekme
+﻿namespace mustafabukulmez_com_dersler._008_Gridview_den_textbox_a_Veri_cekme
 {
     partial class TextBoxForm
     {

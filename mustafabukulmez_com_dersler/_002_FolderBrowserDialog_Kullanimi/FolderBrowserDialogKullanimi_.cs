@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 using System.IO;
 
-namespace mustafabukulmez_com_dersler._2_FolderBrowserDialog_Kullanimi
+namespace mustafabukulmez_com_dersler._002_FolderBrowserDialog_Kullanimi
 {
     public partial class FolderBrowserDialogKullanimi_ : Form
     {

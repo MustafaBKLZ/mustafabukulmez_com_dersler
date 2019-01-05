@@ -1,4 +1,4 @@
-﻿namespace mustafabukulmez_com_dersler._5_TextBox_sadece_sayi_harf_girisi
+﻿namespace mustafabukulmez_com_dersler._005_TextBox_sadece_sayi_harf_girisi
 {
     partial class Form1
     {

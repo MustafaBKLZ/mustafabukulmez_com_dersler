@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 using System.Reflection;
 //https://mustafabukulmez.com/2019/01/04/c-notifyicon-kullanimi-ve-c-notifyicon-bildirimleri/
-namespace mustafabukulmez_com_dersler._9_NotiftyIcon_Kullanimi
+namespace mustafabukulmez_com_dersler._009_NotiftyIcon_Kullanimi
 {
     public partial class AnaMenu : Form
     {

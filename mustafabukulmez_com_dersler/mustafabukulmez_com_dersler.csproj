@@ -61,10 +61,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="_3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.cs">
+    <Compile Include="_003_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.Designer.cs">
+    <Compile Include="_003_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.Designer.cs">
       <DependentUpon>form1.cs</DependentUpon>
     </Compile>
     <Compile Include="AnaForm.cs">
@@ -73,72 +73,78 @@
     <Compile Include="AnaForm.Designer.cs">
       <DependentUpon>AnaForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="_2_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.cs">
+    <Compile Include="_002_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_2_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.Designer.cs">
+    <Compile Include="_002_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.Designer.cs">
       <DependentUpon>FolderBrowserDialogKullanimi_.cs</DependentUpon>
     </Compile>
-    <Compile Include="_1_Kurulu_Antivirus_Bulmak\AntivirusBulmak.cs">
+    <Compile Include="_001_Kurulu_Antivirus_Bulmak\AntivirusBulmak.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_1_Kurulu_Antivirus_Bulmak\AntivirusBulmak.designer.cs">
+    <Compile Include="_001_Kurulu_Antivirus_Bulmak\AntivirusBulmak.designer.cs">
       <DependentUpon>AntivirusBulmak.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_4_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.cs">
+    <Compile Include="_004_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_4_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.Designer.cs">
+    <Compile Include="_004_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.Designer.cs">
       <DependentUpon>thread_sleep.cs</DependentUpon>
     </Compile>
-    <Compile Include="_5_TextBox_sadece_sayi_harf_girisi\Form1.cs">
+    <Compile Include="_005_TextBox_sadece_sayi_harf_girisi\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_5_TextBox_sadece_sayi_harf_girisi\Form1.Designer.cs">
+    <Compile Include="_005_TextBox_sadece_sayi_harf_girisi\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="_6_String_Sayisal_Deger_Kontrolu\Form1.cs">
+    <Compile Include="_006_String_Sayisal_Deger_Kontrolu\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_6_String_Sayisal_Deger_Kontrolu\Form1.Designer.cs">
+    <Compile Include="_006_String_Sayisal_Deger_Kontrolu\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="_7_Kelime_heceleme_islemi\Form2.cs">
+    <Compile Include="_007_Kelime_heceleme_islemi\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_7_Kelime_heceleme_islemi\Form2.Designer.cs">
+    <Compile Include="_007_Kelime_heceleme_islemi\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="_8_Gridview_den_textbox_a_Veri_cekme\ListeForm.cs">
+    <Compile Include="_008_Gridview_den_textbox_a_Veri_cekme\ListeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_8_Gridview_den_textbox_a_Veri_cekme\ListeForm.Designer.cs">
+    <Compile Include="_008_Gridview_den_textbox_a_Veri_cekme\ListeForm.Designer.cs">
       <DependentUpon>ListeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="_8_Gridview_den_textbox_a_Veri_cekme\TextBoxForm.cs">
+    <Compile Include="_008_Gridview_den_textbox_a_Veri_cekme\TextBoxForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_8_Gridview_den_textbox_a_Veri_cekme\TextBoxForm.Designer.cs">
+    <Compile Include="_008_Gridview_den_textbox_a_Veri_cekme\TextBoxForm.Designer.cs">
       <DependentUpon>TextBoxForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="_9_NotiftyIcon_Kullanimi\AnaMenu.cs">
+    <Compile Include="_009_NotiftyIcon_Kullanimi\AnaMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="_9_NotiftyIcon_Kullanimi\AnaMenu.Designer.cs">
+    <Compile Include="_009_NotiftyIcon_Kullanimi\AnaMenu.Designer.cs">
       <DependentUpon>AnaMenu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="_3_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.resx">
+    <Compile Include="_010_LINQ_to_XML\LINQ_to_XML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_010_LINQ_to_XML\LINQ_to_XML.Designer.cs">
+      <DependentUpon>LINQ_to_XML.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="_003_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AnaForm.resx">
       <DependentUpon>AnaForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_2_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.resx">
+    <EmbeddedResource Include="_002_FolderBrowserDialog_Kullanimi\FolderBrowserDialogKullanimi_.resx">
       <DependentUpon>FolderBrowserDialogKullanimi_.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_1_Kurulu_Antivirus_Bulmak\AntivirusBulmak.resx">
+    <EmbeddedResource Include="_001_Kurulu_Antivirus_Bulmak\AntivirusBulmak.resx">
       <DependentUpon>AntivirusBulmak.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -151,26 +157,29 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="_4_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.resx">
+    <EmbeddedResource Include="_004_Thread_Sleep_ile_Islem_Suresini_Uzatmak\thread_sleep.resx">
       <DependentUpon>thread_sleep.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_5_TextBox_sadece_sayi_harf_girisi\Form1.resx">
+    <EmbeddedResource Include="_005_TextBox_sadece_sayi_harf_girisi\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_6_String_Sayisal_Deger_Kontrolu\Form1.resx">
+    <EmbeddedResource Include="_006_String_Sayisal_Deger_Kontrolu\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_7_Kelime_heceleme_islemi\Form2.resx">
+    <EmbeddedResource Include="_007_Kelime_heceleme_islemi\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_8_Gridview_den_textbox_a_Veri_cekme\ListeForm.resx">
+    <EmbeddedResource Include="_008_Gridview_den_textbox_a_Veri_cekme\ListeForm.resx">
       <DependentUpon>ListeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_8_Gridview_den_textbox_a_Veri_cekme\TextBoxForm.resx">
+    <EmbeddedResource Include="_008_Gridview_den_textbox_a_Veri_cekme\TextBoxForm.resx">
       <DependentUpon>TextBoxForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="_9_NotiftyIcon_Kullanimi\AnaMenu.resx">
+    <EmbeddedResource Include="_009_NotiftyIcon_Kullanimi\AnaMenu.resx">
       <DependentUpon>AnaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_010_LINQ_to_XML\LINQ_to_XML.resx">
+      <DependentUpon>LINQ_to_XML.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -181,6 +190,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="_010_LINQ_to_XML\myXML.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

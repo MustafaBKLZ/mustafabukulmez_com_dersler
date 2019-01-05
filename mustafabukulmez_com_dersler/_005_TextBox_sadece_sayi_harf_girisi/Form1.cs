@@ -12,7 +12,7 @@ using System.Windows.Forms;
 //https://mustafabukulmez.com/2018/11/28/c-textbox-sadece-sayi_harf-girisi-yaptirmak/
 
 
-namespace mustafabukulmez_com_dersler._5_TextBox_sadece_sayi_harf_girisi
+namespace mustafabukulmez_com_dersler._005_TextBox_sadece_sayi_harf_girisi
 {
     public partial class Form1 : Form
     {

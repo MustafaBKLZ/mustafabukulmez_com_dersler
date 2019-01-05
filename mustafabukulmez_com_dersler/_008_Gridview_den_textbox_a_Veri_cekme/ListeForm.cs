@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 //https://mustafabukulmez.com/2018/12/31/c-datagridviewden-veri-cekme/
-namespace mustafabukulmez_com_dersler._8_Gridview_den_textbox_a_Veri_cekme
+namespace mustafabukulmez_com_dersler._008_Gridview_den_textbox_a_Veri_cekme
 {
     public partial class ListeForm : Form
     {

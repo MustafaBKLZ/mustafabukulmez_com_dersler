@@ -1,4 +1,4 @@
-﻿namespace mustafabukulmez_com_dersler._4_Thread_Sleep_ile_Islem_Suresini_Uzatmak
+﻿namespace mustafabukulmez_com_dersler._004_Thread_Sleep_ile_Islem_Suresini_Uzatmak
 {
     partial class thread_sleep
     {

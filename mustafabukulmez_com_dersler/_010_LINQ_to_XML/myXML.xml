@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--//https://mustafabukulmez.com/2019/01/05/c-linq-to-xml-ile-xml-dosyalarla-calismak/-->
+<PERSONELLER>
+
+  <Personel Aktif ="True">
+    <ID>1</ID>
+    <Ad>Personel 1</Ad>
+    <Maas>5000</Maas>
+    <Departman>Muhasebe</Departman>
+  </Personel>
+
+  <Personel Aktif ="True">
+    <ID>2</ID>
+    <Ad>Personel 2</Ad>
+    <Maas>6000</Maas>
+    <Departman>Bilgi İşlem</Departman>
+  </Personel>
+
+  <Personel Aktif ="True">
+    <ID>3</ID>
+    <Ad>Personel 3</Ad>
+    <Maas>7000</Maas>
+    <Departman>Pazarlama</Departman>
+  </Personel>
+
+  <Personel Aktif ="False">
+    <ID>4</ID>
+    <Ad>Personel 4</Ad>
+    <Maas>8000</Maas>
+    <Departman>Dış Ticaret</Departman>
+  </Personel>
+
+  <Personel Aktif ="False">
+    <ID>5</ID>
+    <Ad>Personel 5</Ad>
+    <Maas>9000</Maas>
+    <Departman>Satın Alma</Departman>
+  </Personel>
+  <Personel Aktif ="True">
+    <ID>6</ID>
+    <Ad>Personel 6</Ad>
+    <Maas>5500</Maas>
+    <Departman>Muhasebe</Departman>
+  </Personel>
+
+  <Personel Aktif ="True">
+    <ID>7</ID>
+    <Ad>Personel 7</Ad>
+    <Maas>6500</Maas>
+    <Departman>Bilgi İşlem</Departman>
+  </Personel>
+
+  <Personel Aktif ="True">
+    <ID>8</ID>
+    <Ad>Personel 8</Ad>
+    <Maas>7500</Maas>
+    <Departman>Pazarlama</Departman>
+  </Personel>
+
+  <Personel Aktif ="False">
+    <ID>9</ID>
+    <Ad>Personel 9</Ad>
+    <Maas>8500</Maas>
+    <Departman>Dış Ticaret</Departman>
+  </Personel>
+
+  <Personel Aktif ="False">
+    <ID>10</ID>
+    <Ad>Personel 10</Ad>
+    <Maas>9500</Maas>
+    <Departman>Satın Alma</Departman>
+  </Personel>
+  
+</PERSONELLER>
+
+<!--//https://mustafabukulmez.com/2019/01/05/c-linq-to-xml-ile-xml-dosyalarla-calismak/-->

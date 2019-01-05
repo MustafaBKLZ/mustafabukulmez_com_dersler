@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 //https://mustafabukulmez.com/2018/11/30/c-kelime-heceleme-islemi/
 
-namespace mustafabukulmez_com_dersler._7_Kelime_heceleme_islemi
+namespace mustafabukulmez_com_dersler._007_Kelime_heceleme_islemi
 {
     public partial class Form2 : Form
     {
