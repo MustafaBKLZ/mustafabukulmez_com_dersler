@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 //https://mustafabukulmez.com/2019/01/05/c-extension-methods-genisletme-metodlari-1/
 //https://mustafabukulmez.com/2019/01/05/c-extension-methods-genisletme-metodlari-2/
+//https://mustafabukulmez.com/2019/01/06/c-extension-methods-genisletme-metodlari-3/
 
 namespace mustafabukulmez_com_dersler._015_Extension_Methods
 {
@@ -23,7 +24,12 @@ namespace mustafabukulmez_com_dersler._015_Extension_Methods
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //DataTable dt = new DataTable();
+            ///// okuma ve doldurma kodları
+            //if (dt.Rows[0][0].ToString() == "1")
+            //    checkBox1.Checked = true;
+            //else
+            //    checkBox1.Checked = false;
 
         }
 
@@ -53,10 +59,45 @@ namespace mustafabukulmez_com_dersler._015_Extension_Methods
             MessageBox.Show(textBox3.Text.ToGetLRightChar(5));
         }
 
+        private void btn_telefon_format_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(textBox4.Text.ToTelefonFormat());
+        }
+
+        private void btn_isaretle_Click(object sender, EventArgs e)
+        {
+            string str = "1";
+            checkBox1.CheckState = str.ToCheckState();
+
+            str = "true";
+            checkBox2.CheckState = str.ToCheckState();
+
+            str = "True";
+            checkBox3.CheckState = str.ToCheckState();
+
+            str = "Checked";
+            checkBox4.CheckState = str.ToCheckState();
+
+            str = "Indeterminate";
+            checkBox5.CheckState = str.ToCheckState();
+
+            str = "0";
+            checkBox6.CheckState = str.ToCheckState();
+
+            str = "False";
+            checkBox7.CheckState = str.ToCheckState();
+
+            str = "false";
+            checkBox8.CheckState = str.ToCheckState();
+
+            str = "Unchecked";
+            checkBox9.CheckState = str.ToCheckState();
+        }
     }
 
 
 
     //https://mustafabukulmez.com/2019/01/05/c-extension-methods-genisletme-metodlari-1/
     //https://mustafabukulmez.com/2019/01/05/c-extension-methods-genisletme-metodlari-2/
+    //https://mustafabukulmez.com/2019/01/06/c-extension-methods-genisletme-metodlari-3/
 }
