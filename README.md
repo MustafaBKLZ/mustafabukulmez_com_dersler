@@ -28,4 +28,7 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 010 - C# Linq To XML ile XML Dosyalarla Çalışmak
 * 011 - C# Girilen Sayıyı Roma Rakamına Çevirmek
 
-İyi kodlamalar. 
+
+## Lisans
+
+    Bu projedeki kodları dilediğiniz gibi kullanabilirsiniz. Herhangi bir kısıtlaması yada yasağı içermez. Kodların büyük çoğunluğu bana aittir. Ancak bazı dersler farklı kaynaklardan toplanmış kodlardır. Bu tarz kodlar da paylaşım yasağı olmayan kaynaklardan alınmış kodlar olmasına özen gösterilmiştir.
