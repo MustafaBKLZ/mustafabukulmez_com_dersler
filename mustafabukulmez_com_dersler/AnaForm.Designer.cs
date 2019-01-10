@@ -43,6 +43,7 @@
             this.btn__013_permutasyon_hesaplama = new System.Windows.Forms.Button();
             this.btn__014_Tooltip_Kullanimi = new System.Windows.Forms.Button();
             this.btn__015_Extension_Methods = new System.Windows.Forms.Button();
+            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -195,11 +196,22 @@
             this.btn__015_Extension_Methods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn__015_Extension_Methods.Click += new System.EventHandler(this.btn__015_Extension_Methods_Click);
             // 
+            // btn__016_ComboBox_TXT_Dosyai_ile_Doldurma
+            // 
+            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Location = new System.Drawing.Point(497, 12);
+            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Name = "btn__016_ComboBox_TXT_Dosyai_ile_Doldurma";
+            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Size = new System.Drawing.Size(475, 38);
+            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.TabIndex = 14;
+            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Text = "Ders 015 -C# ComboBox TXT Dosyası ile Doldurma";
+            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Click += new System.EventHandler(this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma_Click);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 683);
+            this.ClientSize = new System.Drawing.Size(983, 683);
+            this.Controls.Add(this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma);
             this.Controls.Add(this.btn__015_Extension_Methods);
             this.Controls.Add(this.btn__014_Tooltip_Kullanimi);
             this.Controls.Add(this.btn__013_permutasyon_hesaplama);
@@ -240,5 +252,6 @@
         private System.Windows.Forms.Button btn__013_permutasyon_hesaplama;
         private System.Windows.Forms.Button btn__014_Tooltip_Kullanimi;
         private System.Windows.Forms.Button btn__015_Extension_Methods;
+        private System.Windows.Forms.Button btn__016_ComboBox_TXT_Dosyai_ile_Doldurma;
     }
 }

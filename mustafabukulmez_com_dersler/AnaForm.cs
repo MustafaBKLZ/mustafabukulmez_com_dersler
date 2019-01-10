@@ -111,5 +111,11 @@ namespace mustafabukulmez_com_dersler
             _015_Extension_Methods.Form1 fr = new _015_Extension_Methods.Form1();
             fr.ShowDialog();
         }
+
+        private void btn__016_ComboBox_TXT_Dosyai_ile_Doldurma_Click(object sender, EventArgs e)
+        {
+            _016_ComboBox_TXT_Dosyai_ile_Doldurma.Form1 fr = new _016_ComboBox_TXT_Dosyai_ile_Doldurma.Form1();
+            fr.ShowDialog();
+        }
     }
 }
