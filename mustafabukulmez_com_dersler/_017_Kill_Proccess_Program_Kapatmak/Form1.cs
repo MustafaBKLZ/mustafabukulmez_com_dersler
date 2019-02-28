@@ -17,7 +17,7 @@ namespace mustafabukulmez_com_dersler._17_Kill_Proccess_Program_Kapatmak
         {
             InitializeComponent();
         }
-
+     //   https://mustafabukulmez.com/2019/02/28/c-kill-proccess-otomatik-program-kapatmak/
         private void btn_kapat_Click(object sender, EventArgs e)
         {
             //foreach (var process in Process.GetProcessesByName("Kapatılacak Programın Adı"))
@@ -26,6 +26,11 @@ namespace mustafabukulmez_com_dersler._17_Kill_Proccess_Program_Kapatmak
             {
                 process.Kill();
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

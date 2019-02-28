@@ -117,6 +117,16 @@ namespace mustafabukulmez_com_dersler
             fr.ShowDialog();
         }
 
-    
+        private void btn__017_Kill_Proccess_Program_Kapatmak_Click(object sender, EventArgs e)
+        {
+            _17_Kill_Proccess_Program_Kapatmak.Form1 fr = new _17_Kill_Proccess_Program_Kapatmak.Form1();
+            fr.ShowDialog();
+        }
+
+        private void btn__018_Listeler_Arasındaki_Farkları_Bulmak_Click(object sender, EventArgs e)
+        {
+            _018_Listeler_Arasındaki_Farkları_Bulmak.Form1 fr = new _018_Listeler_Arasındaki_Farkları_Bulmak.Form1();
+            fr.ShowDialog();
+        }
     }
 }
