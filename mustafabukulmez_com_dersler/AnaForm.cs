@@ -8,7 +8,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace mustafabukulmez_com_dersler
 {
     public partial class AnaForm : Form
@@ -117,5 +116,7 @@ namespace mustafabukulmez_com_dersler
             _016_ComboBox_TXT_Dosyai_ile_Doldurma.Form1 fr = new _016_ComboBox_TXT_Dosyai_ile_Doldurma.Form1();
             fr.ShowDialog();
         }
+
+    
     }
 }
