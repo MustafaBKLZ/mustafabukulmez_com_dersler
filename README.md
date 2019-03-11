@@ -30,12 +30,11 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 012 - C# Kombinasyon Hesaplama
 * 013 - C# Permütasyon Hesaplama
 * 014 - C# ToolTip Kullanımı - Nesneler İçin Açıklama
-* 015 - C# Extension Methods – Genişletme Metodları #1
-* 015 - C# Extension Methods – Genişletme Metodları #2
-* 015 - C# Extension Methods – Genişletme Metodları #3
+* 015 - C# Extension Methods – Genişletme Metodları #1, 2, 3
 * 016 - C# ComboBox TXT Dosyası ile Doldurma
-* 017 - C# List<T> Listeler Arasındaki Farkları Bulmak - (Generic List)
-* 018 - C# Milisaniye Convert - Saniye ve Dakikaya Çevirmek
+* 017 - C# Kill Proccess – Otomatik Program Kapatmak
+* 018 - C# List<T> Listeler Arasındaki Farkları Bulmak - (Generic List)
+* 019 - C# Milisaniye Convert - Saniye ve Dakikaya Çevirmek
 
 
 ## Lisans
