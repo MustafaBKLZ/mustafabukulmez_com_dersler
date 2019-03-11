@@ -128,5 +128,11 @@ namespace mustafabukulmez_com_dersler
             _018_Listeler_Arasındaki_Farkları_Bulmak.Form1 fr = new _018_Listeler_Arasındaki_Farkları_Bulmak.Form1();
             fr.ShowDialog();
         }
+
+        private void btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek_Click(object sender, EventArgs e)
+        {
+            _019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Form1 fr = new _019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Form1();
+            fr.ShowDialog();
+        }
     }
 }

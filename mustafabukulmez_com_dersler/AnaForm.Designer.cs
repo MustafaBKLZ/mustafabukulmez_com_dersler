@@ -46,12 +46,13 @@
             this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma = new System.Windows.Forms.Button();
             this.btn__017_Kill_Proccess_Program_Kapatmak = new System.Windows.Forms.Button();
             this.btn__018_Listeler_Arasındaki_Farkları_Bulmak = new System.Windows.Forms.Button();
+            this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
             // 
             this.btn_Kurulu_Antivirus_Bulmak.Location = new System.Drawing.Point(12, 10);
-            this.btn_Kurulu_Antivirus_Bulmak.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Kurulu_Antivirus_Bulmak.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Kurulu_Antivirus_Bulmak.Name = "btn_Kurulu_Antivirus_Bulmak";
             this.btn_Kurulu_Antivirus_Bulmak.Size = new System.Drawing.Size(356, 31);
             this.btn_Kurulu_Antivirus_Bulmak.TabIndex = 0;
@@ -62,7 +63,7 @@
             // btn_FolderBrowserDialog_Kullanimi
             // 
             this.btn_FolderBrowserDialog_Kullanimi.Location = new System.Drawing.Point(12, 46);
-            this.btn_FolderBrowserDialog_Kullanimi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_FolderBrowserDialog_Kullanimi.Margin = new System.Windows.Forms.Padding(2);
             this.btn_FolderBrowserDialog_Kullanimi.Name = "btn_FolderBrowserDialog_Kullanimi";
             this.btn_FolderBrowserDialog_Kullanimi.Size = new System.Drawing.Size(356, 31);
             this.btn_FolderBrowserDialog_Kullanimi.TabIndex = 1;
@@ -73,7 +74,7 @@
             // btn_dt_bu_satir_baska_tabloya_ait
             // 
             this.btn_dt_bu_satir_baska_tabloya_ait.Location = new System.Drawing.Point(12, 81);
-            this.btn_dt_bu_satir_baska_tabloya_ait.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_dt_bu_satir_baska_tabloya_ait.Margin = new System.Windows.Forms.Padding(2);
             this.btn_dt_bu_satir_baska_tabloya_ait.Name = "btn_dt_bu_satir_baska_tabloya_ait";
             this.btn_dt_bu_satir_baska_tabloya_ait.Size = new System.Drawing.Size(356, 31);
             this.btn_dt_bu_satir_baska_tabloya_ait.TabIndex = 2;
@@ -84,7 +85,7 @@
             // btn_thread_Sleep
             // 
             this.btn_thread_Sleep.Location = new System.Drawing.Point(12, 117);
-            this.btn_thread_Sleep.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_thread_Sleep.Margin = new System.Windows.Forms.Padding(2);
             this.btn_thread_Sleep.Name = "btn_thread_Sleep";
             this.btn_thread_Sleep.Size = new System.Drawing.Size(356, 31);
             this.btn_thread_Sleep.TabIndex = 3;
@@ -95,7 +96,7 @@
             // btn__5_TextBox_sadece_sayi_harf_girisi
             // 
             this.btn__5_TextBox_sadece_sayi_harf_girisi.Location = new System.Drawing.Point(12, 153);
-            this.btn__5_TextBox_sadece_sayi_harf_girisi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn__5_TextBox_sadece_sayi_harf_girisi.Margin = new System.Windows.Forms.Padding(2);
             this.btn__5_TextBox_sadece_sayi_harf_girisi.Name = "btn__5_TextBox_sadece_sayi_harf_girisi";
             this.btn__5_TextBox_sadece_sayi_harf_girisi.Size = new System.Drawing.Size(356, 31);
             this.btn__5_TextBox_sadece_sayi_harf_girisi.TabIndex = 4;
@@ -106,7 +107,7 @@
             // btn_6_String_Sayisal_Deger_Kontrolu
             // 
             this.btn_6_String_Sayisal_Deger_Kontrolu.Location = new System.Drawing.Point(12, 188);
-            this.btn_6_String_Sayisal_Deger_Kontrolu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_6_String_Sayisal_Deger_Kontrolu.Margin = new System.Windows.Forms.Padding(2);
             this.btn_6_String_Sayisal_Deger_Kontrolu.Name = "btn_6_String_Sayisal_Deger_Kontrolu";
             this.btn_6_String_Sayisal_Deger_Kontrolu.Size = new System.Drawing.Size(356, 31);
             this.btn_6_String_Sayisal_Deger_Kontrolu.TabIndex = 5;
@@ -117,7 +118,7 @@
             // btn_7_Kelime_heceleme_islemi
             // 
             this.btn_7_Kelime_heceleme_islemi.Location = new System.Drawing.Point(12, 224);
-            this.btn_7_Kelime_heceleme_islemi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_7_Kelime_heceleme_islemi.Margin = new System.Windows.Forms.Padding(2);
             this.btn_7_Kelime_heceleme_islemi.Name = "btn_7_Kelime_heceleme_islemi";
             this.btn_7_Kelime_heceleme_islemi.Size = new System.Drawing.Size(356, 31);
             this.btn_7_Kelime_heceleme_islemi.TabIndex = 6;
@@ -128,7 +129,7 @@
             // btn__8_Gridview_den_textbox_a_Veri_cekme
             // 
             this.btn__8_Gridview_den_textbox_a_Veri_cekme.Location = new System.Drawing.Point(12, 260);
-            this.btn__8_Gridview_den_textbox_a_Veri_cekme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn__8_Gridview_den_textbox_a_Veri_cekme.Margin = new System.Windows.Forms.Padding(2);
             this.btn__8_Gridview_den_textbox_a_Veri_cekme.Name = "btn__8_Gridview_den_textbox_a_Veri_cekme";
             this.btn__8_Gridview_den_textbox_a_Veri_cekme.Size = new System.Drawing.Size(356, 31);
             this.btn__8_Gridview_den_textbox_a_Veri_cekme.TabIndex = 7;
@@ -139,7 +140,7 @@
             // btn__9_NotiftyIcon_Kullanimi
             // 
             this.btn__9_NotiftyIcon_Kullanimi.Location = new System.Drawing.Point(12, 296);
-            this.btn__9_NotiftyIcon_Kullanimi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn__9_NotiftyIcon_Kullanimi.Margin = new System.Windows.Forms.Padding(2);
             this.btn__9_NotiftyIcon_Kullanimi.Name = "btn__9_NotiftyIcon_Kullanimi";
             this.btn__9_NotiftyIcon_Kullanimi.Size = new System.Drawing.Size(356, 31);
             this.btn__9_NotiftyIcon_Kullanimi.TabIndex = 7;
@@ -150,7 +151,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(12, 332);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(356, 31);
             this.button1.TabIndex = 8;
@@ -161,7 +162,7 @@
             // btn__011_Sayilari_Roma_Rakamina_Cevir
             // 
             this.btn__011_Sayilari_Roma_Rakamina_Cevir.Location = new System.Drawing.Point(12, 367);
-            this.btn__011_Sayilari_Roma_Rakamina_Cevir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn__011_Sayilari_Roma_Rakamina_Cevir.Margin = new System.Windows.Forms.Padding(2);
             this.btn__011_Sayilari_Roma_Rakamina_Cevir.Name = "btn__011_Sayilari_Roma_Rakamina_Cevir";
             this.btn__011_Sayilari_Roma_Rakamina_Cevir.Size = new System.Drawing.Size(356, 31);
             this.btn__011_Sayilari_Roma_Rakamina_Cevir.TabIndex = 9;
@@ -172,7 +173,7 @@
             // btn__012_kombinasyon_hesaplama
             // 
             this.btn__012_kombinasyon_hesaplama.Location = new System.Drawing.Point(12, 403);
-            this.btn__012_kombinasyon_hesaplama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn__012_kombinasyon_hesaplama.Margin = new System.Windows.Forms.Padding(2);
             this.btn__012_kombinasyon_hesaplama.Name = "btn__012_kombinasyon_hesaplama";
             this.btn__012_kombinasyon_hesaplama.Size = new System.Drawing.Size(356, 31);
             this.btn__012_kombinasyon_hesaplama.TabIndex = 10;
@@ -183,7 +184,7 @@
             // btn__013_permutasyon_hesaplama
             // 
             this.btn__013_permutasyon_hesaplama.Location = new System.Drawing.Point(12, 439);
-            this.btn__013_permutasyon_hesaplama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn__013_permutasyon_hesaplama.Margin = new System.Windows.Forms.Padding(2);
             this.btn__013_permutasyon_hesaplama.Name = "btn__013_permutasyon_hesaplama";
             this.btn__013_permutasyon_hesaplama.Size = new System.Drawing.Size(356, 31);
             this.btn__013_permutasyon_hesaplama.TabIndex = 11;
@@ -194,7 +195,7 @@
             // btn__014_Tooltip_Kullanimi
             // 
             this.btn__014_Tooltip_Kullanimi.Location = new System.Drawing.Point(12, 474);
-            this.btn__014_Tooltip_Kullanimi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn__014_Tooltip_Kullanimi.Margin = new System.Windows.Forms.Padding(2);
             this.btn__014_Tooltip_Kullanimi.Name = "btn__014_Tooltip_Kullanimi";
             this.btn__014_Tooltip_Kullanimi.Size = new System.Drawing.Size(356, 31);
             this.btn__014_Tooltip_Kullanimi.TabIndex = 12;
@@ -205,7 +206,7 @@
             // btn__015_Extension_Methods
             // 
             this.btn__015_Extension_Methods.Location = new System.Drawing.Point(14, 510);
-            this.btn__015_Extension_Methods.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn__015_Extension_Methods.Margin = new System.Windows.Forms.Padding(2);
             this.btn__015_Extension_Methods.Name = "btn__015_Extension_Methods";
             this.btn__015_Extension_Methods.Size = new System.Drawing.Size(356, 31);
             this.btn__015_Extension_Methods.TabIndex = 13;
@@ -216,7 +217,7 @@
             // btn__016_ComboBox_TXT_Dosyai_ile_Doldurma
             // 
             this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Location = new System.Drawing.Point(373, 10);
-            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Margin = new System.Windows.Forms.Padding(2);
             this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Name = "btn__016_ComboBox_TXT_Dosyai_ile_Doldurma";
             this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.Size = new System.Drawing.Size(356, 31);
             this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma.TabIndex = 14;
@@ -242,15 +243,27 @@
             this.btn__018_Listeler_Arasındaki_Farkları_Bulmak.Name = "btn__018_Listeler_Arasındaki_Farkları_Bulmak";
             this.btn__018_Listeler_Arasındaki_Farkları_Bulmak.Size = new System.Drawing.Size(356, 31);
             this.btn__018_Listeler_Arasındaki_Farkları_Bulmak.TabIndex = 16;
-            this.btn__018_Listeler_Arasındaki_Farkları_Bulmak.Text = "Ders 017 -List<T> Listeler Arasındaki Farkları Bulmak - (Generic List)";
+            this.btn__018_Listeler_Arasındaki_Farkları_Bulmak.Text = "Ders 018 -List<T> Listeler Arasındaki Farkları Bulmak - (Generic List)";
             this.btn__018_Listeler_Arasındaki_Farkları_Bulmak.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn__018_Listeler_Arasındaki_Farkları_Bulmak.Click += new System.EventHandler(this.btn__018_Listeler_Arasındaki_Farkları_Bulmak_Click);
+            // 
+            // btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek
+            // 
+            this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Location = new System.Drawing.Point(373, 117);
+            this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Margin = new System.Windows.Forms.Padding(2);
+            this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Name = "btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek";
+            this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Size = new System.Drawing.Size(356, 31);
+            this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.TabIndex = 17;
+            this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Text = "Ders 019 -C# Milisaniye Bilgisini Saniye ve Dakikaya Çevirmek";
+            this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Click += new System.EventHandler(this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek_Click);
             // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(737, 555);
+            this.Controls.Add(this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek);
             this.Controls.Add(this.btn__018_Listeler_Arasındaki_Farkları_Bulmak);
             this.Controls.Add(this.btn__017_Kill_Proccess_Program_Kapatmak);
             this.Controls.Add(this.btn__016_ComboBox_TXT_Dosyai_ile_Doldurma);
@@ -269,7 +282,7 @@
             this.Controls.Add(this.btn_dt_bu_satir_baska_tabloya_ait);
             this.Controls.Add(this.btn_FolderBrowserDialog_Kullanimi);
             this.Controls.Add(this.btn_Kurulu_Antivirus_Bulmak);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AnaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AnaForm";
@@ -298,5 +311,6 @@
         private System.Windows.Forms.Button btn__016_ComboBox_TXT_Dosyai_ile_Doldurma;
         private System.Windows.Forms.Button btn__017_Kill_Proccess_Program_Kapatmak;
         private System.Windows.Forms.Button btn__018_Listeler_Arasındaki_Farkları_Bulmak;
+        private System.Windows.Forms.Button btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek;
     }
 }
