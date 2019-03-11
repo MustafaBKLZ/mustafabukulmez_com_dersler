@@ -34,6 +34,8 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 015 - C# Extension Methods – Genişletme Metodları #2
 * 015 - C# Extension Methods – Genişletme Metodları #3
 * 016 - C# ComboBox TXT Dosyası ile Doldurma
+* 017 - C# List<T> Listeler Arasındaki Farkları Bulmak - (Generic List)
+* 018 - C# Milisaniye Convert - Saniye ve Dakikaya Çevirmek
 
 
 ## Lisans
