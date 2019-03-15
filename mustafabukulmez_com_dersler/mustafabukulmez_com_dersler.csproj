@@ -61,6 +61,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\ExcelBaglanOku.cs" />
+    <Compile Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="_003_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +198,9 @@
     <Compile Include="_019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_003_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi\form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
     </EmbeddedResource>

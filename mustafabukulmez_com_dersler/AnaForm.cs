@@ -134,5 +134,11 @@ namespace mustafabukulmez_com_dersler
             _019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Form1 fr = new _019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Form1();
             fr.ShowDialog();
         }
+
+        private void btn_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class_Click(object sender, EventArgs e)
+        {
+            _020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Form1 fr = new _020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Form1();
+            fr.ShowDialog();
+        }
     }
 }
