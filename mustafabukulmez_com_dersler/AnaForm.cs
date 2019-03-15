@@ -140,5 +140,11 @@ namespace mustafabukulmez_com_dersler
             _020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Form1 fr = new _020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Form1();
             fr.ShowDialog();
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            _021_Rastgele_Sifre_Olusturma.Form1 fr = new _021_Rastgele_Sifre_Olusturma.Form1();
+            fr.ShowDialog();
+        }
     }
 }

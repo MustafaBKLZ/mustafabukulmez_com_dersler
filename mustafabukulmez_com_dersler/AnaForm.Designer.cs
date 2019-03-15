@@ -48,6 +48,7 @@
             this.btn__018_Listeler_Arasındaki_Farkları_Bulmak = new System.Windows.Forms.Button();
             this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek = new System.Windows.Forms.Button();
             this.btn_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Kurulu_Antivirus_Bulmak
@@ -270,11 +271,23 @@
             this.btn_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Click += new System.EventHandler(this.btn_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(373, 188);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(356, 31);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Ders 021 - C# Rastgele Şifre Oluşturma";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(737, 555);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btn_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class);
             this.Controls.Add(this.btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek);
             this.Controls.Add(this.btn__018_Listeler_Arasındaki_Farkları_Bulmak);
@@ -326,5 +339,6 @@
         private System.Windows.Forms.Button btn__018_Listeler_Arasındaki_Farkları_Bulmak;
         private System.Windows.Forms.Button btn__019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek;
         private System.Windows.Forms.Button btn_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class;
+        private System.Windows.Forms.Button button2;
     }
 }
