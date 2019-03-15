@@ -35,7 +35,7 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 017 - C# Kill Proccess – Otomatik Program Kapatmak
 * 018 - C# List<T> Listeler Arasındaki Farkları Bulmak - (Generic List)
 * 019 - C# Milisaniye Convert - Saniye ve Dakikaya Çevirmek
-
+* 020 - C# Excel OLEDB Bağlantı ve Veri Okuma – Class
 
 ## Lisans
 
