@@ -146,5 +146,11 @@ namespace mustafabukulmez_com_dersler
             _021_Rastgele_Sifre_Olusturma.Form1 fr = new _021_Rastgele_Sifre_Olusturma.Form1();
             fr.ShowDialog();
         }
+
+        private void btn__022_Ozel_MessageBox_Yapimi_Click(object sender, EventArgs e)
+        {
+            _022_Ozel_MessageBox_Yapimi.AnaForm fr = new _022_Ozel_MessageBox_Yapimi.AnaForm();
+            fr.ShowDialog();
+        }
     }
 }
