@@ -36,7 +36,9 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 018 - C# List<T> Listeler Arasındaki Farkları Bulmak - (Generic List)
 * 019 - C# Milisaniye Convert - Saniye ve Dakikaya Çevirmek
 * 020 - C# Excel OLEDB Bağlantı ve Veri Okuma – Class
-
+* 021 - C# Rastgele Şifre Oluşturma
+* 022 - C# Özel MessageBox Yapımı
+    
 ## Lisans
 
     Bu projedeki kodları dilediğiniz gibi kullanabilirsiniz. Herhangi bir kısıtlaması yada yasağı içermez. 
