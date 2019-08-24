@@ -40,6 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_temizle = new System.Windows.Forms.Button();
             this.btn_sil = new System.Windows.Forms.Button();
+            this.btn_diger_islemler = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,7 +71,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dataGridView1.Location = new System.Drawing.Point(0, 129);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(840, 343);
+            this.dataGridView1.Size = new System.Drawing.Size(1004, 343);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
             // 
@@ -152,11 +153,22 @@
             this.btn_sil.UseVisualStyleBackColor = true;
             this.btn_sil.Click += new System.EventHandler(this.Btn_sil_Click);
             // 
+            // btn_diger_islemler
+            // 
+            this.btn_diger_islemler.Location = new System.Drawing.Point(821, 35);
+            this.btn_diger_islemler.Name = "btn_diger_islemler";
+            this.btn_diger_islemler.Size = new System.Drawing.Size(118, 72);
+            this.btn_diger_islemler.TabIndex = 12;
+            this.btn_diger_islemler.Text = "Diğer İşlemler";
+            this.btn_diger_islemler.UseVisualStyleBackColor = true;
+            this.btn_diger_islemler.Click += new System.EventHandler(this.Btn_diger_islemler_Click);
+            // 
             // XML_AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(840, 472);
+            this.ClientSize = new System.Drawing.Size(1004, 472);
+            this.Controls.Add(this.btn_diger_islemler);
             this.Controls.Add(this.btn_sil);
             this.Controls.Add(this.btn_temizle);
             this.Controls.Add(this.dataGridView1);
@@ -193,5 +205,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_temizle;
         private System.Windows.Forms.Button btn_sil;
+        private System.Windows.Forms.Button btn_diger_islemler;
     }
 }

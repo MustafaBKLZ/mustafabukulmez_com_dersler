@@ -224,6 +224,12 @@
       <DependentUpon>XML_AnaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="_023_XML_Islemleri\XML_Class.cs" />
+    <Compile Include="_023_XML_Islemleri\XML_Diger_Islemler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_023_XML_Islemleri\XML_Diger_Islemler.Designer.cs">
+      <DependentUpon>XML_Diger_Islemler.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -312,6 +318,9 @@
     <EmbeddedResource Include="_023_XML_Islemleri\XML_AnaForm.resx">
       <DependentUpon>XML_AnaForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="_023_XML_Islemleri\XML_Diger_Islemler.resx">
+      <DependentUpon>XML_Diger_Islemler.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -322,7 +331,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="_023_XML_Islemleri\XML\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="_010_LINQ_to_XML\myXML.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

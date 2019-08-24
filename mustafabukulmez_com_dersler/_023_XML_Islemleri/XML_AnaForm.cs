@@ -23,13 +23,13 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
         //TAVSİYE: Load eventi her zaman en üstte olsun. Yani şuanki olan kısımda...
         private void XML_AnaForm_Load(object sender, EventArgs e)
         {
-            XML_URLden_Oku();
+            Load_Or_Create_XML();
         }
 
 
         XDocument xDoc = new XDocument();
-        string directory_path = _000_Classlar.Global.AppPath + "//XML";
-        string file_path = _000_Classlar.Global.AppPath + "//XML//Personeller.xml";
+        string directory_path = _000_Classlar.Global.AppPath + "//_023_XML_Islemleri//XML";
+        string file_path = _000_Classlar.Global.AppPath + "//_023_XML_Islemleri//XML//Personeller.xml";
         int xml_ID = 0;
 
 
@@ -232,7 +232,7 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
 
 
             // string URLString = "http://localhost/books.xml";
-            string URLString = _000_Classlar.Global.AppPath + "\\XML\\Personeller.xml";
+            string URLString = _000_Classlar.Global.AppPath + "\\_023_XML_Islemleri\\XML\\Personeller.xml";
             XmlTextReader reader = new XmlTextReader(URLString);
 
             while (reader.Read())
@@ -261,8 +261,10 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
 
         }
 
-
-
-
+        private void Btn_diger_islemler_Click(object sender, EventArgs e)
+        {
+            XML_Diger_Islemler fr = new XML_Diger_Islemler();
+            fr.ShowDialog();
+        }
     }
 }
