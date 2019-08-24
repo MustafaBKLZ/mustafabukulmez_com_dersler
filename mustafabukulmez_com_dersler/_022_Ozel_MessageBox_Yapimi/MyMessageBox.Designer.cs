@@ -34,7 +34,6 @@
             this.btn_devam = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            //https://mustafabukulmez.com/2019/04/02/c-ozel-messagebox-yapimi/
             // lbl_mesaj
             // 
             this.lbl_mesaj.AutoSize = true;
@@ -88,6 +87,7 @@
             this.Controls.Add(this.btn_vazgeç);
             this.Controls.Add(this.btn_devam);
             this.Name = "MyMessageBox";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MyMessageBox";
             this.Load += new System.EventHandler(this.MyMessageBox_Load_1);
             this.ResumeLayout(false);

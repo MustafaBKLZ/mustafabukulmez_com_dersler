@@ -90,6 +90,7 @@
             this.Controls.Add(this.lbl_mesaj);
             this.Controls.Add(this.btn_devam_et);
             this.Name = "AnaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AnaForm";
             this.Load += new System.EventHandler(this.AnaForm_Load);
             this.ResumeLayout(false);

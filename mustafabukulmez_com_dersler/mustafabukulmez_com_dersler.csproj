@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_000_Classlar\Global.cs" />
     <Compile Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\ExcelBaglanOku.cs" />
     <Compile Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.cs">
       <SubType>Form</SubType>
@@ -216,6 +217,13 @@
     <Compile Include="_022_Ozel_MessageBox_Yapimi\MyMessageBox.Designer.cs">
       <DependentUpon>MyMessageBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="_023_XML_Islemleri\XML_AnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_023_XML_Islemleri\XML_AnaForm.Designer.cs">
+      <DependentUpon>XML_AnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_023_XML_Islemleri\XML_Class.cs" />
     <EmbeddedResource Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -300,6 +308,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_022_Ozel_MessageBox_Yapimi\MyMessageBox.resx">
       <DependentUpon>MyMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_023_XML_Islemleri\XML_AnaForm.resx">
+      <DependentUpon>XML_AnaForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

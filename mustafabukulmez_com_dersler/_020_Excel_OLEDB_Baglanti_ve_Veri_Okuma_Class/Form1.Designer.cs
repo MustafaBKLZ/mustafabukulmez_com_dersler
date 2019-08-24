@@ -48,8 +48,6 @@
             // 
             // label1
             // 
-            //https://mustafabukulmez.com/2019/03/15/c-excel-oledb-baglanti-ve-veri-okuma-class/
-
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(17, 15);
             this.label1.Name = "label1";
@@ -124,6 +122,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_excel_yolu);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

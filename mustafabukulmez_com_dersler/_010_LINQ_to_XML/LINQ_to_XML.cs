@@ -149,6 +149,11 @@ namespace mustafabukulmez_com_dersler._010_LINQ_to_XML
                 );
             }
         }
+
+        private void LINQ_to_XML_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

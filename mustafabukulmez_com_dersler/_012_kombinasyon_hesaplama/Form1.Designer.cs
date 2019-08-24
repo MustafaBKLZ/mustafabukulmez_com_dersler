@@ -46,26 +46,29 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(25, 37);
+            this.label1.Location = new System.Drawing.Point(19, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(124, 20);
+            this.label1.Size = new System.Drawing.Size(104, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Eleman Sayısı?";
             // 
             // txt_n
             // 
             this.txt_n.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_n.Location = new System.Drawing.Point(260, 34);
+            this.txt_n.Location = new System.Drawing.Point(195, 28);
+            this.txt_n.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_n.Name = "txt_n";
-            this.txt_n.Size = new System.Drawing.Size(104, 27);
+            this.txt_n.Size = new System.Drawing.Size(79, 23);
             this.txt_n.TabIndex = 1;
             // 
             // btn_kombinasyon_hesapla
             // 
             this.btn_kombinasyon_hesapla.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_kombinasyon_hesapla.Location = new System.Drawing.Point(370, 34);
+            this.btn_kombinasyon_hesapla.Location = new System.Drawing.Point(278, 28);
+            this.btn_kombinasyon_hesapla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_kombinasyon_hesapla.Name = "btn_kombinasyon_hesapla";
-            this.btn_kombinasyon_hesapla.Size = new System.Drawing.Size(119, 93);
+            this.btn_kombinasyon_hesapla.Size = new System.Drawing.Size(89, 76);
             this.btn_kombinasyon_hesapla.TabIndex = 4;
             this.btn_kombinasyon_hesapla.Text = "Hesapla";
             this.btn_kombinasyon_hesapla.UseVisualStyleBackColor = true;
@@ -74,18 +77,20 @@
             // txt_r
             // 
             this.txt_r.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_r.Location = new System.Drawing.Point(260, 67);
+            this.txt_r.Location = new System.Drawing.Point(195, 54);
+            this.txt_r.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_r.Name = "txt_r";
-            this.txt_r.Size = new System.Drawing.Size(104, 27);
+            this.txt_r.Size = new System.Drawing.Size(79, 23);
             this.txt_r.TabIndex = 6;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(25, 70);
+            this.label2.Location = new System.Drawing.Point(19, 57);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(160, 20);
+            this.label2.Size = new System.Drawing.Size(135, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Kaçlı Kombinasyon?";
             // 
@@ -93,18 +98,20 @@
             // 
             this.txt_sonuc.Enabled = false;
             this.txt_sonuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_sonuc.Location = new System.Drawing.Point(260, 100);
+            this.txt_sonuc.Location = new System.Drawing.Point(195, 81);
+            this.txt_sonuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_sonuc.Name = "txt_sonuc";
-            this.txt_sonuc.Size = new System.Drawing.Size(104, 27);
+            this.txt_sonuc.Size = new System.Drawing.Size(79, 23);
             this.txt_sonuc.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(25, 103);
+            this.label3.Location = new System.Drawing.Point(19, 84);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 20);
+            this.label3.Size = new System.Drawing.Size(48, 17);
             this.label3.TabIndex = 8;
             this.label3.Text = "Sonuç";
             // 
@@ -112,9 +119,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(209, 70);
+            this.label4.Location = new System.Drawing.Point(157, 57);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 20);
+            this.label4.Size = new System.Drawing.Size(31, 17);
             this.label4.TabIndex = 10;
             this.label4.Text = "( r )";
             // 
@@ -122,9 +130,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(209, 37);
+            this.label5.Location = new System.Drawing.Point(157, 30);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 20);
+            this.label5.Size = new System.Drawing.Size(34, 17);
             this.label5.TabIndex = 9;
             this.label5.Text = "( n )";
             // 
@@ -142,19 +151,23 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(789, 141);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(592, 115);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kombinasyon Hesaplama";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(789, 424);
+            this.ClientSize = new System.Drawing.Size(592, 344);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kombinasyon Hesaplama";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
