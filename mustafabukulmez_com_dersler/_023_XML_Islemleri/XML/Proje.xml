@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<Projeler>
+  <Proje>
+    <Proje_ID>1</Proje_ID>
+    <Proje_Adı>ilk test projemiz</Proje_Adı>
+    <proje_Ucreti>1500</proje_Ucreti>
+  </Proje>
+  <Proje>
+    <Proje_ID>2</Proje_ID>
+    <Proje_Adı>deneme bir proje</Proje_Adı>
+    <proje_Ucreti>2500</proje_Ucreti>
+  </Proje>
+  <Proje>
+    <Proje_ID>3</Proje_ID>
+    <Proje_Adı>Proje 3</Proje_Adı>
+    <proje_Ucreti>3500</proje_Ucreti>
+  </Proje>
+  <Proje>
+    <Proje_ID>4</Proje_ID>
+    <Proje_Adı>Proje 4</Proje_Adı>
+    <proje_Ucreti>4500</proje_Ucreti>
+  </Proje>
+  <Proje>
+    <Proje_ID>5</Proje_ID>
+    <Proje_Adı>deneme</Proje_Adı>
+    <proje_Ucreti>5500</proje_Ucreti>
+  </Proje>
+  <Proje>
+    <Proje_ID>6</Proje_ID>
+    <Proje_Adı>deneme 2</Proje_Adı>
+    <proje_Ucreti>6600</proje_Ucreti>
+  </Proje>
+</Projeler>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Personeller>
+  <Personel id="1">
+    <ad>mustafa</ad>
+    <soyad>bükülmez</soyad>
+  </Personel>
+  <Personel id="2">
+    <ad>denem</ad>
+    <soyad>deneme</soyad>
+  </Personel>
+</Personeller>
