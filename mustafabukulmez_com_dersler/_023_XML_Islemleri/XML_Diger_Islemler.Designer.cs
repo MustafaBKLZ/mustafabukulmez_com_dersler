@@ -41,6 +41,8 @@
             this.txt_ucret_filtre = new System.Windows.Forms.TextBox();
             this.btn_xml_den_excel = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btn_xml_den_treeview = new System.Windows.Forms.Button();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -70,7 +72,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(265, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(675, 146);
+            this.dataGridView1.Size = new System.Drawing.Size(388, 146);
             this.dataGridView1.TabIndex = 2;
             // 
             // btn_xml_de_ara
@@ -85,7 +87,7 @@
             // 
             // txt_aranacak_metin
             // 
-            this.txt_aranacak_metin.Location = new System.Drawing.Point(353, 189);
+            this.txt_aranacak_metin.Location = new System.Drawing.Point(268, 180);
             this.txt_aranacak_metin.Name = "txt_aranacak_metin";
             this.txt_aranacak_metin.Size = new System.Drawing.Size(247, 20);
             this.txt_aranacak_metin.TabIndex = 4;
@@ -93,7 +95,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(265, 193);
+            this.label1.Location = new System.Drawing.Point(265, 164);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 13);
             this.label1.TabIndex = 5;
@@ -102,7 +104,7 @@
             // lbl_sonuc
             // 
             this.lbl_sonuc.AutoSize = true;
-            this.lbl_sonuc.Location = new System.Drawing.Point(606, 193);
+            this.lbl_sonuc.Location = new System.Drawing.Point(265, 203);
             this.lbl_sonuc.Name = "lbl_sonuc";
             this.lbl_sonuc.Size = new System.Drawing.Size(47, 13);
             this.lbl_sonuc.TabIndex = 6;
@@ -123,7 +125,7 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(265, 262);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(675, 146);
+            this.dataGridView2.Size = new System.Drawing.Size(388, 146);
             this.dataGridView2.TabIndex = 8;
             // 
             // label3
@@ -163,11 +165,30 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click_1);
             // 
+            // btn_xml_den_treeview
+            // 
+            this.btn_xml_den_treeview.Location = new System.Drawing.Point(678, 12);
+            this.btn_xml_den_treeview.Name = "btn_xml_den_treeview";
+            this.btn_xml_den_treeview.Size = new System.Drawing.Size(247, 70);
+            this.btn_xml_den_treeview.TabIndex = 13;
+            this.btn_xml_den_treeview.Text = "XML den TreeView Oluşturma";
+            this.btn_xml_den_treeview.UseVisualStyleBackColor = true;
+            this.btn_xml_den_treeview.Click += new System.EventHandler(this.Btn_xml_den_treeview_Click);
+            // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(931, 12);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(216, 146);
+            this.treeView1.TabIndex = 14;
+            // 
             // XML_Diger_Islemler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1149, 684);
+            this.ClientSize = new System.Drawing.Size(1374, 701);
+            this.Controls.Add(this.treeView1);
+            this.Controls.Add(this.btn_xml_den_treeview);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_xml_den_excel);
             this.Controls.Add(this.label3);
@@ -207,5 +228,7 @@
         private System.Windows.Forms.TextBox txt_ucret_filtre;
         private System.Windows.Forms.Button btn_xml_den_excel;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_xml_den_treeview;
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
