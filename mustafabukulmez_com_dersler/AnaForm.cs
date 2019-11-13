@@ -22,7 +22,8 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 002 - C# FolderBrowserDialog Kullanimi");
             treeView1.Nodes.Add("Ders 003 - C# DataTable 'Bu satır başka bir tabloya ait' Hatası Çözümü");
             treeView1.Nodes.Add("Ders 004 - C# Thread Sleep ile İşlem Süresini Uzatmak");
-            treeView1.Nodes.Add("Ders 006 - C# Textbox Sadece Sayı Harf Girişi Yaptırmak");
+            treeView1.Nodes.Add("Ders 005 - C# Textbox Sadece Sayı Harf Girişi Yaptırmak");
+            treeView1.Nodes.Add("Ders 006 - C# String Sayısal Değer Kontrolü");
             treeView1.Nodes.Add("Ders 007 - C# Kelime Heceleme İşlemi");
             treeView1.Nodes.Add("Ders 008 - C# DataGridView'den Veri Çekme");
             treeView1.Nodes.Add("Ders 009 - C# NotifyIcon Kullanımı ve NotifyIcon Bildirimleri");
@@ -39,110 +40,47 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 020 - C# Excel OLEDB Bağlantı ve Veri Okuma – Class");
             treeView1.Nodes.Add("Ders 021 - C# Rastgele Şifre Oluşturma");
             treeView1.Nodes.Add("Ders 022 - C# Özel MessageBox Yapımı");
-            treeView1.Nodes.Add("Ders 022 - C# Özel MessageBox Yapımı");
             treeView1.Nodes.Add("Ders 023 - C# XML İşlemleri");
+
+
+
+
+
 
         }
         private void TreeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
             switch (e.Node.Index + 1)
             {
-                case 1:
-                    _001_Kurulu_Antivirus_Bulmak.AntivirusBulmak fr1 = new _001_Kurulu_Antivirus_Bulmak.AntivirusBulmak();
-                    fr1.ShowDialog();
-                    break;
-                case 2:
-                    _002_FolderBrowserDialog_Kullanimi.FolderBrowserDialogKullanimi_ fr2 = new _002_FolderBrowserDialog_Kullanimi.FolderBrowserDialogKullanimi_();
-                    fr2.ShowDialog();
-                    break;
-                case 3:
-                    _003_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi.form1 fr3 = new _003_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi.form1();
-                    fr3.ShowDialog();
-                    break;
-                case 4:
-                    _004_Thread_Sleep_ile_Islem_Suresini_Uzatmak.thread_sleep fr4 = new _004_Thread_Sleep_ile_Islem_Suresini_Uzatmak.thread_sleep();
-                    fr4.ShowDialog();
-                    break;
-                case 5:
-                    _005_TextBox_sadece_sayi_harf_girisi.Form1 fr5 = new _005_TextBox_sadece_sayi_harf_girisi.Form1();
-                    fr5.ShowDialog();
-                    break;
-                case 6:
-                    _006_String_Sayisal_Deger_Kontrolu.Form1 fr6 = new _006_String_Sayisal_Deger_Kontrolu.Form1();
-                    fr6.ShowDialog();
-                    break;
-                case 7:
-                    _007_Kelime_heceleme_islemi.Form2 fr7 = new _007_Kelime_heceleme_islemi.Form2();
-                    fr7.ShowDialog();
-                    break;
-                case 8:
-                    _008_Gridview_den_textbox_a_Veri_cekme.ListeForm fr8 = new _008_Gridview_den_textbox_a_Veri_cekme.ListeForm();
-                    fr8.ShowDialog();
-                    break;
-                case 9:
-                    _009_NotiftyIcon_Kullanimi.AnaMenu fr9 = new _009_NotiftyIcon_Kullanimi.AnaMenu();
-                    fr9.ShowDialog();
-                    break;
-                case 10:
-                    _010_LINQ_to_XML.LINQ_to_XML fr10 = new _010_LINQ_to_XML.LINQ_to_XML();
-                    fr10.ShowDialog();
-                    break;
-                case 11:
-                    _011_Sayilari_Roma_Rakamina_Cevir.Form1 fr11 = new _011_Sayilari_Roma_Rakamina_Cevir.Form1();
-                    fr11.ShowDialog();
-                    break;
-                case 12:
-                    _012_kombinasyon_hesaplama.Form1 fr12 = new _012_kombinasyon_hesaplama.Form1();
-                    fr12.ShowDialog();
-                    break;
-                case 13:
-                    _013_permutasyon_hesaplama.Form1 fr13 = new _013_permutasyon_hesaplama.Form1();
-                    fr13.ShowDialog();
-                    break;
-                case 14:
-                    _014_Tooltip_Kullanimi.Form1 fr14 = new _014_Tooltip_Kullanimi.Form1();
-                    fr14.ShowDialog();
-                    break;
-                case 15:
-                    _015_Extension_Methods.Form1 fr15 = new _015_Extension_Methods.Form1();
-                    fr15.ShowDialog();
-                    break;
-                case 16:
-                    _016_ComboBox_TXT_Dosyai_ile_Doldurma.Form1 fr16 = new _016_ComboBox_TXT_Dosyai_ile_Doldurma.Form1();
-                    fr16.ShowDialog();
-                    break;
-                case 17:
-                    _17_Kill_Proccess_Program_Kapatmak.Form1 fr17 = new _17_Kill_Proccess_Program_Kapatmak.Form1();
-                    fr17.ShowDialog();
-                    break;
-                case 18:
-                    _018_Listeler_Arasındaki_Farkları_Bulmak.Form1 fr18 = new _018_Listeler_Arasındaki_Farkları_Bulmak.Form1();
-                    fr18.ShowDialog();
-                    break;
-                case 19:
-                    _019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Form1 fr19 = new _019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Form1();
-                    fr19.ShowDialog();
-                    break;
-                case 20:
-                    _020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Form1 fr20 = new _020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Form1();
-                    fr20.ShowDialog();
-                    break;
-                case 21:
-                    _021_Rastgele_Sifre_Olusturma.Form1 fr21= new _021_Rastgele_Sifre_Olusturma.Form1();
-                    fr21.ShowDialog();
-                    break;
-                case 22:
-                    _022_Ozel_MessageBox_Yapimi.AnaForm fr22 = new _022_Ozel_MessageBox_Yapimi.AnaForm();
-                    fr22.ShowDialog();
-                    break;
-                case 23:
-                    _023_XML_Islemleri.XML_AnaForm fr23 = new _023_XML_Islemleri.XML_AnaForm();
-                    fr23.ShowDialog();
-                    break;
+                case 1: new _001_Kurulu_Antivirus_Bulmak.AntivirusBulmak() { }.ShowDialog(); break;
+                case 2: new _002_FolderBrowserDialog_Kullanimi.FolderBrowserDialogKullanimi_() { }.ShowDialog(); break;
+                case 3: new _003_DataTable_Bu_Satir_Baska_Tabloya_Ait_Hatasi.form1() { }.ShowDialog(); break;
+                case 4: new _004_Thread_Sleep_ile_Islem_Suresini_Uzatmak.thread_sleep() { }.ShowDialog(); break;
+                case 5: new _005_TextBox_sadece_sayi_harf_girisi.Form1() { }.ShowDialog(); break;
+                case 6: new _006_String_Sayisal_Deger_Kontrolu.Form1() { }.ShowDialog(); break;
+                case 7: new _007_Kelime_heceleme_islemi.Form2() { }.ShowDialog(); break;
+                case 8: new _008_Gridview_den_textbox_a_Veri_cekme.ListeForm() { }.ShowDialog(); break;
+                case 9: new _009_NotiftyIcon_Kullanimi.AnaMenu() { }.ShowDialog(); break;
+                case 10: new _010_LINQ_to_XML.LINQ_to_XML() { }.ShowDialog(); break;
+                case 11: new _011_Sayilari_Roma_Rakamina_Cevir.Form1() { }.ShowDialog(); break;
+                case 12: new _012_kombinasyon_hesaplama.Form1() { }.ShowDialog(); break;
+                case 13: new _013_permutasyon_hesaplama.Form1() { }.ShowDialog(); break;
+                case 14: new _014_Tooltip_Kullanimi.Form1() { }.ShowDialog(); break;
+                case 15: new _015_Extension_Methods.Form1() { }.ShowDialog(); break;
+                case 16: new _016_ComboBox_TXT_Dosyai_ile_Doldurma.Form1() { }.ShowDialog(); break;
+                case 17: new _17_Kill_Proccess_Program_Kapatmak.Form1() { }.ShowDialog(); break;
+                case 18: new _018_Listeler_Arasındaki_Farkları_Bulmak.Form1() { }.ShowDialog(); break;
+                case 19: new _019_Milisaniye_Bilgisini_Saniye_ve_Dakikaya_Cevirmek.Form1() { }.ShowDialog(); break;
+                case 20: new _020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Form1() { }.ShowDialog(); break;
+                case 21: new _021_Rastgele_Sifre_Olusturma.Form1() { }.ShowDialog(); break;
+                case 22: new _022_Ozel_MessageBox_Yapimi.AnaForm() { }.ShowDialog(); break;
+                case 23: new _023_XML_Islemleri.XML_AnaForm() { }.ShowDialog(); break;
+
+
             }
         }
 
-       
+
 
 
 

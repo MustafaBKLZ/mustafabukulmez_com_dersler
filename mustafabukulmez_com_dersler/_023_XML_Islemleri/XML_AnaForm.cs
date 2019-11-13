@@ -27,6 +27,8 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
         }
 
 
+
+
         XDocument xDoc = new XDocument();
         string directory_path = _000_Classlar.Global.AppPath + "//_023_XML_Islemleri//XML";
         string file_path = _000_Classlar.Global.AppPath + "//_023_XML_Islemleri//XML//Personeller.xml";
@@ -228,7 +230,7 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
 
         void XML_URLden_Oku()
         {
-            
+
 
 
             // string URLString = "http://localhost/books.xml";
@@ -265,6 +267,40 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
         {
             XML_Diger_Islemler fr = new XML_Diger_Islemler();
             fr.ShowDialog();
+        }
+
+
+
+
+        void XML_Veri_Al()
+        {
+            // XML dosyamızı yükledik
+            xDoc = XDocument.Load(file_path);
+
+            XElement rootElement = xDoc.Root;
+            //Oluşturduğumuz Root elementine XML dökümanında ki root elementini seçmesini sağlıyoruz.
+
+            foreach (XElement Personeller in rootElement.Elements())
+            //Root Tagımız içindeki rehber Elementlerinde dönmeye başlıyoruz.
+            {
+                if (Personeller.Attribute("id").Value == txt_id.Text)
+                //attributes id si 1 olan veri yakalıyoruz Xml Dosyamızda Fatih Olan kişi.
+                {
+                    textBox1.Text = Personeller.Element("ad").Value;
+                    textBox2.Text = Personeller.Element("soyad").Value;
+                    //attributes id si 1 olan anıl adlı kişiyi selim yap.
+                    break;
+                    //Dongüden çık.
+                }
+            }
+            xDoc.Save(file_path);
+            //Yaptığımız işlemi kayıt ediyoruz.
+
+            DataGridView_Doldur(file_path);
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            XML_Veri_Al();
         }
     }
 }

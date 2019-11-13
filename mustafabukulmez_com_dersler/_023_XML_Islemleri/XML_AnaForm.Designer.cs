@@ -41,6 +41,9 @@
             this.btn_temizle = new System.Windows.Forms.Button();
             this.btn_sil = new System.Windows.Forms.Button();
             this.btn_diger_islemler = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,9 +72,9 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 129);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 236);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1004, 343);
+            this.dataGridView1.Size = new System.Drawing.Size(1004, 236);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
             // 
@@ -163,11 +166,38 @@
             this.btn_diger_islemler.UseVisualStyleBackColor = true;
             this.btn_diger_islemler.Click += new System.EventHandler(this.Btn_diger_islemler_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(253, 139);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(173, 20);
+            this.textBox1.TabIndex = 13;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(449, 113);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 72);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "ID ile Veri Al";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(253, 165);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(173, 20);
+            this.textBox2.TabIndex = 15;
+            // 
             // XML_AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1004, 472);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_diger_islemler);
             this.Controls.Add(this.btn_sil);
             this.Controls.Add(this.btn_temizle);
@@ -206,5 +236,8 @@
         private System.Windows.Forms.Button btn_temizle;
         private System.Windows.Forms.Button btn_sil;
         private System.Windows.Forms.Button btn_diger_islemler;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

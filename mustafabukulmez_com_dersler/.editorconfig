@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0067: Kapsamı kaybetmeden çnce nesneleri bırakın
+dotnet_diagnostic.IDE0067.severity = none
