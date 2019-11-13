@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//https://mustafabukulmez.com/2019/11/13/c-drag-drop-ile-dosya-okuma-surukle-birak/
 namespace mustafabukulmez_com_dersler._024_Drag_And_Drop
 {
     public partial class dragdrop : Form
@@ -53,3 +53,4 @@ namespace mustafabukulmez_com_dersler._024_Drag_And_Drop
         }
     }
 }
+//https://mustafabukulmez.com/2019/11/13/c-drag-drop-ile-dosya-okuma-surukle-birak/
