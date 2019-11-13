@@ -38,8 +38,9 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 020 - C# Excel OLEDB Bağlantı ve Veri Okuma – Class
 * 021 - C# Rastgele Şifre Oluşturma
 * 022 - C# Özel MessageBox Yapımı
-    * 023 - C #  XML İşlemler,
-    
+* 023 - C#  XML İşlemleri
+* 024 - C# Drag Drop - Sürükle Bırak İşlemi
+
 ## Lisans
 
     Bu projedeki kodları dilediğiniz gibi kullanabilirsiniz. Herhangi bir kısıtlaması yada yasağı içermez. 
