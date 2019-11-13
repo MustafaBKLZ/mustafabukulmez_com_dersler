@@ -41,7 +41,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 021 - C# Rastgele Şifre Oluşturma");
             treeView1.Nodes.Add("Ders 022 - C# Özel MessageBox Yapımı");
             treeView1.Nodes.Add("Ders 023 - C# XML İşlemleri");
-
+            treeView1.Nodes.Add("Ders 024 - C# Drag Drop");
 
 
 
@@ -75,7 +75,7 @@ namespace mustafabukulmez_com_dersler
                 case 21: new _021_Rastgele_Sifre_Olusturma.Form1() { }.ShowDialog(); break;
                 case 22: new _022_Ozel_MessageBox_Yapimi.AnaForm() { }.ShowDialog(); break;
                 case 23: new _023_XML_Islemleri.XML_AnaForm() { }.ShowDialog(); break;
-
+                case 24: new _024_Drag_And_Drop.dragdrop() { }.ShowDialog(); break;
 
             }
         }
