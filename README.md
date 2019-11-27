@@ -40,6 +40,7 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 022 - C# Özel MessageBox Yapımı
 * 023 - C#  XML İşlemleri
 * 024 - C# Drag Drop - Sürükle Bırak İşlemi
+* 025 - C# Çoklu Excel Dosyası Okuma
 
 ## Lisans
 
