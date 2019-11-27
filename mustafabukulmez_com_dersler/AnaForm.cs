@@ -42,6 +42,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 022 - C# Özel MessageBox Yapımı");
             treeView1.Nodes.Add("Ders 023 - C# XML İşlemleri");
             treeView1.Nodes.Add("Ders 024 - C# Drag Drop");
+            treeView1.Nodes.Add("Ders 025 - C# Çoklu Excel Dosyası Okuma");
 
 
 
@@ -76,6 +77,7 @@ namespace mustafabukulmez_com_dersler
                 case 22: new _022_Ozel_MessageBox_Yapimi.AnaForm() { }.ShowDialog(); break;
                 case 23: new _023_XML_Islemleri.XML_AnaForm() { }.ShowDialog(); break;
                 case 24: new _024_Drag_And_Drop.dragdrop() { }.ShowDialog(); break;
+                case 25: new _020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Form1() { }.ShowDialog(); break;
 
             }
         }

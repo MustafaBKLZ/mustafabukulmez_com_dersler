@@ -224,6 +224,12 @@
     <Compile Include="_024_Drag_And_Drop\dragdrop.Designer.cs">
       <DependentUpon>dragdrop.cs</DependentUpon>
     </Compile>
+    <Compile Include="_025_Coklu_Excel_Okuma\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_025_Coklu_Excel_Okuma\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -317,6 +323,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_024_Drag_And_Drop\dragdrop.resx">
       <DependentUpon>dragdrop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_025_Coklu_Excel_Okuma\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="packages.config" />

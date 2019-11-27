@@ -11,7 +11,7 @@ namespace mustafabukulmez_com_dersler._020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Cl
 {
     public class ExcelBaglanOku
     {
-        private static string ExcelYol = "";
+        public static string ExcelYol = "";
         public static string ExcelYoluSec()
         {
             string Platform = "";
