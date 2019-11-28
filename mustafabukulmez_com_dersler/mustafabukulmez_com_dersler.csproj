@@ -230,6 +230,18 @@
     <Compile Include="_025_Coklu_Excel_Okuma\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="_026_UserControl_Kullanimi\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_026_UserControl_Kullanimi\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_026_UserControl_Kullanimi\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_026_UserControl_Kullanimi\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -326,6 +338,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="_025_Coklu_Excel_Okuma\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_026_UserControl_Kullanimi\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_026_UserControl_Kullanimi\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="packages.config" />
