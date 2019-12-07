@@ -44,7 +44,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 024 - C# Drag Drop");
             treeView1.Nodes.Add("Ders 025 - C# Çoklu Excel Dosyası Okuma");
             treeView1.Nodes.Add("Ders 026 - C# User Control Kullanımı");
-
+            treeView1.Nodes.Add("Ders 027 - C# Listboxlar Arası Sürükle Bırak");
 
 
 
@@ -79,6 +79,7 @@ namespace mustafabukulmez_com_dersler
                 case 24: new _024_Drag_And_Drop.dragdrop() { }.ShowDialog(); break;
                 case 25: new _020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class.Form1() { }.ShowDialog(); break;
                 case 26: new _026_UserControl_Kullanimi.Form1() { }.ShowDialog(); break;
+                case 27: new _027_Listboxlar_Arasi_Surukle_Birak.Form1() { }.ShowDialog(); break;
 
             }
         }
