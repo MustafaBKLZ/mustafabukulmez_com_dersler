@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//https://mustafabukulmez.com/2019/11/28/c-user-control-nedir-nasil-kullanilir/
 namespace mustafabukulmez_com_dersler._026_UserControl_Kullanimi
 {
     public partial class Form1 : Form
@@ -29,3 +29,4 @@ namespace mustafabukulmez_com_dersler._026_UserControl_Kullanimi
         }
     }
 }
+//https://mustafabukulmez.com/2019/11/28/c-user-control-nedir-nasil-kullanilir/

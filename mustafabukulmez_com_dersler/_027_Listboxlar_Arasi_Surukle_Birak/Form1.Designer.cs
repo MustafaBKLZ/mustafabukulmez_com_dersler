@@ -1,5 +1,6 @@
 ﻿namespace mustafabukulmez_com_dersler._027_Listboxlar_Arasi_Surukle_Birak
 {
+    //https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
     partial class Form1
     {
         /// <summary>
@@ -81,6 +82,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_esit_dagit = new System.Windows.Forms.Button();
             this.btn_rastgele_dagit = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -91,20 +94,20 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(12, 7);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(136, 121);
+            this.listBox1.Size = new System.Drawing.Size(136, 108);
             this.listBox1.TabIndex = 0;
             this.listBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
             this.listBox1.DragOver += new System.Windows.Forms.DragEventHandler(this.listBox_DragOver);
             this.listBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listBox_MouseDown);
-            // 
+            // https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
             // listBox2
             // 
             this.listBox2.AllowDrop = true;
             this.listBox2.FormattingEnabled = true;
             this.listBox2.Location = new System.Drawing.Point(154, 7);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(136, 121);
+            this.listBox2.Size = new System.Drawing.Size(136, 108);
             this.listBox2.TabIndex = 1;
             this.listBox2.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox2.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -117,7 +120,7 @@
             this.listBox3.FormattingEnabled = true;
             this.listBox3.Location = new System.Drawing.Point(296, 7);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(136, 121);
+            this.listBox3.Size = new System.Drawing.Size(136, 108);
             this.listBox3.TabIndex = 2;
             this.listBox3.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox3.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -130,7 +133,7 @@
             this.listBox4.FormattingEnabled = true;
             this.listBox4.Location = new System.Drawing.Point(438, 7);
             this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(136, 121);
+            this.listBox4.Size = new System.Drawing.Size(136, 108);
             this.listBox4.TabIndex = 3;
             this.listBox4.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox4.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -143,7 +146,7 @@
             this.btn_sifirla.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_sifirla.Location = new System.Drawing.Point(0, 0);
             this.btn_sifirla.Name = "btn_sifirla";
-            this.btn_sifirla.Size = new System.Drawing.Size(257, 48);
+            this.btn_sifirla.Size = new System.Drawing.Size(257, 49);
             this.btn_sifirla.TabIndex = 4;
             this.btn_sifirla.Text = "Hepsini Sıfırla";
             this.btn_sifirla.UseVisualStyleBackColor = true;
@@ -155,7 +158,7 @@
             this.listBox5.FormattingEnabled = true;
             this.listBox5.Location = new System.Drawing.Point(580, 7);
             this.listBox5.Name = "listBox5";
-            this.listBox5.Size = new System.Drawing.Size(136, 121);
+            this.listBox5.Size = new System.Drawing.Size(136, 108);
             this.listBox5.TabIndex = 11;
             this.listBox5.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox5.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -168,7 +171,7 @@
             this.listBox6.FormattingEnabled = true;
             this.listBox6.Location = new System.Drawing.Point(722, 7);
             this.listBox6.Name = "listBox6";
-            this.listBox6.Size = new System.Drawing.Size(136, 121);
+            this.listBox6.Size = new System.Drawing.Size(136, 108);
             this.listBox6.TabIndex = 10;
             this.listBox6.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox6.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -181,7 +184,7 @@
             this.listBox7.FormattingEnabled = true;
             this.listBox7.Location = new System.Drawing.Point(864, 7);
             this.listBox7.Name = "listBox7";
-            this.listBox7.Size = new System.Drawing.Size(136, 121);
+            this.listBox7.Size = new System.Drawing.Size(136, 108);
             this.listBox7.TabIndex = 9;
             this.listBox7.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox7.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -194,7 +197,7 @@
             this.listBox8.FormattingEnabled = true;
             this.listBox8.Location = new System.Drawing.Point(1006, 7);
             this.listBox8.Name = "listBox8";
-            this.listBox8.Size = new System.Drawing.Size(136, 121);
+            this.listBox8.Size = new System.Drawing.Size(136, 108);
             this.listBox8.TabIndex = 8;
             this.listBox8.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox8.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -251,19 +254,19 @@
             this.panel1.Controls.Add(this.listBox46);
             this.panel1.Controls.Add(this.listBox47);
             this.panel1.Controls.Add(this.listBox48);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 48);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 124);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1154, 776);
+            this.panel1.Size = new System.Drawing.Size(1154, 700);
             this.panel1.TabIndex = 0;
             // 
             // listBox9
             // 
             this.listBox9.AllowDrop = true;
             this.listBox9.FormattingEnabled = true;
-            this.listBox9.Location = new System.Drawing.Point(12, 134);
+            this.listBox9.Location = new System.Drawing.Point(12, 121);
             this.listBox9.Name = "listBox9";
-            this.listBox9.Size = new System.Drawing.Size(136, 121);
+            this.listBox9.Size = new System.Drawing.Size(136, 108);
             this.listBox9.TabIndex = 27;
             this.listBox9.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox9.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -274,9 +277,9 @@
             // 
             this.listBox10.AllowDrop = true;
             this.listBox10.FormattingEnabled = true;
-            this.listBox10.Location = new System.Drawing.Point(154, 134);
+            this.listBox10.Location = new System.Drawing.Point(154, 121);
             this.listBox10.Name = "listBox10";
-            this.listBox10.Size = new System.Drawing.Size(136, 121);
+            this.listBox10.Size = new System.Drawing.Size(136, 108);
             this.listBox10.TabIndex = 26;
             this.listBox10.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox10.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -287,9 +290,9 @@
             // 
             this.listBox11.AllowDrop = true;
             this.listBox11.FormattingEnabled = true;
-            this.listBox11.Location = new System.Drawing.Point(296, 134);
+            this.listBox11.Location = new System.Drawing.Point(296, 121);
             this.listBox11.Name = "listBox11";
-            this.listBox11.Size = new System.Drawing.Size(136, 121);
+            this.listBox11.Size = new System.Drawing.Size(136, 108);
             this.listBox11.TabIndex = 25;
             this.listBox11.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox11.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -300,9 +303,9 @@
             // 
             this.listBox12.AllowDrop = true;
             this.listBox12.FormattingEnabled = true;
-            this.listBox12.Location = new System.Drawing.Point(438, 134);
+            this.listBox12.Location = new System.Drawing.Point(438, 121);
             this.listBox12.Name = "listBox12";
-            this.listBox12.Size = new System.Drawing.Size(136, 121);
+            this.listBox12.Size = new System.Drawing.Size(136, 108);
             this.listBox12.TabIndex = 24;
             this.listBox12.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox12.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -313,9 +316,9 @@
             // 
             this.listBox13.AllowDrop = true;
             this.listBox13.FormattingEnabled = true;
-            this.listBox13.Location = new System.Drawing.Point(580, 134);
+            this.listBox13.Location = new System.Drawing.Point(580, 121);
             this.listBox13.Name = "listBox13";
-            this.listBox13.Size = new System.Drawing.Size(136, 121);
+            this.listBox13.Size = new System.Drawing.Size(136, 108);
             this.listBox13.TabIndex = 19;
             this.listBox13.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox13.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -326,9 +329,9 @@
             // 
             this.listBox14.AllowDrop = true;
             this.listBox14.FormattingEnabled = true;
-            this.listBox14.Location = new System.Drawing.Point(722, 134);
+            this.listBox14.Location = new System.Drawing.Point(722, 121);
             this.listBox14.Name = "listBox14";
-            this.listBox14.Size = new System.Drawing.Size(136, 121);
+            this.listBox14.Size = new System.Drawing.Size(136, 108);
             this.listBox14.TabIndex = 18;
             this.listBox14.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox14.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -339,9 +342,9 @@
             // 
             this.listBox15.AllowDrop = true;
             this.listBox15.FormattingEnabled = true;
-            this.listBox15.Location = new System.Drawing.Point(864, 134);
+            this.listBox15.Location = new System.Drawing.Point(864, 121);
             this.listBox15.Name = "listBox15";
-            this.listBox15.Size = new System.Drawing.Size(136, 121);
+            this.listBox15.Size = new System.Drawing.Size(136, 108);
             this.listBox15.TabIndex = 17;
             this.listBox15.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox15.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -352,22 +355,22 @@
             // 
             this.listBox16.AllowDrop = true;
             this.listBox16.FormattingEnabled = true;
-            this.listBox16.Location = new System.Drawing.Point(1006, 134);
+            this.listBox16.Location = new System.Drawing.Point(1006, 121);
             this.listBox16.Name = "listBox16";
-            this.listBox16.Size = new System.Drawing.Size(136, 121);
+            this.listBox16.Size = new System.Drawing.Size(136, 108);
             this.listBox16.TabIndex = 16;
             this.listBox16.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox16.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
             this.listBox16.DragOver += new System.Windows.Forms.DragEventHandler(this.listBox_DragOver);
             this.listBox16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listBox_MouseDown);
-            // 
+            // https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
             // listBox17
             // 
             this.listBox17.AllowDrop = true;
             this.listBox17.FormattingEnabled = true;
-            this.listBox17.Location = new System.Drawing.Point(12, 261);
+            this.listBox17.Location = new System.Drawing.Point(12, 235);
             this.listBox17.Name = "listBox17";
-            this.listBox17.Size = new System.Drawing.Size(136, 121);
+            this.listBox17.Size = new System.Drawing.Size(136, 108);
             this.listBox17.TabIndex = 43;
             this.listBox17.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox17.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -378,9 +381,9 @@
             // 
             this.listBox18.AllowDrop = true;
             this.listBox18.FormattingEnabled = true;
-            this.listBox18.Location = new System.Drawing.Point(154, 261);
+            this.listBox18.Location = new System.Drawing.Point(154, 235);
             this.listBox18.Name = "listBox18";
-            this.listBox18.Size = new System.Drawing.Size(136, 121);
+            this.listBox18.Size = new System.Drawing.Size(136, 108);
             this.listBox18.TabIndex = 42;
             this.listBox18.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox18.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -391,9 +394,9 @@
             // 
             this.listBox19.AllowDrop = true;
             this.listBox19.FormattingEnabled = true;
-            this.listBox19.Location = new System.Drawing.Point(296, 261);
+            this.listBox19.Location = new System.Drawing.Point(296, 235);
             this.listBox19.Name = "listBox19";
-            this.listBox19.Size = new System.Drawing.Size(136, 121);
+            this.listBox19.Size = new System.Drawing.Size(136, 108);
             this.listBox19.TabIndex = 41;
             this.listBox19.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox19.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -404,9 +407,9 @@
             // 
             this.listBox20.AllowDrop = true;
             this.listBox20.FormattingEnabled = true;
-            this.listBox20.Location = new System.Drawing.Point(438, 261);
+            this.listBox20.Location = new System.Drawing.Point(438, 235);
             this.listBox20.Name = "listBox20";
-            this.listBox20.Size = new System.Drawing.Size(136, 121);
+            this.listBox20.Size = new System.Drawing.Size(136, 108);
             this.listBox20.TabIndex = 40;
             this.listBox20.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox20.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -417,9 +420,9 @@
             // 
             this.listBox21.AllowDrop = true;
             this.listBox21.FormattingEnabled = true;
-            this.listBox21.Location = new System.Drawing.Point(580, 261);
+            this.listBox21.Location = new System.Drawing.Point(580, 235);
             this.listBox21.Name = "listBox21";
-            this.listBox21.Size = new System.Drawing.Size(136, 121);
+            this.listBox21.Size = new System.Drawing.Size(136, 108);
             this.listBox21.TabIndex = 35;
             this.listBox21.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox21.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -430,9 +433,9 @@
             // 
             this.listBox22.AllowDrop = true;
             this.listBox22.FormattingEnabled = true;
-            this.listBox22.Location = new System.Drawing.Point(722, 261);
+            this.listBox22.Location = new System.Drawing.Point(722, 235);
             this.listBox22.Name = "listBox22";
-            this.listBox22.Size = new System.Drawing.Size(136, 121);
+            this.listBox22.Size = new System.Drawing.Size(136, 108);
             this.listBox22.TabIndex = 34;
             this.listBox22.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox22.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -443,9 +446,9 @@
             // 
             this.listBox23.AllowDrop = true;
             this.listBox23.FormattingEnabled = true;
-            this.listBox23.Location = new System.Drawing.Point(864, 261);
+            this.listBox23.Location = new System.Drawing.Point(864, 235);
             this.listBox23.Name = "listBox23";
-            this.listBox23.Size = new System.Drawing.Size(136, 121);
+            this.listBox23.Size = new System.Drawing.Size(136, 108);
             this.listBox23.TabIndex = 33;
             this.listBox23.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox23.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -456,9 +459,9 @@
             // 
             this.listBox24.AllowDrop = true;
             this.listBox24.FormattingEnabled = true;
-            this.listBox24.Location = new System.Drawing.Point(1006, 261);
+            this.listBox24.Location = new System.Drawing.Point(1006, 235);
             this.listBox24.Name = "listBox24";
-            this.listBox24.Size = new System.Drawing.Size(136, 121);
+            this.listBox24.Size = new System.Drawing.Size(136, 108);
             this.listBox24.TabIndex = 32;
             this.listBox24.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox24.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -469,9 +472,9 @@
             // 
             this.listBox25.AllowDrop = true;
             this.listBox25.FormattingEnabled = true;
-            this.listBox25.Location = new System.Drawing.Point(12, 389);
+            this.listBox25.Location = new System.Drawing.Point(12, 349);
             this.listBox25.Name = "listBox25";
-            this.listBox25.Size = new System.Drawing.Size(136, 121);
+            this.listBox25.Size = new System.Drawing.Size(136, 108);
             this.listBox25.TabIndex = 47;
             this.listBox25.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox25.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -482,9 +485,9 @@
             // 
             this.listBox26.AllowDrop = true;
             this.listBox26.FormattingEnabled = true;
-            this.listBox26.Location = new System.Drawing.Point(154, 389);
+            this.listBox26.Location = new System.Drawing.Point(154, 349);
             this.listBox26.Name = "listBox26";
-            this.listBox26.Size = new System.Drawing.Size(136, 121);
+            this.listBox26.Size = new System.Drawing.Size(136, 108);
             this.listBox26.TabIndex = 46;
             this.listBox26.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox26.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -495,9 +498,9 @@
             // 
             this.listBox27.AllowDrop = true;
             this.listBox27.FormattingEnabled = true;
-            this.listBox27.Location = new System.Drawing.Point(296, 389);
+            this.listBox27.Location = new System.Drawing.Point(296, 349);
             this.listBox27.Name = "listBox27";
-            this.listBox27.Size = new System.Drawing.Size(136, 121);
+            this.listBox27.Size = new System.Drawing.Size(136, 108);
             this.listBox27.TabIndex = 45;
             this.listBox27.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox27.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -508,9 +511,9 @@
             // 
             this.listBox28.AllowDrop = true;
             this.listBox28.FormattingEnabled = true;
-            this.listBox28.Location = new System.Drawing.Point(438, 389);
+            this.listBox28.Location = new System.Drawing.Point(438, 349);
             this.listBox28.Name = "listBox28";
-            this.listBox28.Size = new System.Drawing.Size(136, 121);
+            this.listBox28.Size = new System.Drawing.Size(136, 108);
             this.listBox28.TabIndex = 44;
             this.listBox28.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox28.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -521,9 +524,9 @@
             // 
             this.listBox29.AllowDrop = true;
             this.listBox29.FormattingEnabled = true;
-            this.listBox29.Location = new System.Drawing.Point(580, 389);
+            this.listBox29.Location = new System.Drawing.Point(580, 349);
             this.listBox29.Name = "listBox29";
-            this.listBox29.Size = new System.Drawing.Size(136, 121);
+            this.listBox29.Size = new System.Drawing.Size(136, 108);
             this.listBox29.TabIndex = 39;
             this.listBox29.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox29.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -534,9 +537,9 @@
             // 
             this.listBox30.AllowDrop = true;
             this.listBox30.FormattingEnabled = true;
-            this.listBox30.Location = new System.Drawing.Point(722, 389);
+            this.listBox30.Location = new System.Drawing.Point(722, 349);
             this.listBox30.Name = "listBox30";
-            this.listBox30.Size = new System.Drawing.Size(136, 121);
+            this.listBox30.Size = new System.Drawing.Size(136, 108);
             this.listBox30.TabIndex = 38;
             this.listBox30.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox30.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -547,9 +550,9 @@
             // 
             this.listBox31.AllowDrop = true;
             this.listBox31.FormattingEnabled = true;
-            this.listBox31.Location = new System.Drawing.Point(864, 389);
+            this.listBox31.Location = new System.Drawing.Point(864, 349);
             this.listBox31.Name = "listBox31";
-            this.listBox31.Size = new System.Drawing.Size(136, 121);
+            this.listBox31.Size = new System.Drawing.Size(136, 108);
             this.listBox31.TabIndex = 37;
             this.listBox31.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox31.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -560,22 +563,22 @@
             // 
             this.listBox32.AllowDrop = true;
             this.listBox32.FormattingEnabled = true;
-            this.listBox32.Location = new System.Drawing.Point(1006, 389);
+            this.listBox32.Location = new System.Drawing.Point(1006, 349);
             this.listBox32.Name = "listBox32";
-            this.listBox32.Size = new System.Drawing.Size(136, 121);
+            this.listBox32.Size = new System.Drawing.Size(136, 108);
             this.listBox32.TabIndex = 36;
             this.listBox32.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox32.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
             this.listBox32.DragOver += new System.Windows.Forms.DragEventHandler(this.listBox_DragOver);
             this.listBox32.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listBox_MouseDown);
-            // 
+            // https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
             // listBox33
             // 
             this.listBox33.AllowDrop = true;
             this.listBox33.FormattingEnabled = true;
-            this.listBox33.Location = new System.Drawing.Point(12, 516);
+            this.listBox33.Location = new System.Drawing.Point(12, 463);
             this.listBox33.Name = "listBox33";
-            this.listBox33.Size = new System.Drawing.Size(136, 121);
+            this.listBox33.Size = new System.Drawing.Size(136, 108);
             this.listBox33.TabIndex = 31;
             this.listBox33.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox33.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -586,9 +589,9 @@
             // 
             this.listBox34.AllowDrop = true;
             this.listBox34.FormattingEnabled = true;
-            this.listBox34.Location = new System.Drawing.Point(154, 516);
+            this.listBox34.Location = new System.Drawing.Point(154, 463);
             this.listBox34.Name = "listBox34";
-            this.listBox34.Size = new System.Drawing.Size(136, 121);
+            this.listBox34.Size = new System.Drawing.Size(136, 108);
             this.listBox34.TabIndex = 30;
             this.listBox34.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox34.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -599,9 +602,9 @@
             // 
             this.listBox35.AllowDrop = true;
             this.listBox35.FormattingEnabled = true;
-            this.listBox35.Location = new System.Drawing.Point(296, 516);
+            this.listBox35.Location = new System.Drawing.Point(296, 463);
             this.listBox35.Name = "listBox35";
-            this.listBox35.Size = new System.Drawing.Size(136, 121);
+            this.listBox35.Size = new System.Drawing.Size(136, 108);
             this.listBox35.TabIndex = 29;
             this.listBox35.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox35.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -612,9 +615,9 @@
             // 
             this.listBox36.AllowDrop = true;
             this.listBox36.FormattingEnabled = true;
-            this.listBox36.Location = new System.Drawing.Point(438, 516);
+            this.listBox36.Location = new System.Drawing.Point(438, 463);
             this.listBox36.Name = "listBox36";
-            this.listBox36.Size = new System.Drawing.Size(136, 121);
+            this.listBox36.Size = new System.Drawing.Size(136, 108);
             this.listBox36.TabIndex = 28;
             this.listBox36.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox36.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -625,9 +628,9 @@
             // 
             this.listBox37.AllowDrop = true;
             this.listBox37.FormattingEnabled = true;
-            this.listBox37.Location = new System.Drawing.Point(580, 516);
+            this.listBox37.Location = new System.Drawing.Point(580, 463);
             this.listBox37.Name = "listBox37";
-            this.listBox37.Size = new System.Drawing.Size(136, 121);
+            this.listBox37.Size = new System.Drawing.Size(136, 108);
             this.listBox37.TabIndex = 23;
             this.listBox37.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox37.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -638,9 +641,9 @@
             // 
             this.listBox38.AllowDrop = true;
             this.listBox38.FormattingEnabled = true;
-            this.listBox38.Location = new System.Drawing.Point(722, 516);
+            this.listBox38.Location = new System.Drawing.Point(722, 463);
             this.listBox38.Name = "listBox38";
-            this.listBox38.Size = new System.Drawing.Size(136, 121);
+            this.listBox38.Size = new System.Drawing.Size(136, 108);
             this.listBox38.TabIndex = 22;
             this.listBox38.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox38.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -651,9 +654,9 @@
             // 
             this.listBox39.AllowDrop = true;
             this.listBox39.FormattingEnabled = true;
-            this.listBox39.Location = new System.Drawing.Point(864, 516);
+            this.listBox39.Location = new System.Drawing.Point(864, 463);
             this.listBox39.Name = "listBox39";
-            this.listBox39.Size = new System.Drawing.Size(136, 121);
+            this.listBox39.Size = new System.Drawing.Size(136, 108);
             this.listBox39.TabIndex = 21;
             this.listBox39.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox39.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -664,9 +667,9 @@
             // 
             this.listBox40.AllowDrop = true;
             this.listBox40.FormattingEnabled = true;
-            this.listBox40.Location = new System.Drawing.Point(1006, 516);
+            this.listBox40.Location = new System.Drawing.Point(1006, 463);
             this.listBox40.Name = "listBox40";
-            this.listBox40.Size = new System.Drawing.Size(136, 121);
+            this.listBox40.Size = new System.Drawing.Size(136, 108);
             this.listBox40.TabIndex = 20;
             this.listBox40.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox40.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -677,9 +680,9 @@
             // 
             this.listBox41.AllowDrop = true;
             this.listBox41.FormattingEnabled = true;
-            this.listBox41.Location = new System.Drawing.Point(12, 642);
+            this.listBox41.Location = new System.Drawing.Point(12, 577);
             this.listBox41.Name = "listBox41";
-            this.listBox41.Size = new System.Drawing.Size(136, 121);
+            this.listBox41.Size = new System.Drawing.Size(136, 108);
             this.listBox41.TabIndex = 15;
             this.listBox41.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox41.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -690,9 +693,9 @@
             // 
             this.listBox42.AllowDrop = true;
             this.listBox42.FormattingEnabled = true;
-            this.listBox42.Location = new System.Drawing.Point(154, 642);
+            this.listBox42.Location = new System.Drawing.Point(154, 577);
             this.listBox42.Name = "listBox42";
-            this.listBox42.Size = new System.Drawing.Size(136, 121);
+            this.listBox42.Size = new System.Drawing.Size(136, 108);
             this.listBox42.TabIndex = 14;
             this.listBox42.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox42.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -703,9 +706,9 @@
             // 
             this.listBox43.AllowDrop = true;
             this.listBox43.FormattingEnabled = true;
-            this.listBox43.Location = new System.Drawing.Point(296, 642);
+            this.listBox43.Location = new System.Drawing.Point(296, 577);
             this.listBox43.Name = "listBox43";
-            this.listBox43.Size = new System.Drawing.Size(136, 121);
+            this.listBox43.Size = new System.Drawing.Size(136, 108);
             this.listBox43.TabIndex = 13;
             this.listBox43.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox43.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -716,22 +719,22 @@
             // 
             this.listBox44.AllowDrop = true;
             this.listBox44.FormattingEnabled = true;
-            this.listBox44.Location = new System.Drawing.Point(438, 642);
+            this.listBox44.Location = new System.Drawing.Point(438, 577);
             this.listBox44.Name = "listBox44";
-            this.listBox44.Size = new System.Drawing.Size(136, 121);
+            this.listBox44.Size = new System.Drawing.Size(136, 108);
             this.listBox44.TabIndex = 12;
             this.listBox44.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox44.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
             this.listBox44.DragOver += new System.Windows.Forms.DragEventHandler(this.listBox_DragOver);
             this.listBox44.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listBox_MouseDown);
-            // 
+            // https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
             // listBox45
             // 
             this.listBox45.AllowDrop = true;
             this.listBox45.FormattingEnabled = true;
-            this.listBox45.Location = new System.Drawing.Point(580, 642);
+            this.listBox45.Location = new System.Drawing.Point(580, 577);
             this.listBox45.Name = "listBox45";
-            this.listBox45.Size = new System.Drawing.Size(136, 121);
+            this.listBox45.Size = new System.Drawing.Size(136, 108);
             this.listBox45.TabIndex = 7;
             this.listBox45.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox45.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -742,9 +745,9 @@
             // 
             this.listBox46.AllowDrop = true;
             this.listBox46.FormattingEnabled = true;
-            this.listBox46.Location = new System.Drawing.Point(722, 642);
+            this.listBox46.Location = new System.Drawing.Point(722, 577);
             this.listBox46.Name = "listBox46";
-            this.listBox46.Size = new System.Drawing.Size(136, 121);
+            this.listBox46.Size = new System.Drawing.Size(136, 108);
             this.listBox46.TabIndex = 6;
             this.listBox46.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox46.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -755,9 +758,9 @@
             // 
             this.listBox47.AllowDrop = true;
             this.listBox47.FormattingEnabled = true;
-            this.listBox47.Location = new System.Drawing.Point(864, 642);
+            this.listBox47.Location = new System.Drawing.Point(864, 577);
             this.listBox47.Name = "listBox47";
-            this.listBox47.Size = new System.Drawing.Size(136, 121);
+            this.listBox47.Size = new System.Drawing.Size(136, 108);
             this.listBox47.TabIndex = 5;
             this.listBox47.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox47.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -768,9 +771,9 @@
             // 
             this.listBox48.AllowDrop = true;
             this.listBox48.FormattingEnabled = true;
-            this.listBox48.Location = new System.Drawing.Point(1006, 642);
+            this.listBox48.Location = new System.Drawing.Point(1006, 577);
             this.listBox48.Name = "listBox48";
-            this.listBox48.Size = new System.Drawing.Size(136, 121);
+            this.listBox48.Size = new System.Drawing.Size(136, 108);
             this.listBox48.TabIndex = 4;
             this.listBox48.DragDrop += new System.Windows.Forms.DragEventHandler(this.listBox_DragDrop);
             this.listBox48.DragEnter += new System.Windows.Forms.DragEventHandler(this.listBox_DragEnter);
@@ -785,7 +788,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1154, 48);
+            this.panel2.Size = new System.Drawing.Size(1154, 49);
             this.panel2.TabIndex = 1;
             // 
             // btn_esit_dagit
@@ -794,7 +797,7 @@
             this.btn_esit_dagit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_esit_dagit.Location = new System.Drawing.Point(514, 0);
             this.btn_esit_dagit.Name = "btn_esit_dagit";
-            this.btn_esit_dagit.Size = new System.Drawing.Size(257, 48);
+            this.btn_esit_dagit.Size = new System.Drawing.Size(257, 49);
             this.btn_esit_dagit.TabIndex = 6;
             this.btn_esit_dagit.Text = "Eşit Dağıt";
             this.btn_esit_dagit.UseVisualStyleBackColor = true;
@@ -806,17 +809,44 @@
             this.btn_rastgele_dagit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_rastgele_dagit.Location = new System.Drawing.Point(257, 0);
             this.btn_rastgele_dagit.Name = "btn_rastgele_dagit";
-            this.btn_rastgele_dagit.Size = new System.Drawing.Size(257, 48);
+            this.btn_rastgele_dagit.Size = new System.Drawing.Size(257, 49);
             this.btn_rastgele_dagit.TabIndex = 5;
             this.btn_rastgele_dagit.Text = "Rastgele Dağıt";
             this.btn_rastgele_dagit.UseVisualStyleBackColor = true;
             this.btn_rastgele_dagit.Click += new System.EventHandler(this.btn_rastgele_dagit_Click);
+            // https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.linkLabel1.Location = new System.Drawing.Point(30, 91);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(619, 17);
+            this.linkLabel1.TabIndex = 14;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak" +
+    "/";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label12.ForeColor = System.Drawing.Color.Red;
+            this.label12.Location = new System.Drawing.Point(29, 62);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(428, 24);
+            this.label12.TabIndex = 13;
+            this.label12.Text = "C# Listboxlar Arası Drag Drop – Sürükle Bırak";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1154, 824);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.KeyPreview = true;
@@ -826,6 +856,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -860,6 +891,7 @@
         private System.Windows.Forms.ListBox listBox40;
         private System.Windows.Forms.ListBox listBox41;
         private System.Windows.Forms.ListBox listBox42;
+        https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
         private System.Windows.Forms.ListBox listBox43;
         private System.Windows.Forms.ListBox listBox44;
         private System.Windows.Forms.ListBox listBox45;
@@ -884,5 +916,8 @@
         private System.Windows.Forms.ListBox listBox16;
         private System.Windows.Forms.Button btn_rastgele_dagit;
         private System.Windows.Forms.Button btn_esit_dagit;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label12;
     }
 }
+https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/

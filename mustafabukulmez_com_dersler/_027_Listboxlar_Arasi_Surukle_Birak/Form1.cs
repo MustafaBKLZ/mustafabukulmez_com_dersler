@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+//https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -21,7 +22,7 @@ namespace mustafabukulmez_com_dersler._027_Listboxlar_Arasi_Surukle_Birak
         ListBox listbox_Item_Alinan;
         ListBox lstbox_Item_Birakilan;
         int Listbox_Index = 0;
-
+        //https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
         private void Form1_Load(object sender, EventArgs e)
         {
             Doldur();
@@ -78,7 +79,7 @@ namespace mustafabukulmez_com_dersler._027_Listboxlar_Arasi_Surukle_Birak
         }
 
 
-
+        //https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
         private void btn_sifirla_Click(object sender, EventArgs e)
         {
             Sıfırla();
@@ -122,3 +123,4 @@ namespace mustafabukulmez_com_dersler._027_Listboxlar_Arasi_Surukle_Birak
 
     }
 }
+//https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
