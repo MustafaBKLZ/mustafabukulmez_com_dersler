@@ -891,7 +891,7 @@
         private System.Windows.Forms.ListBox listBox40;
         private System.Windows.Forms.ListBox listBox41;
         private System.Windows.Forms.ListBox listBox42;
-        https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
+        //https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
         private System.Windows.Forms.ListBox listBox43;
         private System.Windows.Forms.ListBox listBox44;
         private System.Windows.Forms.ListBox listBox45;
@@ -920,4 +920,4 @@
         private System.Windows.Forms.Label label12;
     }
 }
-https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
+//https://mustafabukulmez.com/2019/12/07/c-listboxlar-arasi-drag-drop-surukle-birak/
