@@ -41,6 +41,8 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 023 - C#  XML İşlemleri
 * 024 - C# Drag Drop - Sürükle Bırak İşlemi
 * 025 - C# Çoklu Excel Dosyası Okuma
+* 026 - C# User Control Kullanımı
+* 027 - C# Listboxlar Arası Drag Drop - Sürükle Bırak
 
 ## Lisans
 
