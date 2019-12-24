@@ -43,6 +43,8 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 025 - C# Çoklu Excel Dosyası Okuma
 * 026 - C# User Control Kullanımı
 * 027 - C# Listboxlar Arası Drag Drop - Sürükle Bırak
+* 028 - C# List Ögelerini DataGridView ve ListBox'a Bağlamak
+
 
 ## Lisans
 
