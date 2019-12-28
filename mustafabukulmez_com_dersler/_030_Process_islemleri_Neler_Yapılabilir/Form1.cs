@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 using System.Diagnostics;
 
-
+//https://mustafabukulmez.com/2019/12/28/c-process-islemleri-neler-yapilabilir/
 namespace mustafabukulmez_com_dersler._030_Process_islemleri_Neler_Yapılabilir
 {
     public partial class Form1 : Form
@@ -46,7 +46,7 @@ namespace mustafabukulmez_com_dersler._030_Process_islemleri_Neler_Yapılabilir
         {
             Process.Start("http://google.com/search?q=" + txt_google_ara.Text);
         }
-
+        //https://mustafabukulmez.com/2019/12/28/c-process-islemleri-neler-yapilabilir/
         private void btn_word_Click(object sender, EventArgs e)
         {
             ProcessStartInfo startInfo = new ProcessStartInfo();

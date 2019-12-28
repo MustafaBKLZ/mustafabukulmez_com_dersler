@@ -19,7 +19,7 @@
             }
             base.Dispose(disposing);
         }
-
+        //https://mustafabukulmez.com/2019/12/28/c-process-islemleri-neler-yapilabilir/
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -76,7 +76,7 @@
             this.txt_klasor.Text = "C:\\\\";
             // 
             // txt_dosya
-            // 
+            // https://mustafabukulmez.com/2019/12/28/c-process-islemleri-neler-yapilabilir/
             this.txt_dosya.Location = new System.Drawing.Point(181, 100);
             this.txt_dosya.Name = "txt_dosya";
             this.txt_dosya.Size = new System.Drawing.Size(231, 20);
@@ -147,17 +147,16 @@
             this.list_islemler.SelectedIndexChanged += new System.EventHandler(this.list_islemler_SelectedIndexChanged);
             // 
             // linkLabel1
-            // 
+            // https://mustafabukulmez.com/2019/12/28/c-process-islemleri-neler-yapilabilir/
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.linkLabel1.Location = new System.Drawing.Point(12, 38);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(683, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(568, 17);
             this.linkLabel1.TabIndex = 18;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "https://mustafabukulmez.com/2019/12/24/c-list-ogelerini-datagridview-ve-listbox-a" +
-    "-baglamak/";
+            this.linkLabel1.Text = "https://mustafabukulmez.com/2019/12/28/c-process-islemleri-neler-yapilabilir/";
             this.linkLabel1.Visible = false;
             // 
             // label12
@@ -257,3 +256,4 @@
         private System.Windows.Forms.TextBox txt_id_ile_kapat;
     }
 }
+//https://mustafabukulmez.com/2019/12/28/c-process-islemleri-neler-yapilabilir/
