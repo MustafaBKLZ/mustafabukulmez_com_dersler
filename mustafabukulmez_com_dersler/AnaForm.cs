@@ -47,7 +47,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 027 - C# Listboxlar Arası Sürükle Bırak");
             treeView1.Nodes.Add("Ders 028 - C# List Ögelerini DataGridView ve ListBox'a Bağlamak");
             treeView1.Nodes.Add("Ders 029 - C# Formdaki Tüm TextBox Nesnelerini Temizlemek");
-
+            treeView1.Nodes.Add("Ders 030 - C# Process İşlemleri - Neler Yapılabilir?");
 
         }
         private void TreeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
@@ -83,6 +83,7 @@ namespace mustafabukulmez_com_dersler
                 case 27: new _027_Listboxlar_Arasi_Surukle_Birak.Form1() { }.ShowDialog(); break;
                 case 28: new _028_List_DataGridView_ListBox_Baglamak.Form1() { }.ShowDialog(); break;
                 case 29: new _029_Formdaki_Tum_TextBox_Nesnelerini_Temizlemek.Form1() { }.ShowDialog(); break;
+                case 30: new _030_Process_islemleri_Neler_Yapılabilir.Form1() { }.ShowDialog(); break;
 
             }
         }

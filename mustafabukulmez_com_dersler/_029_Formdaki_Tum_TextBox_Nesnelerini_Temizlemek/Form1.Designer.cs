@@ -125,8 +125,8 @@
             this.textBox95 = new System.Windows.Forms.TextBox();
             this.textBox96 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_doldur = new System.Windows.Forms.Button();
             this.btn_temizle = new System.Windows.Forms.Button();
+            this.btn_doldur = new System.Windows.Forms.Button();
             this.textBox97 = new System.Windows.Forms.TextBox();
             this.textBox98 = new System.Windows.Forms.TextBox();
             this.textBox99 = new System.Windows.Forms.TextBox();
@@ -175,6 +175,8 @@
             this.textBox142 = new System.Windows.Forms.TextBox();
             this.textBox143 = new System.Windows.Forms.TextBox();
             this.textBox144 = new System.Windows.Forms.TextBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -860,17 +862,6 @@
             this.panel1.Size = new System.Drawing.Size(144, 721);
             this.panel1.TabIndex = 144;
             // 
-            // btn_doldur
-            // 
-            this.btn_doldur.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_doldur.Location = new System.Drawing.Point(0, 0);
-            this.btn_doldur.Name = "btn_doldur";
-            this.btn_doldur.Size = new System.Drawing.Size(144, 58);
-            this.btn_doldur.TabIndex = 145;
-            this.btn_doldur.Text = "Doldur";
-            this.btn_doldur.UseVisualStyleBackColor = true;
-            this.btn_doldur.Click += new System.EventHandler(this.btn_doldur_Click);
-            // 
             // btn_temizle
             // 
             this.btn_temizle.Dock = System.Windows.Forms.DockStyle.Top;
@@ -881,6 +872,17 @@
             this.btn_temizle.Text = "Temizle";
             this.btn_temizle.UseVisualStyleBackColor = true;
             this.btn_temizle.Click += new System.EventHandler(this.btn_temizle_Click);
+            // 
+            // btn_doldur
+            // 
+            this.btn_doldur.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_doldur.Location = new System.Drawing.Point(0, 0);
+            this.btn_doldur.Name = "btn_doldur";
+            this.btn_doldur.Size = new System.Drawing.Size(144, 58);
+            this.btn_doldur.TabIndex = 145;
+            this.btn_doldur.Text = "Doldur";
+            this.btn_doldur.UseVisualStyleBackColor = true;
+            this.btn_doldur.Click += new System.EventHandler(this.btn_doldur_Click);
             // 
             // textBox97
             // 
@@ -1218,11 +1220,38 @@
             this.textBox144.Size = new System.Drawing.Size(60, 20);
             this.textBox144.TabIndex = 169;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.linkLabel1.Location = new System.Drawing.Point(259, 680);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(663, 17);
+            this.linkLabel1.TabIndex = 194;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "https://mustafabukulmez.com/2019/12/25/c-formdaki-tum-textbox-nesnelerini-temizle" +
+    "mek/";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label12.ForeColor = System.Drawing.Color.Red;
+            this.label12.Location = new System.Drawing.Point(258, 651);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(491, 24);
+            this.label12.TabIndex = 193;
+            this.label12.Text = "C# Formdaki Tüm TextBox Nesnelerini Temizlemek";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(973, 721);
+            this.ClientSize = new System.Drawing.Size(1125, 721);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.textBox121);
             this.Controls.Add(this.textBox122);
             this.Controls.Add(this.textBox123);
@@ -1525,5 +1554,7 @@
         private System.Windows.Forms.TextBox textBox142;
         private System.Windows.Forms.TextBox textBox143;
         private System.Windows.Forms.TextBox textBox144;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label12;
     }
 }
