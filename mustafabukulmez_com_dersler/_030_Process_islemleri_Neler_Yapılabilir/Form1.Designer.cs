@@ -16,7 +16,7 @@
             if (disposing && (components != null))
             {
                 components.Dispose();
-            }
+            }     
             base.Dispose(disposing);
         }
         //https://mustafabukulmez.com/2019/12/28/c-process-islemleri-neler-yapilabilir/
