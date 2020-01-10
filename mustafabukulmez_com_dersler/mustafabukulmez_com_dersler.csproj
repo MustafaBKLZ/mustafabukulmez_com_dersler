@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="_000_Classlar\Global.cs" />
+    <Compile Include="_000_Classlar\TCKimlikNoKontrol.cs" />
     <Compile Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\ExcelBaglanOku.cs" />
     <Compile Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.cs">
       <SubType>Form</SubType>

@@ -16,6 +16,7 @@ namespace mustafabukulmez_com_dersler
         public AnaForm()
         {
             InitializeComponent();
+
         }
 
         private void AnaForm_Load(object sender, EventArgs e)
@@ -54,9 +55,16 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 032 - C# XML Serialization ve Deserialization İşlemleri");
 
 
-
+            MessageBox.Show(_000_Classlar.TCKimlikNoKontrol.Kontrol("15735859942")); // sallama bir TC No
 
         }
+
+
+
+
+
+
+
         private void TreeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
             switch (e.Node.Index + 1)
