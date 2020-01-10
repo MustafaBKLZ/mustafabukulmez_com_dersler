@@ -266,6 +266,19 @@
     <Compile Include="_030_Process_islemleri_Neler_Yapılabilir\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="_031_Calisan_Uygulamanin_Sahibi_Kim\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_031_Calisan_Uygulamanin_Sahibi_Kim\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_032_Serialization_Deserialization\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_032_Serialization_Deserialization\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_032_Serialization_Deserialization\Personel.cs" />
     <EmbeddedResource Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -379,6 +392,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_030_Process_islemleri_Neler_Yapılabilir\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_031_Calisan_Uygulamanin_Sahibi_Kim\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_032_Serialization_Deserialization\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />

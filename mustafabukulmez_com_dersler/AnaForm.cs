@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace mustafabukulmez_com_dersler
 {
     public partial class AnaForm : Form
@@ -16,6 +17,7 @@ namespace mustafabukulmez_com_dersler
         {
             InitializeComponent();
         }
+
         private void AnaForm_Load(object sender, EventArgs e)
         {
             treeView1.Nodes.Add("Ders 001 - C# Kurulu Anti Virüs Programını Bulmak");
@@ -48,6 +50,11 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 028 - C# List Ögelerini DataGridView ve ListBox'a Bağlamak");
             treeView1.Nodes.Add("Ders 029 - C# Formdaki Tüm TextBox Nesnelerini Temizlemek");
             treeView1.Nodes.Add("Ders 030 - C# Process İşlemleri - Neler Yapılabilir?");
+            treeView1.Nodes.Add("Ders 031 - C# Çalışan Bir Uygulamanın Sahibi Nasıl Bulunur?");
+            treeView1.Nodes.Add("Ders 032 - C# XML Serialization ve Deserialization İşlemleri");
+
+
+
 
         }
         private void TreeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
@@ -84,12 +91,11 @@ namespace mustafabukulmez_com_dersler
                 case 28: new _028_List_DataGridView_ListBox_Baglamak.Form1() { }.ShowDialog(); break;
                 case 29: new _029_Formdaki_Tum_TextBox_Nesnelerini_Temizlemek.Form1() { }.ShowDialog(); break;
                 case 30: new _030_Process_islemleri_Neler_Yapılabilir.Form1() { }.ShowDialog(); break;
+                case 31: new _031_Calisan_Uygulamanin_Sahibi_Kim.Form1() { }.ShowDialog(); break;
+                case 32: new _032_Serialization_Deserialization.Form1() { }.ShowDialog(); break;
 
             }
         }
-
-
-
 
 
     }
