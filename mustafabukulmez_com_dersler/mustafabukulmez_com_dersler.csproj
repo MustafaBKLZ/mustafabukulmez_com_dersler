@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="_000_Classlar\Global.cs" />
+    <Compile Include="_000_Classlar\Misafirler.cs" />
     <Compile Include="_000_Classlar\TCKimlikNoKontrol.cs" />
     <Compile Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\ExcelBaglanOku.cs" />
     <Compile Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.cs">
@@ -280,6 +281,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="_032_Serialization_Deserialization\Personel.cs" />
+    <Compile Include="_034_Exceptions\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_034_Exceptions\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="_020_Excel_OLEDB_Baglanti_ve_Veri_Okuma_Class\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -399,6 +406,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_032_Serialization_Deserialization\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_034_Exceptions\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />

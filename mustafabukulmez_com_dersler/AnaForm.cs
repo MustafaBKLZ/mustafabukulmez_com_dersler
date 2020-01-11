@@ -17,7 +17,11 @@ namespace mustafabukulmez_com_dersler
         {
             InitializeComponent();
 
+
         }
+
+
+
 
         private void AnaForm_Load(object sender, EventArgs e)
         {
@@ -53,16 +57,20 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 030 - C# Process İşlemleri - Neler Yapılabilir?");
             treeView1.Nodes.Add("Ders 031 - C# Çalışan Bir Uygulamanın Sahibi Nasıl Bulunur?");
             treeView1.Nodes.Add("Ders 032 - C# XML Serialization ve Deserialization İşlemleri");
+            treeView1.Nodes.Add("Ders 033 - C# TC Kimlik No Kontrol Programı");
+            treeView1.Nodes.Add("Ders 034 - C# Exceptions");
 
 
-            MessageBox.Show(_000_Classlar.TCKimlikNoKontrol.Kontrol("15735859942")); // sallama bir TC No
+            OtoAc();
 
         }
-
-
-
-
-
+        void OtoAc()
+        {
+            // Otomatik son eklenen ders açılsın.
+            int index = treeView1.Nodes.Count - 1;
+            TreeNode myNode = treeView1.Nodes[index];
+            TreeView1_NodeMouseClick(treeView1, new TreeNodeMouseClickEventArgs(myNode, MouseButtons.Left, 1, 0, 0));
+        }
 
 
         private void TreeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
@@ -101,6 +109,8 @@ namespace mustafabukulmez_com_dersler
                 case 30: new _030_Process_islemleri_Neler_Yapılabilir.Form1() { }.ShowDialog(); break;
                 case 31: new _031_Calisan_Uygulamanin_Sahibi_Kim.Form1() { }.ShowDialog(); break;
                 case 32: new _032_Serialization_Deserialization.Form1() { }.ShowDialog(); break;
+                case 33: MessageBox.Show(_000_Classlar.TCKimlikNoKontrol.Kontrol("15735859942")); /*Kendi TC'niz ile Test edeilirsiniz.*/  break;
+                case 34: new _034_Exceptions.Form1() { }.ShowDialog(); break;
 
             }
         }
