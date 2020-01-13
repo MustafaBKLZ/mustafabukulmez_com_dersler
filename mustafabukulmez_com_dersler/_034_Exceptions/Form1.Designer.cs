@@ -33,6 +33,7 @@
             this.txt_cikti = new System.Windows.Forms.TextBox();
             this.btn_ArguOutOfRangeExce = new System.Windows.Forms.Button();
             this.btn_IndexOutOfRangeException = new System.Windows.Forms.Button();
+            this.btn_FormatException = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_ArgumentException
@@ -81,20 +82,31 @@
             // btn_IndexOutOfRangeException
             // 
             this.btn_IndexOutOfRangeException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_IndexOutOfRangeException.Location = new System.Drawing.Point(12, 314);
+            this.btn_IndexOutOfRangeException.Location = new System.Drawing.Point(12, 152);
             this.btn_IndexOutOfRangeException.Name = "btn_IndexOutOfRangeException";
             this.btn_IndexOutOfRangeException.Size = new System.Drawing.Size(225, 41);
             this.btn_IndexOutOfRangeException.TabIndex = 4;
             this.btn_IndexOutOfRangeException.Text = "IndexOutOfRangeException";
             this.btn_IndexOutOfRangeException.UseVisualStyleBackColor = true;
-            this.btn_IndexOutOfRangeException.Visible = false;
             this.btn_IndexOutOfRangeException.Click += new System.EventHandler(this.btn_IndexOutOfRangeException_Click);
+            // 
+            // btn_FormatException
+            // 
+            this.btn_FormatException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_FormatException.Location = new System.Drawing.Point(12, 199);
+            this.btn_FormatException.Name = "btn_FormatException";
+            this.btn_FormatException.Size = new System.Drawing.Size(225, 41);
+            this.btn_FormatException.TabIndex = 5;
+            this.btn_FormatException.Text = "FormatException";
+            this.btn_FormatException.UseVisualStyleBackColor = true;
+            this.btn_FormatException.Click += new System.EventHandler(this.btn_FormatException_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1145, 450);
+            this.Controls.Add(this.btn_FormatException);
             this.Controls.Add(this.btn_IndexOutOfRangeException);
             this.Controls.Add(this.btn_ArguOutOfRangeExce);
             this.Controls.Add(this.txt_cikti);
@@ -102,7 +114,6 @@
             this.Controls.Add(this.btn_ArgumentException);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,5 +126,6 @@
         private System.Windows.Forms.TextBox txt_cikti;
         private System.Windows.Forms.Button btn_ArguOutOfRangeExce;
         private System.Windows.Forms.Button btn_IndexOutOfRangeException;
+        private System.Windows.Forms.Button btn_FormatException;
     }
 }

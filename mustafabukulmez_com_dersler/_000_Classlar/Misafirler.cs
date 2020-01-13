@@ -16,6 +16,8 @@ namespace mustafabukulmez_com_dersler._000_Classlar
         {
             FirstName = fName;
             LastName = lName;
+            if (age > 50)
+                throw new IndexOutOfRangeException("Yaş;" + Environment.NewLine + "Değer: " + age + Environment.NewLine + "Tüm misafirler 50 yaşında ya da daha küçük olmalıdır.");
             if (age < 21)
                 throw new ArgumentOutOfRangeException("Yaş;" + Environment.NewLine + "Değer: " + age, "Tüm misafirler 21 yaşında ya da daha büyük olmalıdır.");
             else
