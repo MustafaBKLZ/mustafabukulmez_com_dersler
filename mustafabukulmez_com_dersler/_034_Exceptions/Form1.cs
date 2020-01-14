@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -175,6 +176,37 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
         }
         //https://mustafabukulmez.com/2020/01/13/c-formatexception-ve-nedenleri-kullanimi/
+        #endregion
+
+        #region DirectoryNotFoundException Çıkarma ve Yakalama Örneği
+        private void btn_DirectoryNotFoundException_Click(object sender, EventArgs e)
+        {
+            string path = "C:\\78987asdas";
+            try
+            {
+                Directory.Delete(path);
+            }
+            catch (DirectoryNotFoundException ex)
+            {
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+            }
+        }
+        #endregion
+
+        #region FileNotFoundException Çıkarma ve Yakalama Örneği
+        private void btn_FileNotFoundException_Click(object sender, EventArgs e)
+        {
+            string path = "C:\\asd.txt";
+            string path2 = "D:\\asd.txt";
+            try
+            {
+                File.Copy(path, path2);
+            }
+            catch (FileNotFoundException ex)
+            {
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+            }
+        }
         #endregion
     }
 }

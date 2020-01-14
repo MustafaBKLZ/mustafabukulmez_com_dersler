@@ -34,6 +34,8 @@
             this.btn_ArguOutOfRangeExce = new System.Windows.Forms.Button();
             this.btn_IndexOutOfRangeException = new System.Windows.Forms.Button();
             this.btn_FormatException = new System.Windows.Forms.Button();
+            this.btn_DirectoryNotFoundException = new System.Windows.Forms.Button();
+            this.btn_FileNotFoundException = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_ArgumentException
@@ -101,11 +103,35 @@
             this.btn_FormatException.UseVisualStyleBackColor = true;
             this.btn_FormatException.Click += new System.EventHandler(this.btn_FormatException_Click);
             // 
+            // btn_DirectoryNotFoundException
+            // 
+            this.btn_DirectoryNotFoundException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_DirectoryNotFoundException.Location = new System.Drawing.Point(12, 246);
+            this.btn_DirectoryNotFoundException.Name = "btn_DirectoryNotFoundException";
+            this.btn_DirectoryNotFoundException.Size = new System.Drawing.Size(225, 41);
+            this.btn_DirectoryNotFoundException.TabIndex = 6;
+            this.btn_DirectoryNotFoundException.Text = "DirectoryNotFoundException ";
+            this.btn_DirectoryNotFoundException.UseVisualStyleBackColor = true;
+            this.btn_DirectoryNotFoundException.Click += new System.EventHandler(this.btn_DirectoryNotFoundException_Click);
+            // 
+            // btn_FileNotFoundException
+            // 
+            this.btn_FileNotFoundException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_FileNotFoundException.Location = new System.Drawing.Point(12, 293);
+            this.btn_FileNotFoundException.Name = "btn_FileNotFoundException";
+            this.btn_FileNotFoundException.Size = new System.Drawing.Size(225, 41);
+            this.btn_FileNotFoundException.TabIndex = 7;
+            this.btn_FileNotFoundException.Text = "FileNotFoundException ";
+            this.btn_FileNotFoundException.UseVisualStyleBackColor = true;
+            this.btn_FileNotFoundException.Click += new System.EventHandler(this.btn_FileNotFoundException_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1145, 450);
+            this.Controls.Add(this.btn_FileNotFoundException);
+            this.Controls.Add(this.btn_DirectoryNotFoundException);
             this.Controls.Add(this.btn_FormatException);
             this.Controls.Add(this.btn_IndexOutOfRangeException);
             this.Controls.Add(this.btn_ArguOutOfRangeExce);
@@ -127,5 +153,7 @@
         private System.Windows.Forms.Button btn_ArguOutOfRangeExce;
         private System.Windows.Forms.Button btn_IndexOutOfRangeException;
         private System.Windows.Forms.Button btn_FormatException;
+        private System.Windows.Forms.Button btn_DirectoryNotFoundException;
+        private System.Windows.Forms.Button btn_FileNotFoundException;
     }
 }
