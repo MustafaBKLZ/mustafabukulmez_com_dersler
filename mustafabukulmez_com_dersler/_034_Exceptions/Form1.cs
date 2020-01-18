@@ -208,5 +208,63 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
         }
         #endregion
+
+        #region DivideByZeroException Çıkarma ve Yakalama Örneği
+        private void btDivideByZeroException_Click(object sender, EventArgs e)
+        {
+            int number1 = 3000;
+            int number2 = 0;
+            try
+            {
+                int result = number1 / number2;
+            }
+            catch (DivideByZeroException ex)
+            {
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+            }
+        }
+        #endregion
+
+        #region OverFlowException Çıkarma ve Yakalama Örneği
+        private void btn_OverFlowException_Click(object sender, EventArgs e)
+        {
+            int value = 780000000;
+            checked
+            {
+                try
+                {
+                    int square = value * value;
+                }
+                catch (OverflowException ex)
+                {
+                    double square = Math.Pow(value, 2);
+                    txt_cikti.Text = ex.GetType().Name + ":" + ex.Message + Environment.NewLine + string.Format("Exception: {0} > {1:E}.", square, Int32.MaxValue);
+                }
+            }
+
+        }
+        #endregion
+
+        #region NotFiniteNumberException Çıkarma ve Yakalama Örneği
+        private void btn_NotFiniteNumberException_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Single x = 5;
+                x = x / 0;
+                x = x + 1;
+            }
+            catch (NotFiniteNumberException ex)
+            {
+                //bla bla bla 
+            }
+        }
+        #endregion
     }
 }
+
+
+
+
+
+          

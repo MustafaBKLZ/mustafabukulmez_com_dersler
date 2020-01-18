@@ -16,12 +16,7 @@ namespace mustafabukulmez_com_dersler
         public AnaForm()
         {
             InitializeComponent();
-
-
         }
-
-
-
 
         private void AnaForm_Load(object sender, EventArgs e)
         {

@@ -36,6 +36,9 @@
             this.btn_FormatException = new System.Windows.Forms.Button();
             this.btn_DirectoryNotFoundException = new System.Windows.Forms.Button();
             this.btn_FileNotFoundException = new System.Windows.Forms.Button();
+            this.btn_DivideByZeroException = new System.Windows.Forms.Button();
+            this.btn_OverFlowException = new System.Windows.Forms.Button();
+            this.btn_NotFiniteNumberException = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_ArgumentException
@@ -67,7 +70,7 @@
             this.txt_cikti.Location = new System.Drawing.Point(427, 0);
             this.txt_cikti.Multiline = true;
             this.txt_cikti.Name = "txt_cikti";
-            this.txt_cikti.Size = new System.Drawing.Size(718, 450);
+            this.txt_cikti.Size = new System.Drawing.Size(718, 665);
             this.txt_cikti.TabIndex = 2;
             // 
             // btn_ArguOutOfRangeExce
@@ -125,11 +128,47 @@
             this.btn_FileNotFoundException.UseVisualStyleBackColor = true;
             this.btn_FileNotFoundException.Click += new System.EventHandler(this.btn_FileNotFoundException_Click);
             // 
+            // btn_DivideByZeroException
+            // 
+            this.btn_DivideByZeroException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_DivideByZeroException.Location = new System.Drawing.Point(12, 362);
+            this.btn_DivideByZeroException.Name = "btn_DivideByZeroException";
+            this.btn_DivideByZeroException.Size = new System.Drawing.Size(225, 41);
+            this.btn_DivideByZeroException.TabIndex = 8;
+            this.btn_DivideByZeroException.Text = "DivideByZeroException ";
+            this.btn_DivideByZeroException.UseVisualStyleBackColor = true;
+            this.btn_DivideByZeroException.Click += new System.EventHandler(this.btDivideByZeroException_Click);
+            // 
+            // btn_OverFlowException
+            // 
+            this.btn_OverFlowException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_OverFlowException.Location = new System.Drawing.Point(12, 409);
+            this.btn_OverFlowException.Name = "btn_OverFlowException";
+            this.btn_OverFlowException.Size = new System.Drawing.Size(225, 41);
+            this.btn_OverFlowException.TabIndex = 9;
+            this.btn_OverFlowException.Text = "OverFlowException";
+            this.btn_OverFlowException.UseVisualStyleBackColor = true;
+            this.btn_OverFlowException.Click += new System.EventHandler(this.btn_OverFlowException_Click);
+            // 
+            // btn_NotFiniteNumberException
+            // 
+            this.btn_NotFiniteNumberException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_NotFiniteNumberException.Location = new System.Drawing.Point(12, 456);
+            this.btn_NotFiniteNumberException.Name = "btn_NotFiniteNumberException";
+            this.btn_NotFiniteNumberException.Size = new System.Drawing.Size(225, 41);
+            this.btn_NotFiniteNumberException.TabIndex = 10;
+            this.btn_NotFiniteNumberException.Text = "NotFiniteNumberException ";
+            this.btn_NotFiniteNumberException.UseVisualStyleBackColor = true;
+            this.btn_NotFiniteNumberException.Click += new System.EventHandler(this.btn_NotFiniteNumberException_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1145, 450);
+            this.ClientSize = new System.Drawing.Size(1145, 665);
+            this.Controls.Add(this.btn_NotFiniteNumberException);
+            this.Controls.Add(this.btn_OverFlowException);
+            this.Controls.Add(this.btn_DivideByZeroException);
             this.Controls.Add(this.btn_FileNotFoundException);
             this.Controls.Add(this.btn_DirectoryNotFoundException);
             this.Controls.Add(this.btn_FormatException);
@@ -155,5 +194,8 @@
         private System.Windows.Forms.Button btn_FormatException;
         private System.Windows.Forms.Button btn_DirectoryNotFoundException;
         private System.Windows.Forms.Button btn_FileNotFoundException;
+        private System.Windows.Forms.Button btn_DivideByZeroException;
+        private System.Windows.Forms.Button btn_OverFlowException;
+        private System.Windows.Forms.Button btn_NotFiniteNumberException;
     }
 }
