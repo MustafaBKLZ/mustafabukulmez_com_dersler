@@ -48,7 +48,8 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 030 - C# Process İşlemleri - Neler Yapılabilir?
 * 031 - C# Çalışan Bir Uygulamanın Sahibini Bulmak? – Process Owner
 * 032 - C# XML Serialization ve Deserialization İşlemleri
-* 033 - C# Exceptions
+* 033 - C# TC Kimlik No Kontrol Programı   
+* 034 - C# Exceptions
     * 01 - ArgumentException
     * 02 - ArgumentNullException
     * 03 - ArgumentOutOfRangeException 
