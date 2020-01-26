@@ -46,6 +46,23 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
 * 028 - C# List Ögelerini DataGridView ve ListBox'a Bağlamak
 * 029 - C# Formdaki Tüm TextBox Nesnelerini Temizlemek
 * 030 - C# Process İşlemleri - Neler Yapılabilir?
+* 031 - C# Çalışan Bir Uygulamanın Sahibini Bulmak? – Process Owner
+* 032 - C# XML Serialization ve Deserialization İşlemleri
+* 033 - C# Exceptions
+    * 01 - ArgumentException
+    * 02 - ArgumentNullException
+    * 03 - ArgumentOutOfRangeException 
+    * 04 - IndexOutOfRangeException
+    * 05 - FormatException
+    * 06 - DirectoryNotFoundException 
+    * 07 - FileNotFoundException 
+    * 08 - DivideByZeroException 
+    * 09 - OverFlowException
+    * 10 - NotFiniteNumberException 
+    * 11 - NullReferenceException 
+    * 12 - OutOfMemoryException 
+    
+
 
 ## Lisans
 
