@@ -191,6 +191,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
                 txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
             }
         }
+        //https://mustafabukulmez.com/2020/01/14/c-directorynotfoundexception-nedenleri/
         #endregion
 
         #region FileNotFoundException Çıkarma ve Yakalama Örneği
@@ -207,6 +208,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
                 txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
             }
         }
+        //https://mustafabukulmez.com/2020/01/14/c-filenotfoundexception-nedenleri/
         #endregion
 
         #region DivideByZeroException Çıkarma ve Yakalama Örneği
@@ -223,6 +225,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
                 txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
             }
         }
+        //https://mustafabukulmez.com/2020/01/19/c-dividebyzeo-overflow-notfinitenumber-exception-nedenleri/
         #endregion
 
         #region OverFlowException Çıkarma ve Yakalama Örneği
@@ -243,6 +246,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
 
         }
+        //https://mustafabukulmez.com/2020/01/19/c-dividebyzeo-overflow-notfinitenumber-exception-nedenleri/
         #endregion
 
         #region NotFiniteNumberException Çıkarma ve Yakalama Örneği
@@ -259,6 +263,55 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
                 //bla bla bla 
             }
         }
+        //https://mustafabukulmez.com/2020/01/19/c-dividebyzeo-overflow-notfinitenumber-exception-nedenleri/
+        #endregion
+
+        #region NullReferenceException Çıkarma ve Yakalama Örneği
+        private void btn_NullReferenceException_Click(object sender, EventArgs e)
+        {
+            //int[] values = null;
+            //for (int ctr = 0; ctr <= 9; ctr++)
+            //    values[ctr] = ctr * 2;
+            string disaridan_alinan_deger = null;
+            try
+            {
+                yapilacak_islem(disaridan_alinan_deger);
+            }
+            catch (NullReferenceException ex)
+            {
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+            }
+        }
+        string yapilacak_islem(string s)
+        {
+            if (s == null)
+            {
+                throw new NullReferenceException("XXX Değeri boş bir değer olamaz. Bir değer girmek zorundasınız.");
+            }
+            else
+            {
+                // islemler
+                return s;
+            }
+        }
+        //https://mustafabukulmez.com/2020/01/26/c-nullreferenceexception-nedenleri-ve-kullanimi/
+        #endregion
+
+        #region OutOfMemoryException Çıkarma ve Yakalama Örneği
+        private void btn_OutOfMemoryException_Click(object sender, EventArgs e)
+        {
+            StringBuilder sb = new StringBuilder(15, 15);
+            sb.Append("Substring #1 ");
+            try
+            {
+                sb.Insert(0, "Substring #2 ", 1);
+            }
+            catch (OutOfMemoryException ex)
+            {
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+            }
+        }
+        //https://mustafabukulmez.com/2020/01/26/c-outofmemoryexception-nedenleri/
         #endregion
     }
 }
@@ -267,4 +320,4 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
 
 
 
-          
+

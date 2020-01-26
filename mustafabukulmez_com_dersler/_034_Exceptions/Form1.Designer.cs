@@ -39,6 +39,8 @@
             this.btn_DivideByZeroException = new System.Windows.Forms.Button();
             this.btn_OverFlowException = new System.Windows.Forms.Button();
             this.btn_NotFiniteNumberException = new System.Windows.Forms.Button();
+            this.btn_NullReferenceException = new System.Windows.Forms.Button();
+            this.btn_OutOfMemoryException = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_ArgumentException
@@ -131,7 +133,7 @@
             // btn_DivideByZeroException
             // 
             this.btn_DivideByZeroException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_DivideByZeroException.Location = new System.Drawing.Point(12, 362);
+            this.btn_DivideByZeroException.Location = new System.Drawing.Point(12, 340);
             this.btn_DivideByZeroException.Name = "btn_DivideByZeroException";
             this.btn_DivideByZeroException.Size = new System.Drawing.Size(225, 41);
             this.btn_DivideByZeroException.TabIndex = 8;
@@ -142,7 +144,7 @@
             // btn_OverFlowException
             // 
             this.btn_OverFlowException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_OverFlowException.Location = new System.Drawing.Point(12, 409);
+            this.btn_OverFlowException.Location = new System.Drawing.Point(12, 387);
             this.btn_OverFlowException.Name = "btn_OverFlowException";
             this.btn_OverFlowException.Size = new System.Drawing.Size(225, 41);
             this.btn_OverFlowException.TabIndex = 9;
@@ -153,7 +155,7 @@
             // btn_NotFiniteNumberException
             // 
             this.btn_NotFiniteNumberException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_NotFiniteNumberException.Location = new System.Drawing.Point(12, 456);
+            this.btn_NotFiniteNumberException.Location = new System.Drawing.Point(12, 434);
             this.btn_NotFiniteNumberException.Name = "btn_NotFiniteNumberException";
             this.btn_NotFiniteNumberException.Size = new System.Drawing.Size(225, 41);
             this.btn_NotFiniteNumberException.TabIndex = 10;
@@ -161,11 +163,35 @@
             this.btn_NotFiniteNumberException.UseVisualStyleBackColor = true;
             this.btn_NotFiniteNumberException.Click += new System.EventHandler(this.btn_NotFiniteNumberException_Click);
             // 
+            // btn_NullReferenceException
+            // 
+            this.btn_NullReferenceException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_NullReferenceException.Location = new System.Drawing.Point(12, 481);
+            this.btn_NullReferenceException.Name = "btn_NullReferenceException";
+            this.btn_NullReferenceException.Size = new System.Drawing.Size(225, 41);
+            this.btn_NullReferenceException.TabIndex = 11;
+            this.btn_NullReferenceException.Text = "NullReferenceException ";
+            this.btn_NullReferenceException.UseVisualStyleBackColor = true;
+            this.btn_NullReferenceException.Click += new System.EventHandler(this.btn_NullReferenceException_Click);
+            // 
+            // btn_OutOfMemoryException
+            // 
+            this.btn_OutOfMemoryException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_OutOfMemoryException.Location = new System.Drawing.Point(12, 528);
+            this.btn_OutOfMemoryException.Name = "btn_OutOfMemoryException";
+            this.btn_OutOfMemoryException.Size = new System.Drawing.Size(225, 41);
+            this.btn_OutOfMemoryException.TabIndex = 12;
+            this.btn_OutOfMemoryException.Text = "OutOfMemoryException ";
+            this.btn_OutOfMemoryException.UseVisualStyleBackColor = true;
+            this.btn_OutOfMemoryException.Click += new System.EventHandler(this.btn_OutOfMemoryException_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1145, 665);
+            this.Controls.Add(this.btn_OutOfMemoryException);
+            this.Controls.Add(this.btn_NullReferenceException);
             this.Controls.Add(this.btn_NotFiniteNumberException);
             this.Controls.Add(this.btn_OverFlowException);
             this.Controls.Add(this.btn_DivideByZeroException);
@@ -197,5 +223,7 @@
         private System.Windows.Forms.Button btn_DivideByZeroException;
         private System.Windows.Forms.Button btn_OverFlowException;
         private System.Windows.Forms.Button btn_NotFiniteNumberException;
+        private System.Windows.Forms.Button btn_NullReferenceException;
+        private System.Windows.Forms.Button btn_OutOfMemoryException;
     }
 }
