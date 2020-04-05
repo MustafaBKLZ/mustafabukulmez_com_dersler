@@ -69,10 +69,10 @@
             // 
             this.txt_cikti.Dock = System.Windows.Forms.DockStyle.Right;
             this.txt_cikti.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_cikti.Location = new System.Drawing.Point(427, 0);
+            this.txt_cikti.Location = new System.Drawing.Point(253, 0);
             this.txt_cikti.Multiline = true;
             this.txt_cikti.Name = "txt_cikti";
-            this.txt_cikti.Size = new System.Drawing.Size(718, 665);
+            this.txt_cikti.Size = new System.Drawing.Size(718, 579);
             this.txt_cikti.TabIndex = 2;
             // 
             // btn_ArguOutOfRangeExce
@@ -189,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1145, 665);
+            this.ClientSize = new System.Drawing.Size(971, 579);
             this.Controls.Add(this.btn_OutOfMemoryException);
             this.Controls.Add(this.btn_NullReferenceException);
             this.Controls.Add(this.btn_NotFiniteNumberException);

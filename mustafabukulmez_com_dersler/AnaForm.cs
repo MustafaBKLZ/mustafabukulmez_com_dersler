@@ -54,6 +54,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 032 - C# XML Serialization ve Deserialization İşlemleri");
             treeView1.Nodes.Add("Ders 033 - C# TC Kimlik No Kontrol Programı");
             treeView1.Nodes.Add("Ders 034 - C# Exceptions");
+            treeView1.Nodes.Add("Ders 035 - C# Klasördeki Dosya Adlarını Almak");
 
 
             OtoAc();
@@ -106,6 +107,7 @@ namespace mustafabukulmez_com_dersler
                 case 32: new _032_Serialization_Deserialization.Form1() { }.ShowDialog(); break;
                 case 33: MessageBox.Show(_000_Classlar.TCKimlikNoKontrol.Kontrol("15735859942")); /*Kendi TC'niz ile Test edeilirsiniz.*/  break;
                 case 34: new _034_Exceptions.Form1() { }.ShowDialog(); break;
+                case 35: new _035_Klasordeki_Dosya_Bilgilerini_Almak.Form1 { }.ShowDialog(); break;
 
             }
         }
