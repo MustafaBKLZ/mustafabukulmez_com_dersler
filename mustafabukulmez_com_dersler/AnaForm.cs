@@ -57,7 +57,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 035 - C# Klasördeki Dosya Adlarını Almak");
 
 
-            OtoAc();
+           // OtoAc();
 
         }
         void OtoAc()

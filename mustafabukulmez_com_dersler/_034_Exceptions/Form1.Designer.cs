@@ -41,6 +41,7 @@
             this.btn_NotFiniteNumberException = new System.Windows.Forms.Button();
             this.btn_NullReferenceException = new System.Windows.Forms.Button();
             this.btn_OutOfMemoryException = new System.Windows.Forms.Button();
+            this.btn_InvalidCastException = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_ArgumentException
@@ -72,7 +73,7 @@
             this.txt_cikti.Location = new System.Drawing.Point(253, 0);
             this.txt_cikti.Multiline = true;
             this.txt_cikti.Name = "txt_cikti";
-            this.txt_cikti.Size = new System.Drawing.Size(718, 579);
+            this.txt_cikti.Size = new System.Drawing.Size(718, 661);
             this.txt_cikti.TabIndex = 2;
             // 
             // btn_ArguOutOfRangeExce
@@ -185,11 +186,23 @@
             this.btn_OutOfMemoryException.UseVisualStyleBackColor = true;
             this.btn_OutOfMemoryException.Click += new System.EventHandler(this.btn_OutOfMemoryException_Click);
             // 
+            // btn_InvalidCastException
+            // 
+            this.btn_InvalidCastException.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_InvalidCastException.Location = new System.Drawing.Point(12, 575);
+            this.btn_InvalidCastException.Name = "btn_InvalidCastException";
+            this.btn_InvalidCastException.Size = new System.Drawing.Size(225, 41);
+            this.btn_InvalidCastException.TabIndex = 13;
+            this.btn_InvalidCastException.Text = "InvalidCastException";
+            this.btn_InvalidCastException.UseVisualStyleBackColor = true;
+            this.btn_InvalidCastException.Click += new System.EventHandler(this.btn_InvalidCastException_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(971, 579);
+            this.ClientSize = new System.Drawing.Size(971, 661);
+            this.Controls.Add(this.btn_InvalidCastException);
             this.Controls.Add(this.btn_OutOfMemoryException);
             this.Controls.Add(this.btn_NullReferenceException);
             this.Controls.Add(this.btn_NotFiniteNumberException);
@@ -225,5 +238,6 @@
         private System.Windows.Forms.Button btn_NotFiniteNumberException;
         private System.Windows.Forms.Button btn_NullReferenceException;
         private System.Windows.Forms.Button btn_OutOfMemoryException;
+        private System.Windows.Forms.Button btn_InvalidCastException;
     }
 }

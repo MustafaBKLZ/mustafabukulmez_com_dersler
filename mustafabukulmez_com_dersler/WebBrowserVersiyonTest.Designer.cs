@@ -1,6 +1,6 @@
 ﻿namespace mustafabukulmez_com_dersler
 {
-    partial class Form1
+    partial class WebBrowserVersiyonTest
     {
         /// <summary>
         /// Required designer variable.

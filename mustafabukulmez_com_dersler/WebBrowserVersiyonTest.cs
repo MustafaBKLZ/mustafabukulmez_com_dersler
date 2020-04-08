@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace mustafabukulmez_com_dersler
 {
-    public partial class Form1 : Form
+    public partial class WebBrowserVersiyonTest : Form
     {
-        public Form1()
+        public WebBrowserVersiyonTest()
         {
             InitializeComponent();
         }

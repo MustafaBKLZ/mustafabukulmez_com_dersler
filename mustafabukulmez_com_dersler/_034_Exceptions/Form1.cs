@@ -31,7 +31,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
                 }
                 catch (ArgumentException ex)
                 {
-                    txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                    txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
                 }
             }
         }
@@ -55,7 +55,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
             catch (ArgumentNullException ex)
             {
-                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
 
         }
@@ -99,7 +99,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
             catch (ArgumentOutOfRangeException ex)
             {
-                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
         }
         //https://mustafabukulmez.com/2020/01/12/c-argumentoutofrangeexception-nedenleri-ve-kullanimi/
@@ -134,7 +134,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
             catch (IndexOutOfRangeException ex)
             {
-                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
         }
         //https://mustafabukulmez.com/2020/01/13/c-indexoutofrangeexception-nedenleri-ve-kullanimi/
@@ -160,7 +160,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             catch (FormatException ex)
             {
 
-                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
 
         }
@@ -188,7 +188,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
             catch (DirectoryNotFoundException ex)
             {
-                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
         }
         //https://mustafabukulmez.com/2020/01/14/c-directorynotfoundexception-nedenleri/
@@ -205,7 +205,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
             catch (FileNotFoundException ex)
             {
-                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
         }
         //https://mustafabukulmez.com/2020/01/14/c-filenotfoundexception-nedenleri/
@@ -222,7 +222,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
             catch (DivideByZeroException ex)
             {
-                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
         }
         //https://mustafabukulmez.com/2020/01/19/c-dividebyzeo-overflow-notfinitenumber-exception-nedenleri/
@@ -279,7 +279,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
             catch (NullReferenceException ex)
             {
-                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
         }
         string yapilacak_islem(string s)
@@ -308,10 +308,64 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             }
             catch (OutOfMemoryException ex)
             {
-                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message;
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
         }
         //https://mustafabukulmez.com/2020/01/26/c-outofmemoryexception-nedenleri/
+        #endregion
+
+        #region InvalidCastException Çıkarma ve Yakalama Örneği
+        private void btn_InvalidCastException_Click(object sender, EventArgs e)
+        {
+            // bu hatalı bir dönüşüm.
+            try
+            {
+                char c = 'C';
+                DateTime dt = Convert.ToDateTime(c);
+            }
+            catch (InvalidCastException ex)
+            {
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
+            }
+
+            // Bu örnek doğru bir örnek değildir. Sadece hatanın sebebini görmenizi istediğim için kullanıyorum.
+            try
+            {
+                // formdaki bütün buttonlara bir işlem yapmak istiyorum
+                foreach (Button item in this.Controls)
+                {
+                    // formdaki tüm itemlere bir button gibi davranmasını istedik
+                    // aslında bir convert yani dönüşüm yapmak istiyoruz.
+                    Button b = (Button)sender;
+                    // tüm butonların text özelliğine +1 ifadesinin eklenmesini istedim.
+                    b.Text = b.Text + "+1";
+                }
+            }
+            catch (InvalidCastException ex)
+            {
+                // ama bu kodlarda bir hata alacağım.
+                // çünkü formda dönüşümü desteklenmeyecek başka nesneler var.
+                // txt_cikti adındaki nesne bir textbox olduğundan dolayı
+                // bir button gibi davranamaz bu yüzden InvalidCastException hatası alırız.
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
+                // Ayrıca tüm döngüyü try içine aldığımızdan ilk hatada döngü kırılacak ve 
+                // işlem tamamlanmadan kesilecek.
+            }
+
+
+            // bu doğru bir dönüşüm
+            try
+            {
+                int i = 1;
+                bool bl = Convert.ToBoolean(i);
+            }
+            catch (InvalidCastException ex)
+            {
+                txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
+            }
+
+
+        }
         #endregion
     }
 }
