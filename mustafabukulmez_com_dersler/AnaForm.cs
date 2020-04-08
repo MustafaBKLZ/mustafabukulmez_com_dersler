@@ -55,9 +55,10 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 033 - C# TC Kimlik No Kontrol Programı");
             treeView1.Nodes.Add("Ders 034 - C# Exceptions");
             treeView1.Nodes.Add("Ders 035 - C# Klasördeki Dosya Adlarını Almak");
+            treeView1.Nodes.Add("Ders 036 - C# Kredi Kartı Tipini Bulma");
 
 
-           // OtoAc();
+            // OtoAc();
 
         }
         void OtoAc()
@@ -108,6 +109,7 @@ namespace mustafabukulmez_com_dersler
                 case 33: MessageBox.Show(_000_Classlar.TCKimlikNoKontrol.Kontrol("15735859942")); /*Kendi TC'niz ile Test edeilirsiniz.*/  break;
                 case 34: new _034_Exceptions.Form1() { }.ShowDialog(); break;
                 case 35: new _035_Klasordeki_Dosya_Bilgilerini_Almak.Form1 { }.ShowDialog(); break;
+                case 36: new _036_Kredi_Karti_Tipini_Bulma.Form1 { }.ShowDialog(); break;
 
             }
         }
