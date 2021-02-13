@@ -62,7 +62,12 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ç
     * 10 - NotFiniteNumberException 
     * 11 - NullReferenceException 
     * 12 - OutOfMemoryException 
-    
+* 035 - C# Klasördeki Dosya Bilgilerini Almak
+* 036 - C# Kredi Kartı Tipini Bulma
+* 037 - C# Kredi Kartı Luhn Algoritması
+* 038 - C# Kredi Kartı Bilgileri   
+* 039 - C# Dinamik Form ve Nesne Üretme   
+* 040 - C# Dosya Oluşturma Okuma ve Yazma İşlemleri   
 
 
 ## Lisans
