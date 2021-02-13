@@ -13,7 +13,7 @@ https://mustafabukulmez.com/microsoft-sql-server-t-sql-egitim-seti/
 Dersler hakkında, mail adresimden bana ulaşabilirsiniz. 
 Mail: mustafabukulez3446@gmail.com
 
-Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa çekinmeden mail atarak bana ulaştırabilirsiniz.
+Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa mail atarak bana ulaştırabilirsiniz.
 
 ## Proje İçerisinde Yer Alan Dersler
 * 001 - C# Bilgisayarda Kurulu Olan Antivirüsü Bulmak
