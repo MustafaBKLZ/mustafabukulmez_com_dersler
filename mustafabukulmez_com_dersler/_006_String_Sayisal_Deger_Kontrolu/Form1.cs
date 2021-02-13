@@ -114,8 +114,6 @@ namespace mustafabukulmez_com_dersler._006_String_Sayisal_Deger_Kontrolu
         }
         #endregion
 
-
-
         #region YÖNTEM 2 --
 
         private void btn_kontrol_et_2_Click(object sender, EventArgs e)

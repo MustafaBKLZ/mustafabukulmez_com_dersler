@@ -59,7 +59,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 037 - C# Kredi Kartı Doğrulama - Luhn Algoritması");
             treeView1.Nodes.Add("Ders 038 - C# Kredi Kartı Numarasındaki Bilgiler");
             treeView1.Nodes.Add("Ders 039 - C# Dinamik Form ve Nesneler Üretip Kullanmak");
-
+            treeView1.Nodes.Add("Ders 040 - C# Metin Belgesi Okuma Yazma");
 
             // OtoAc();
 
@@ -116,6 +116,7 @@ namespace mustafabukulmez_com_dersler
                 case 37: new _037_Kredi_Karti_Luhn_Algoritmasi.Form1 { }.ShowDialog(); break;
                 case 38: new _038_Kredi_Karti_Bilgileri.Form1 { }.ShowDialog(); break;
                 case 39: new _039_Dinamik_Form_ve_Nesne_Uretme.Form1 { }.ShowDialog(); break;
+                case 40: new _040_Metin_Belgesi_Okuma_Yazma.Form1 { }.ShowDialog(); break;
 
             }
         }
