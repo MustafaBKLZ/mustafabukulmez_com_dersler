@@ -9,6 +9,9 @@ https://mustafabukulmez.com/
 https://mustafabukulmez.com/c-sharp-egitim-seti-erp-programlama/
 ## SQL Eğitim Seti Sayfam 
 https://mustafabukulmez.com/microsoft-sql-server-t-sql-egitim-seti/
+## Youtube Kanalım
+https://www.youtube.com/c/mustafab%C3%BCk%C3%BClmez/videos
+
 
 Dersler hakkında, mail adresimden bana ulaşabilirsiniz. 
 Mail: mustafabukulez3446@gmail.com
