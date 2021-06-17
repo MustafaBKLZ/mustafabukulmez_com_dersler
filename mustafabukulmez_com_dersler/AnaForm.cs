@@ -7,6 +7,9 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dictionary;
+using Stimulsoft.Report.Export;
 
 
 namespace mustafabukulmez_com_dersler
@@ -60,6 +63,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 038 - C# Kredi Kartı Numarasındaki Bilgiler");
             treeView1.Nodes.Add("Ders 039 - C# Dinamik Form ve Nesneler Üretip Kullanmak");
             treeView1.Nodes.Add("Ders 040 - C# Metin Belgesi Okuma Yazma");
+            treeView1.Nodes.Add("Ders 041 - C# Yardım Formları Hazırlamak");
 
             // OtoAc();
 
@@ -117,9 +121,12 @@ namespace mustafabukulmez_com_dersler
                 case 38: new _038_Kredi_Karti_Bilgileri.Form1 { }.ShowDialog(); break;
                 case 39: new _039_Dinamik_Form_ve_Nesne_Uretme.Form1 { }.ShowDialog(); break;
                 case 40: new _040_Metin_Belgesi_Okuma_Yazma.Form1 { }.ShowDialog(); break;
+                case 41: new _041_Yardim_Formlari_Hazırlamak.Form1 { }.ShowDialog(); break;
 
             }
         }
+
+
 
 
     }
