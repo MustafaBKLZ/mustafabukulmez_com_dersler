@@ -490,6 +490,12 @@
     <Compile Include="_042_MD5_Sifreleme\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="_045_SHA384_Sifreleme\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_045_SHA384_Sifreleme\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="_044_SHA256_Sifreleme\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -657,6 +663,9 @@
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_042_MD5_Sifreleme\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_045_SHA384_Sifreleme\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_044_SHA256_Sifreleme\Form1.resx">
