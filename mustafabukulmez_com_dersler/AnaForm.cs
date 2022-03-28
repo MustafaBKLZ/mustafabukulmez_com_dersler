@@ -119,6 +119,8 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 042 - C# MD5 Şifreleme");
             treeView1.Nodes.Add("Ders 043 - C# SHA1 Şifreleme");
             treeView1.Nodes.Add("Ders 044 - C# SHA256 Şifreleme");
+            treeView1.Nodes.Add("Ders 045 - C# SHA384 Şifreleme");
+            treeView1.Nodes.Add("Ders 046 - C# SHA512 Şifreleme");
 
             // OtoAc();
 
@@ -180,6 +182,8 @@ namespace mustafabukulmez_com_dersler
                 case 42: new _042_MD5_Sifreleme.Form1 { }.ShowDialog(); break;
                 case 43: new _043_SHA1_Sifreleme.Form1 { }.ShowDialog(); break;
                 case 44: new _044_SHA256_Sifreleme.Form1 { }.ShowDialog(); break;
+                case 45: new _045_SHA384_Sifreleme.Form1 { }.ShowDialog(); break;
+                case 46: new _046_SHA512_Sifreleme.Form1 { }.ShowDialog(); break;
 
             }
         }
