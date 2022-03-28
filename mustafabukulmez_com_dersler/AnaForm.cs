@@ -63,9 +63,9 @@ namespace mustafabukulmez_com_dersler
         /// <param name="x">max değer</param>
         /// <param name="y">min değer</param>
         /// <returns> asd </returns>
-        double topla(int x,int y)
+        double topla(int x, int y)
         {
-            for (int i =y; i < x; i++)
+            for (int i = y; i < x; i++)
             {
                 x += i;
             }
@@ -116,6 +116,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 039 - C# Dinamik Form ve Nesneler Üretip Kullanmak");
             treeView1.Nodes.Add("Ders 040 - C# Metin Belgesi Okuma Yazma");
             treeView1.Nodes.Add("Ders 041 - C# Yardım Formları Hazırlamak");
+            treeView1.Nodes.Add("Ders 042 - C# MD5 Şifreleme");
 
             // OtoAc();
 
@@ -174,10 +175,14 @@ namespace mustafabukulmez_com_dersler
                 case 39: new _039_Dinamik_Form_ve_Nesne_Uretme.Form1 { }.ShowDialog(); break;
                 case 40: new _040_Metin_Belgesi_Okuma_Yazma.Form1 { }.ShowDialog(); break;
                 case 41: new _041_Yardim_Formlari_Hazırlamak.Form1 { }.ShowDialog(); break;
+                case 42: new _042_MD5_Sifreleme.Form1 { }.ShowDialog(); break;
 
             }
         }
 
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
 
+        }
     }
 }
