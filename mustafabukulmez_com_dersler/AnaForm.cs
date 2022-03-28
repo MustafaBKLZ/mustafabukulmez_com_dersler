@@ -21,6 +21,58 @@ namespace mustafabukulmez_com_dersler
             InitializeComponent();
         }
 
+
+
+        /// <summary>
+        /// 1 + 1 işleminin sonucu veren metot
+        /// </summary>
+        /// <returns> int 2 döner </returns>
+        double topla()
+        {
+            return 1 + 1;
+        }
+        /// <summary>
+        /// 0 ile n arasında kalan tüm sayıların toplamını veren metot
+        /// </summary>
+        /// <param name="n"> n </param>
+        /// <returns></returns>
+        double topla(double n)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                n += i;
+            }
+            return n;
+        }
+        /// <summary>
+        /// 0 ile n arasında kalan tüm sayıların toplamını veren metot
+        /// </summary>
+        /// <param name="n"> n </param>
+        /// <returns></returns>
+        double topla(int n)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                n += i;
+            }
+            return n;
+        }
+        /// <summary>
+        /// y ile x arasında kalan tüm sayıların toplamını veren metot
+        /// </summary>
+        /// <param name="x">max değer</param>
+        /// <param name="y">min değer</param>
+        /// <returns> asd </returns>
+        double topla(int x,int y)
+        {
+            for (int i =y; i < x; i++)
+            {
+                x += i;
+            }
+            return x;
+        }
+
+
         private void AnaForm_Load(object sender, EventArgs e)
         {
             treeView1.Nodes.Add("Ders 001 - C# Kurulu Anti Virüs Programını Bulmak");
@@ -125,8 +177,6 @@ namespace mustafabukulmez_com_dersler
 
             }
         }
-
-
 
 
     }

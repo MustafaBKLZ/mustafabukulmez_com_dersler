@@ -23,5 +23,10 @@ namespace mustafabukulmez_com_dersler._041_Yardim_Formlari_Hazırlamak
             fr.LoadHTML("Yardim.html");
             fr.ShowDialog();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

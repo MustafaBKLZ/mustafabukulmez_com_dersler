@@ -13,6 +13,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
 {
     public partial class Form1 : Form
     {
+        int sayi = 0;
         public Form1()
         {
             InitializeComponent();
@@ -245,6 +246,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
                 }
             }
 
+            sayi = 5;
         }
         //https://mustafabukulmez.com/2020/01/19/c-dividebyzeo-overflow-notfinitenumber-exception-nedenleri/
         #endregion
@@ -262,6 +264,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             {
                 //bla bla bla 
             }
+            sayi = 5;
         }
         //https://mustafabukulmez.com/2020/01/19/c-dividebyzeo-overflow-notfinitenumber-exception-nedenleri/
         #endregion
@@ -331,6 +334,7 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
             // Bu örnek doğru bir örnek değildir. Sadece hatanın sebebini görmenizi istediğim için kullanıyorum.
             try
             {
+                sayi = 5;
                 // formdaki bütün buttonlara bir işlem yapmak istiyorum
                 foreach (Button item in this.Controls)
                 {
@@ -364,9 +368,14 @@ namespace mustafabukulmez_com_dersler._034_Exceptions
                 txt_cikti.Text += ex.GetType().Name + ":" + ex.Message + Environment.NewLine;
             }
 
-
+            sayi = 5;
         }
         #endregion
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

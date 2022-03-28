@@ -26,14 +26,10 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
             Load_Or_Create_XML();
         }
 
-
-
-
         XDocument xDoc = new XDocument();
         string directory_path = _000_Classlar.Global.AppPath + "//_023_XML_Islemleri//XML";
         string file_path = _000_Classlar.Global.AppPath + "//_023_XML_Islemleri//XML//Personeller.xml";
         int xml_ID = 0;
-
 
         void Load_Or_Create_XML()
         {
@@ -48,14 +44,12 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
             {
                 // verdiğimiz xml dosya yolunda xml dosya oluşturuluyor.
                 FileStream fs = new FileStream(file_path, FileMode.OpenOrCreate);
-
                 // temel bir xml dosyası hazırlıyoruz.
                 string YazilacakIcerik = "<?xml version=\"1.0\" encoding=\"utf-8\" ?> "
                     + Environment.NewLine + "<Personeller> "
                     + Environment.NewLine + "</Personeller>";
                 fs.Flush();
                 fs.Close();
-
                 // oluşturulan xml dosyasının okunabilmesi için gerekli olan şeyleri içerisine yazdık.
                 File.AppendAllText(file_path, YazilacakIcerik);
 
@@ -90,7 +84,7 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
             // verilerimiz
             XElement adiElement = new XElement("ad", txt_ad.Text);  // <ad>Cenk</ad>
             XElement soyadiElement = new XElement("soyad", txt_soyad.Text); // <soyad>Yiğit</soyad>
-            // verilerimiz
+                                                                            // verilerimiz
 
             //Verilerimizi Personel elementimizin içine sıralı bir şekilde ekliyoruz.
             newElement.Add(idAttribute, adiElement, soyadiElement);
@@ -150,10 +144,9 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
             xDoc.Save(file_path);
             //Yaptığımız işlemi kayıt ediyoruz.
 
+
             DataGridView_Doldur(file_path);
         }
-
-
         void XML_Veri_Ekle_2()
         {
             XML_Class.Personeller per = new XML_Class.Personeller()
@@ -164,9 +157,6 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
             };
             XML_Class.Personeller_Kaydet(per);
         }
-
-
-
         void DataGridView_Doldur(string path)
         {
             DataSet dataSet = new DataSet();
@@ -187,8 +177,6 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
             txt_ad.Text = "";
             txt_soyad.Text = "";
         }
-
-
         private void Btn_xml_dosya_olustur_Click(object sender, EventArgs e)
         {
             // XML dosya yoksa oluşturdul
@@ -226,8 +214,6 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
             XML_Veri_Sil();
             Temizle();
         }
-
-
         void XML_URLden_Oku()
         {
 
@@ -262,16 +248,11 @@ namespace mustafabukulmez_com_dersler._023_XML_Islemleri
 
 
         }
-
         private void Btn_diger_islemler_Click(object sender, EventArgs e)
         {
             XML_Diger_Islemler fr = new XML_Diger_Islemler();
             fr.ShowDialog();
         }
-
-
-
-
         void XML_Veri_Al()
         {
             // XML dosyamızı yükledik
