@@ -117,7 +117,8 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 040 - C# Metin Belgesi Okuma Yazma");
             treeView1.Nodes.Add("Ders 041 - C# Yardım Formları Hazırlamak");
             treeView1.Nodes.Add("Ders 042 - C# MD5 Şifreleme");
-            treeView1.Nodes.Add("Ders 042 - C# SHA1 Şifreleme");
+            treeView1.Nodes.Add("Ders 043 - C# SHA1 Şifreleme");
+            treeView1.Nodes.Add("Ders 044 - C# SHA256 Şifreleme");
 
             // OtoAc();
 
@@ -178,10 +179,11 @@ namespace mustafabukulmez_com_dersler
                 case 41: new _041_Yardim_Formlari_Hazırlamak.Form1 { }.ShowDialog(); break;
                 case 42: new _042_MD5_Sifreleme.Form1 { }.ShowDialog(); break;
                 case 43: new _043_SHA1_Sifreleme.Form1 { }.ShowDialog(); break;
+                case 44: new _044_SHA256_Sifreleme.Form1 { }.ShowDialog(); break;
 
             }
         }
-
+        
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
 
