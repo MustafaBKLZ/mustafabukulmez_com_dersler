@@ -34,8 +34,7 @@ namespace mustafabukulmez_com_dersler._043_SHA1_Sifreleme
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(126, 114);
+            this.label1.Location = new System.Drawing.Point(267, 104);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
@@ -51,7 +50,6 @@ namespace mustafabukulmez_com_dersler._043_SHA1_Sifreleme
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

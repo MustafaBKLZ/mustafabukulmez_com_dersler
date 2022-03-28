@@ -21,6 +21,7 @@ namespace mustafabukulmez_com_dersler._043_SHA1_Sifreleme
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.Text = SHA1Hash("mustafabükülmez");
+
         }
 
         string SHA1Hash(string text)
