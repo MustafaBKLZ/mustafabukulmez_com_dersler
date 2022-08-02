@@ -32,7 +32,7 @@ namespace mustafabukulmez_com_dersler
                     MessageBox.Show("Program zaten çalışıyor");
                 }
             }
-                       
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             if (kapat == 0)

@@ -121,6 +121,7 @@ namespace mustafabukulmez_com_dersler
             treeView1.Nodes.Add("Ders 044 - C# SHA256 Şifreleme");
             treeView1.Nodes.Add("Ders 045 - C# SHA384 Şifreleme");
             treeView1.Nodes.Add("Ders 046 - C# SHA512 Şifreleme");
+            treeView1.Nodes.Add("Ders 047 - C# Dizideki Bir Elemanın İndexini Bulmak");
 
             // OtoAc();
 
@@ -184,6 +185,7 @@ namespace mustafabukulmez_com_dersler
                 case 44: new _044_SHA256_Sifreleme.Form1 { }.ShowDialog(); break;
                 case 45: new _045_SHA384_Sifreleme.Form1 { }.ShowDialog(); break;
                 case 46: new _046_SHA512_Sifreleme.Form1 { }.ShowDialog(); break;
+                case 47: new _047_Dizideki_Bir_Elemanın_Indeksini_Bulmak.Form1 { }.ShowDialog(); break;
 
             }
         }

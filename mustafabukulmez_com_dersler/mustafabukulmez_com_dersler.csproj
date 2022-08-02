@@ -514,6 +514,14 @@
     <Compile Include="_043_SHA1_Sifreleme\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="_047_Dizideki_Bir_Elemanın_Indeksini_Bulmak\MyExtensions.cs" />
+    <Compile Include="_047_Dizideki_Bir_Elemanın_Indeksini_Bulmak\MyArray.cs" />
+    <Compile Include="_047_Dizideki_Bir_Elemanın_Indeksini_Bulmak\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_047_Dizideki_Bir_Elemanın_Indeksini_Bulmak\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="WebBrowserVersiyonTest.resx">
       <DependentUpon>WebBrowserVersiyonTest.cs</DependentUpon>
     </EmbeddedResource>
@@ -681,6 +689,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="_043_SHA1_Sifreleme\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_047_Dizideki_Bir_Elemanın_Indeksini_Bulmak\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />
