@@ -71,6 +71,14 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ma
 * 038 - C# Kredi Kartı Bilgileri   
 * 039 - C# Dinamik Form ve Nesne Üretme   
 * 040 - C# Dosya Oluşturma Okuma ve Yazma İşlemleri   
+* 041 - Yardım Formları Hazırlamak
+* 042 - C# MD5 Şifreleme
+* 043 - C# SHA1 Şifreleme
+* 044 - C# SHA256 Şifreleme
+* 045 - C# SHA384 Şifreleme   
+* 046 - C# SHA512 Şifreleme      
+   
+ 
 
 
 ## Lisans
