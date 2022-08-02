@@ -77,6 +77,7 @@ Yazmamı istediğiniz konular olursa ya da sormak istediğiniz şeyler olursa ma
 * 044 - C# SHA256 Şifreleme
 * 045 - C# SHA384 Şifreleme   
 * 046 - C# SHA512 Şifreleme      
+* 047 - C# Dizi İçerisinde Arama Yapmak      
    
  
 
